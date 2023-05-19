@@ -1,19 +1,23 @@
-/*Estilização do plano de fundo e da cor dos textos com conteudo*/body {
+/*Estilização do plano de fundo e da cor dos textos com conteudo*/
+body {
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
    
 }
-/*Estilização do padrão para a posição do header*/header {
+/*Estilização do padrão para a posição do header*/
+header {
     display: flex;
     padding: 0%;
 }
-/*Estilização do box shadow dos banners*/article{
+/*Estilização do box shadow dos banners*/
+article{
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
-/*Ajuste nos tamanhos e posições dos itens no header*/#header0 {
+/*Ajuste nos tamanhos e posições dos itens no header*/
+#header0 {
     width: 50%;
     height: 100%;
     align-items: center;
@@ -22,17 +26,20 @@
     display: flex;
     margin-bottom: 0%;
 }
-/*Ajustes de posição da section do botão do menu no header*/#header01{
+/*Ajustes de posição da section do botão do menu no header*/
+#header01{
     width: 20%;
     margin-top: auto;
 }
 
-/*Estilização da logo escrita no centro do header*/#escritalogo {
+/*Estilização da logo escrita no centro do header*
+/#escritalogo {
     margin: 0%;
     margin-left: 5%;
     margin-bottom: -5%;
 }
-/*Estlização da logo com  desenho no canto esquerdo do header*/#desenho {
+/*Estlização da logo com  desenho no canto esquerdo do header*/
+#desenho {
   
   margin-left: 78%;
   margin-top: 0%;
@@ -40,23 +47,27 @@
 
   
 }
-/*Posicionamento do botão para abrir o menu no no header*/#bltmenu {
+/*Posicionamento do botão para abrir o menu no no header*/
+#bltmenu {
     border: none;
     float: left;
 
 }
-/*Definição do posicionamento dos itens no banner das noticias*/.banner1 {
+/*Definição do posicionamento dos itens no banner das noticias*/
+.banner1 {
     display: flex;
     margin: auto;
     
 }
-/*Estilização do efeito responsivo ao reposuso do ponteiro do mouse nos banners*/.banner1:hover{
+/*Estilização do efeito responsivo ao reposuso do ponteiro do mouse nos banners*/
+.banner1:hover{
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all 1s;
     cursor: pointer;
 }
-/*Estilização do banner da manchete principal*/#bannerprincipal {
+/*Estilização do banner da manchete principal*/
+#bannerprincipal {
     display: flex;
     background-color: #141212;
     margin: 5%;
@@ -68,7 +79,8 @@
     margin-left: 6%;
 }
 
-/*Definição do posicionamento da main*/#main1 {
+/*Definição do posicionamento da main*/
+#main1 {
     display: flex;
     margin:auto;
 }
@@ -77,18 +89,21 @@ main{
    
 
 }
-/*Estilização dos títulos das seções*/#title1 {
+/*Estilização dos títulos das seções*/
+#title1 {
     font-family: Bernard MT Condensed;
     font-size: 38px;
 }
-/*Estilização dos banner com as ultimas notícias*/#news {
+/*Estilização dos banner com as ultimas notícias*/
+#news {
     width: 33%;
     text-align: center;
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
 }
-/*Ajustes do posicionamento da section das noticias*/#section01{
+/*Ajustes do posicionamento da section das noticias*/
+#section01{
     margin: 5%;
     padding: 10%;
 }
