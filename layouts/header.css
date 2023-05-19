@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.linkl {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.linkl:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+
+#bb1{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#ulprinc {
+    list-style: none;
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    background-color: rgba(00, 00, 00, 1);
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    left: -250px;
+    transition: all 1.0s;
+}
+
+input[type="checkbox"]:checked~nav {
+    transform: translateX(250px);
+
+}
+
+label {
+    position: absolute;
+    padding: 15px;
+    z-index: 1;
+}
+
+.seta{
+    width: 10px;
+    top:84px;
+    margin-left:5% ;
+
+}
+
+
+.sub-menu{
+    display: none;
+    margin-left: 10%;
+    background-color: black;
+    }
+nav ul li:hover .sub-menu{
+    display: block;
+    }
+nav ul li:hover .sub-menu ul{
+    display: block;
+}
+nav ul li:hover .sub-menu ul li{
+    width: 225px;
+   transition: 10.0s;
+}
+ul{
+    list-style: none;
+    transition: all 1s;
+}
+li{
+    list-style: none;
+    background-color: black;
+}
+img {
+    border: none;
+}
+
+#header0 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: auto;
+    display: flex;
+}
+#header01{
+    width: 20%;
+    margin-top: auto;
+}
+#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader2{
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+#escritalogo {
+    margin-left: 10%;
+    border: none;
+    
+}
+#desenho {
+   float: right;
+   border: none;
+}
+#bltmenu {
+    border: none;
+    float: left;
+}
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+    animation: loading 1s alternate;
+    border-radius: 100px;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.logol {
+    padding:-200px;
+}
+
+#iconr:hover {
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+a {
+    text-decoration:none;
+}

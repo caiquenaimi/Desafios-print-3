@@ -1,0 +1,8 @@
+/*Definição da cor do plano de fundo da imagem linkada ao site da fuvest*/#linkfvt {
+    background-color: whitesmoke;
+
+}
+/*Estilização do efito responsivel ao repouso do mouse sob o botão que encaminha para o site da fuvest quando clicar*/#linkfvt:hover {
+    background-color: moccasin;
+    transition: all 0.6s;
+}

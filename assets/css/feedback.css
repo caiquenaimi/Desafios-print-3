@@ -1,0 +1,124 @@
+/* estilização da estruta*/
+form div {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+    font-family: sans-serif;
+}
+/* estilização das caixas de texto em geral*/
+input {
+    margin:4%;
+}
+/* estilização da caixa de texto do e-mail e do nome*/
+#caixatext1 {
+    width: 90%;
+    height: 10%;
+    padding: 5%;
+    border: 0;
+}
+/*estilização de botão de enviar*/
+form button {
+    width: 100%;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    margin-left: 4%;
+    padding: 15px;
+
+
+}
+/* estilização do botão de enviar quando passamos o ponteiro em cima*/
+form button:hover {
+    background: #d6d5d5;
+    color: black;
+    border: solid #333333;
+}
+
+#h1 {
+    font-size: 300%;
+    text-align: center;
+    margin: 5%;
+    text-shadow: 30% 30% rgba(33, 33, 33, 0.36);
+    color: azure;
+    margin-left: 10%;
+}
+/* estilização do título principal*/
+body {
+    background-color: #333333;
+    color: whitesmoke;
+    height: 100%;
+}
+/* estilização dos títulos das caixas de texto*/
+#label {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:-1.4%;
+}
+/* estilização da caixa de texto do comentário*/
+#mensag {
+    width: 70%;
+    height: 10%;
+    padding-bottom:30%;
+    padding-right: 30%;
+    border: 0;
+}
+/* estilização dos itens presentes na article*/
+article {
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    background-color: black;
+}
+/* estilização geral*/
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+#img2345 {
+    margin-left:-5px;
+}
+
+.imgmar {
+    display:flex;
+    margin-left:30%;
+    margin-top:5%;
+    margin-bottom: 2%;
+    flex-direction: row;
+}
+
+#estrela2 {
+    margin:0%;
+    background-color: white;
+}
+
+#estrela3 {
+    margin:0%;
+    background-color: white;
+}
+
+#estrela4 {
+    margin:0%;
+    background-color: white;
+}
+
+#estrela5 {
+    margin:0%;
+    background-color: white;
+}
+
+#estrela1 {
+    margin:0%;
+    background-color: white;
+}
+
+#buttão {
+    margin-top:0%
+}
+
+#espaço {
+    height:100px;
+    width: 100%;
+}

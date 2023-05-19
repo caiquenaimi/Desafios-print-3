@@ -1,0 +1,151 @@
+/*Estilização do plano de fundo e da cor dos textos com conteudo*/
+body {
+    background-color: #222020;
+}
+
+/*Estilização dos paragrafos*/p {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Estilização dos paragrafos descrição da música*/
+#p1{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+    font-size: 17px;
+}
+/*Ajustes de posição da section*/
+section {
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+}
+/*alinhamento geral*/
+main{
+    display: flex;
+}
+/*estilização título*/
+h1{
+    color: azure;
+    font-family: Bernard MT Condensed;
+}
+/*estilização subtítulo artista responsável pela música indicada*/
+h4 {
+    color: moccasin;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Ajuste da posição dos títulos*/
+#h1princ{
+    margin-top: 5%;
+}
+/*Ajuste da posição e estilização das datas da publicação*/
+#h51 {
+    text-align: left;
+    color: azure;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+/*Estilização do box shadow dos banners e ajuste na posição*/
+#art01 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+/*Estilização do box shadow dos banners e ajuste na posição*/
+#artprinc {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    
+}
+/*ajuste da posição da imagem primeiro banner mpb */
+#img01 {
+    margin-left: 34%;
+    margin-right: 34% ;
+}
+/*Estilização do box shadow dos banners e ajuste na posição*/
+#art02 {
+    background-color: #141212;
+    margin: 5%;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 5%;
+}
+/*ajuste da posição da imagem da cantora rita lee*/
+#img02 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+/*ajuste da posição banner primeira recomendação cantor*/
+#art02 {
+    width: 33%;
+}
+/*hover do banner primeira recomendação cantor */
+#art02:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
+/*hover banner principal com o tema da categoria*/
+#artprinc:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
+/*ajuste da posição da imagem cantor*/
+#img03 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+/*ajuste da posição da imagem cantor*/
+#img04 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+/*ajuste da posição e borda da música*/
+#img05 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+/*ajuste da posição e borda da música*/
+#img06 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+/*ajuste da posição e borda da música*/
+#img07 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+/*ajuste da posição da imagem primeiro banner rap e pop */
+#imgrap1{
+    margin-left: 27%;
+    margin-right: 30%;
+}
+

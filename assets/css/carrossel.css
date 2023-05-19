@@ -1,0 +1,31 @@
+/*Ajuste do posicionamento das imagens dentro body*/body {
+    align-items: center;
+}
+/*Estilização do sombreamneto e das dimensões do banner animado em slides*/.carrossel {
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+}
+/*Definição do posicionamneto e comportamneto dos itens dentro do banner animado.*/.container {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+    transform: translateX(0);
+}
+/*Definição do encaixe das imagens enfileiradas dentro do banner, para anima-las no java.script como slide.*/#immg{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    border: none;
+    border-radius: 0%;
+    margin: auto;
+    margin-left: -3%;
+    margin-right: -3%;
+}
+/*Ajustes da dimensão e posicionamneto do banner animado com as imagens, em relação ao corpo do site*/#mm{
+    margin-left: 31%;
+    margin-top: 3%;
+   align-items: center;
+   
+  
+}

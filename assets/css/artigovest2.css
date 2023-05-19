@@ -1,0 +1,9 @@
+/*Estlizaçõa dos títulos dos tópicos, ddas matéria indicadas no artigo do roteiro de estudoa para o ENEM*/h3 {
+    text-align: left;
+    margin-left: 3%;
+}
+/*Estilização dos textos em tópicos no artigo do roteiro de estudos para o ENEM*/#topic {
+    text-align: left;
+    margin: 0%;
+    margin-left: 3%;
+}

@@ -1,0 +1,64 @@
+/*Definição da cor do plano de fundo do corpo principal da página dos artigos, com o ajusto do posicionamneto dos itens contidos nele.*/body {
+    align-items: center;
+    background-color: #222020;
+}
+/*Estlização do posicionamneto e dimensões do article com os conteudos de texto, títulos e imagens.*/article{
+    width: 100%;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+/*Ajustes das bordas de todas as imagens dos artigos.*/img {
+ border: none;
+}
+/*Estilização das seções com o conteúdo da matéria trabalhada nos artigos, com as bordas laterais e espaçamneto.*/#cont {
+    color: whitesmoke;
+    border: double #257683 20px ;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    margin: 3%;
+    margin-top: 5%;
+
+
+    
+}
+/*Estilização do bloco com o titulo principal e a imagem.*/#cont0 {
+    background-color: black;
+    width: 100%;
+    border-radius: 5% 5%;
+   
+}
+/*Definição da cor de fundo das partes com paragrafs de conteudo.*/#ar02 {
+   background-color: black;
+   
+}
+/*Ajuestes do posicionamento dos parágrafos.*/p {
+   
+    padding-bottom: 5%;
+}
+/*Ajuste do posicionamneto do parágrafo de introdução.*/#pp {
+    padding-top: 5%;
+}
+/*Ajuste no posicionamneto do header.*/#header0 {
+    height: 50%;
+}
+/*Estilização das bordas da imagem nos começos dos artigos.*/#cap {
+    border: outset whitesmoke 0.5cm;
+}
+/*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    font-size: small;
+    margin: 0%;
+}
+/*Ajuste do posicionamento das estrelas*/#estrela {
+    margin: 0%;
+}
+/*Ajuste do posicionamento das estrelas vazias*/#estrela1 {
+    margin: 0%;
+}

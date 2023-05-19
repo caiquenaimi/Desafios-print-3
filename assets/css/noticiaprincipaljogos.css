@@ -1,0 +1,70 @@
+article {/*arrumando as articles*/
+    margin: 5%;
+    border-radius: 3%;
+    text-align: center;
+}
+p{/*arrumando o paragrafo*/
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+img {/*arrumando imagem*/
+    margin: 3%;
+}
+h3{/*arrumando h3*/
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: burlywood;
+    font-size: 22px;
+    color: #257683;
+}
+#siteobb {/*tirando a bordar*/
+    border: none;
+}
+#siteobb:hover {/*colocando hover para ficar esteticamente bonito*/
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;;
+    
+}
+#desenho{/*colocando a imagem o canto*/
+    margin-left: 70%;
+}
+/*Ajustes na estilização do header.*/header {
+    background-color: black;
+    margin-bottom: 0%;
+   padding: -5%;
+}
+
+
+/*Posicionamento do footer*/#footer1 {
+    margin-bottom:-5px;
+}
+
+/*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
+    margin-left:5%;
+}
+/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    margin-bottom: 0%;
+
+}
+/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/#link1:hover {
+    background-color: black;
+}
+/*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    font-size: small;
+    margin: 0%;
+}
+/*Ajuste do posicionamento das estrelas*/#estrela {
+    margin: 0%;
+}
+/*Ajuste do posicionamento das estrelas vazias*/#estrela1 {
+    margin: 0%;
+}

@@ -1,0 +1,102 @@
+:root {
+    --menu-size: 250px
+}
+*{
+    margin: 0;
+    padding: 0%;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header {
+    
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#bltmenu {
+
+    cursor: pointer;
+    padding: 5px;
+    transition: all 1s;
+   margin-right: 90%;
+
+}
+
+#bltmenu:hover {
+    cursor: pointer;
+    background-color: blanchedalmond;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+#bltmenu:active {
+    cursor: pointer;
+    background-color: rgb(24, 24, 24);
+    padding: 5px;
+    border-radius: 50%;
+
+}
+#btnclose {
+    padding: 8px;
+    background-color: rgb(59, 57, 57);
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+#btnclose:active {
+    
+    background-color: rgb(134, 43, 43);
+
+}
+#btnclose {
+    padding: 8px;
+    background-color: rgb(59, 57, 57);
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.menu {
+    position: fixed;
+    top:0;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(59, 57, 57) ;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li {
+    display: block;
+}
+.menu ul li a {
+    transition: background 1s;
+    display: block;
+    color: whitesmoke;
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.menu ul li a:hover {
+    background-color: bisque;
+}
+.effect {
+    transition: margin 1s;
+}

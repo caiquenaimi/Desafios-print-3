@@ -1,0 +1,121 @@
+#sobre1 {
+    text-align: center;
+    width: 40%;
+    color: whitesmoke;
+    margin:auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    margin-top: 2%;
+    border-radius:5%;
+    background-color: #141212;
+} /*luminosidade de fundo, arredondamento da borda, distanciamento ao topo, autocentralização definir cor para branca w tamanho para 40%*/
+
+#foto1-text {
+    text-align: justify;
+    margin-top:2%;
+    margin-bottom:2%;
+    padding-bottom:2% ;
+} /*deixar o texto alinhado e com distanciamento das laterais*/
+
+#foto1 {
+    border: outset whitesmoke 3px;
+    border-radius: 3%;
+} /*borda na foto principal*/
+
+body {
+    background-color: #222020;
+} /*cor de fundo*/
+
+#hob-title {
+    color: whitesmoke;
+    text-align: center;
+    margin:4%;
+    font-family:Bernard MT Condensed;
+} /*deixar o texto centralizado, definir distancia das bordas e fonte*/
+
+#skate1 {
+    float: left;
+    border: outset whitesmoke 3px;
+    margin: 2%;
+    border-radius: 3%;
+} /*colocar a foto a esquerda, definir borda e distanciar das bordas*/
+
+#volei1 {
+    float: left;
+    border: outset whitesmoke 3px;
+    margin: 2%;
+    border-radius: 3%;
+} /*colocar a foto a esquerda, definir borda e distanciar das bordas*/
+
+#hob12 {
+    color: whitesmoke;
+    display: flex;
+} /*deixar os elementos lado a lado*/
+
+.hobbies {
+    width:40%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    border-radius:5%;
+    background-color: #141212;
+    margin-top: 5%;
+    height: 50%;
+} /*deixar os elementos centralizados, com luz de fundo, background diferente e tamanho especifico*/
+
+* {
+    margin:0;
+    padding:0;
+} /*remoção do espaço adicional e margin dos elementos gerais*/
+
+#footer-1 {
+    margin-bottom:-5px;
+} /*colamento do footer ao chão da pagina*/
+
+p {
+    text-align: justify;
+    margin:2%;
+    font-family:Franklin Gothic;
+    font-size: 15px;
+} /*fonte das letras, justificação de texto e distanciamento*/
+
+#foto1-title {
+    margin-bottom: 2%;
+    margin-top:2%;
+    padding-top:1%;
+    font-family: Bernard MT Condensed;
+} /*fonte da letra, aumento de espaço no topo e margin tanto no topo quanto em baixo adicional*/
+
+h3 {
+    margin:3%;
+    font-family:Trebuchet MS;
+    font-size:22px;
+} /*aumento de distancia e mudança na fonte*/
+
+#sobre1:hover {
+    cursor:pointer;
+}
+
+.hobbies:hover {
+    cursor:pointer;
+}
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}

@@ -1,0 +1,180 @@
+/*estilização de fundo do site*/body {
+    background-color: #222020;
+    color: whitesmoke;
+    text-align: center;
+   
+}
+/*concerto do header*/header {
+    display: flex;
+    padding: 0%;
+}
+/*cores paragrafo*/a {
+    text-decoration: whitesmoke;
+    color: whitesmoke;
+}
+/*fundo colorido dos articles*/article{
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+}
+/*header principal*/#header0 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: auto;
+    display: flex;
+}
+/*tamanho header*/#header01{
+    width: 20%;
+    margin-top: auto;
+}
+/*imagem header*/#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
+/*imagem header*/#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+/*imagem header*/#imgheader2{
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+/*escrita do logo*/#escritalogo {
+    margin-left: 10%;
+    margin-left: 30%;
+    border: none;
+    
+}
+/*desenho header*/#desenho {
+   float: right;
+   border: none;
+}
+/*menu*/#bltmenu {
+    border: none;
+    float: left;
+
+}
+/*banner1*/.banner1 {
+    display: flex;
+    margin: auto;
+    
+}
+
+/*banner principal*/#bannerprincipal {
+    display: flex;
+    background-color: #141212;
+    margin: 5%;
+    border-radius: 5%;
+    
+}
+/*estilização imagem*/#imgm {
+    margin-left: 6%;
+}
+
+/*main 1 estilização*/#main1 {
+    display: flex;
+    margin:auto;
+}
+/*main 2 estilização*/main{
+    text-align: center;
+   
+
+}
+/*primeiro titulo*/#title1 {
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+/*noticias*/#news {
+    width: 33%;
+    text-align: center;
+    background-color: #141212;
+    margin: 5%;
+    border-radius: 5%;
+}
+
+/*primeira section*/#section01{
+    margin: 5%;
+    padding: 10%;
+}
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+  
+}
+/*paragrafo*/#ppp {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*main das noticias*/#mainnews {
+    margin: auto;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+/*h2 geral*/h2 {
+    margin-top: 5%;
+    color: azure;
+    margin-bottom: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h5 {
+    color: azure;
+    margin-top: 3%;
+}
+/*main noticias*/#mainnews0 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/*linhas*/#linha0 {
+    width: 93%;
+    height: 8px;
+}
+
+/*ultima noticia*/.lastnews {
+    display: flex;
+    margin: 5%;
+    background-color: rgb(34, 32, 32) ;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+}
+/*hover ultima noticia*/.lastnews:hover{
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
+/*main 2*/#main02 {
+    background-color: #141212;
+    margin: auto;
+
+
+}
+/*imagem noticia 2*/#imgnews2 {
+    margin: 2%;
+}
+/*imagem geral*/img {
+    border-radius: 3%;
+    border: whitesmoke outset;
+}
+
+/*header*/header {
+    background-color: black;
+}
+
+
+/*footer*/#footer1 {
+    margin-bottom:-5px;
+}
+
+/*imagem 1*/#img1 {
+    margin-left:5%;
+}
+

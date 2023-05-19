@@ -1,0 +1,219 @@
+/*Estilização do plano de fundo e da cor dos textos com conteudo*/
+body {
+    background-color: #222020;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+/*ajustes na estilização do header*/
+header {
+    display: flex;
+    padding: 0%;
+    background-color: black;
+}
+/*mudança cor dos links*/
+a {
+    text-decoration: whitesmoke;
+    color: whitesmoke;
+}
+/*Estilização do box shadow dos banners e ajuste na posição*/
+article{
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    }
+/*tirar a borda da seta*/
+#seta{
+border: none;
+    }
+/*ajuste da posição do header*/
+#header0 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: auto;
+    display: flex;
+}
+/*ajuste no alinhamento da header*/
+#header01{
+    width: 20%;
+    margin-top: auto;
+}
+/*ajuste na posição da imagem*/
+#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
+/*ajuste na posição da imagem*/
+#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+/*ajuste na posição da imagem*/
+#imgheader2{
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+/*centralizar logo e tirar a borda*/
+#escritalogo {
+    margin-left: -70%;
+    border: none;
+    
+}
+/*ajuste na logo com o link*/
+#desenho {
+   float: right;
+   border: none;
+}
+/*ajuste na posição icon menu */
+#bltmenu {
+    border: none;
+    float: left;
+
+}
+/*Definição do posicionamento dos itens no banner das noticias*/
+.banner1 {
+    display: flex;
+    margin: auto;
+}
+/*Estilização do banner da manchete principal*/
+#bannerprincipal {
+    display: flex;
+    background-color: #141212;
+    margin: 10%;
+    border-radius: 5%;
+    
+}
+/*Estilização das imagem do banner da manchete principal*/
+#imgm {
+    margin-right: 15%;
+}
+/*Definição do posicionamento da main*/
+#main1 {
+    display: flex;
+    margin:auto;
+}
+/*Definição do posicionamento da main*/
+main{
+    text-align: center;
+    margin: 0%;
+
+}
+/*Estilização dos títulos das seções*/
+#title1 {
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+    color:#257683;
+}
+/*Estilização dos banner com as ultimas notícias*/
+#news{
+    width: 100%;
+    align-items: center;
+    text-align: justify;
+    background-color: #141212;
+    margin: 5%;
+    border-radius: 5%;
+}
+/*Ajustes do posicionamento da section das noticias*/
+#section01{
+    margin: 5%;
+    padding: none;
+}
+/*estilização dos parágrafos*/
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+/*Ajustes do posicionamento dos parágrafos com a descrição dos artigos*/
+#ppp {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*Ajuste da estilização das noticias principais*/
+#mainnews {
+    margin: auto;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/*Estilização dos títulos das seções*/
+#title1 {
+    margin-top: 5%;
+    color: azure;
+    margin-bottom: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*Estilização das escritas com as datas de publicação.*/
+h5 {
+    color: azure;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+/*Estilização das escritas com as datas de publicação.*/
+#mainnews0 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/*Estlização da linha divisória entre as categorias.*/
+#linha0 {
+    width: 100%;
+    height: 8px;
+}
+/*Estilização da seção com as notícias passadas.*/
+.lastnews {
+    display: flex;
+    margin: 5%;
+    background-color: rgb(34, 32, 32) ;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+}
+/*Estilização do efeito responsivo ao repouso do mouse nos banner das noticias na seção de noticías passadas.*/
+.lastnews:hover{
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
+/*Definição do plano de fundo da seção com os artigos.*/
+#main02 {
+    background-color: #141212;
+    margin: auto;
+}
+/*ajuste posição da imagem da noticia.*/
+#imgnews2 {
+    margin: 2%;
+}
+/*Ajuste na estilização das imagens.*/
+img {
+    border-radius: 3%;
+  border: none;
+}
+/*tirar a borda do icon do menu*/
+#iconmenu{
+border: none;
+}
+/*ajuste da posição imagem shakira*/
+#shakira{
+    margin: 3%;
+    margin-left: 10%;
+    margin-top: -0.5%;
+    border: none;
+}
+/*ajuste da posição imagem veigh*/
+#veigh{
+    height: 4.5cm;
+    width: 5cm;
+    margin-top: 25%;
+}
+/*ajuste da posição imagem coldplay*/
+#coldplay{
+margin-top: 25%;
+height: 4.5cm;
+}
+

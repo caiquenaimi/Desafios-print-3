@@ -1,0 +1,34 @@
+
+/*Ajustes do posicionamento da seção com os conteudos da noticia*/article {
+    margin: 5%;
+    border-radius: 3%;
+    text-align: center;
+}
+/*Estilização dos padrões de posicionamento e tamanho dos parágrafos com os coteudos da noticia*/p{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+/*Definição da margem das imagens contidas no inicio e no fim da matéria*/img {
+    margin: 3%;
+}
+/*Estlização do subtítulo da noticia*/h3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: burlywood;
+    font-size: 22px;
+}
+/*Ajuste na borda do batão linkado ao site da obb*/#siteobb {
+    border: none;
+}
+/*Estilização do efito responsivel ao repouso do mouse sob o botão que encaminha para o site da obb quando clicar*/#siteobb:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;;
+    
+}
+
+#emoji{
+    margin-top: 5%;
+}

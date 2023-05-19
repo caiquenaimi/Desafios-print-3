@@ -1,0 +1,183 @@
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}
+
+body {
+    background-color: #222020;
+    color: whitesmoke;
+}
+
+#enemimg {
+    float:left;
+    border-radius: 5%;
+}
+
+#title-E {
+    margin:3%;
+    color:azure;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text-E {
+    margin:3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+#principal1 {
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: #141212;
+    padding:1%;
+    border-radius: 5%;
+    margin:10%;
+}
+
+#sepimg {
+    display: flex;
+}
+
+#title-P {
+    margin:5%;
+    text-align: center;
+    color:azure;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+
+h5 {
+    text-align: center;
+    color:azure;
+}
+
+#not123 {
+    display:flex;
+    margin-bottom:5%;
+    margin-left:10%;
+}
+
+.sec123 {
+    width: 40%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: #141212;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    text-align: center;
+}
+
+#just-p {
+    text-align: justify;
+    margin:2%;
+}
+
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    display:flex;
+}
+
+#comments {
+    display:flex;
+    margin-top:5%;
+}
+
+#perfil {
+    border:3px white ridge;
+    border-radius:1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin:2%;
+}
+
+#comentario {
+    margin:2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border:3px gray ridge;
+    margin-top:1%;
+}
+
+.sec123 {
+    cursor:pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom:-5px ;
+}
+
+p {
+    color:whitesmoke;
+}
+.comments1{
+    text-align: center;
+}
+a{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: whitesmoke;
+}
+
+#artt{
+    box-shadow: none;
+}
+#mmm {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#sccr {
+    position: relative;
+    margin-bottom: -5%;
+}
+.gallery{
+    margin: auto;
+    margin-top: 12%;
+}
+h1 {
+    margin-bottom: 5%;
+    font-family: Bernard MT Condensed;
+}
+#pcar {
+    display: flex;
+    flex-direction: column;
+}

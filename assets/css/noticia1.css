@@ -1,0 +1,6 @@
+/*Ajuste do erro de posicionamneto da seção com os conteudos da notícia, pois já estava linkado à estilização da noticia da obb*/section {
+    margin-top: 3%;
+}
+/*Ajuste do erro de posicionamneto do banner central com os conteudos da notícia, pois já estava linkado à estilização da noticia da obb*/article{
+    margin-bottom: 5%;
+}

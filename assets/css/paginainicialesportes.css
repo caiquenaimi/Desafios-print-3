@@ -1,0 +1,315 @@
+
+
+body {
+    background-color: #222020;
+}
+
+/*estilizaçao do body*/
+
+#art01 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+}/*articles com hover borda,magin estilizar*/
+
+
+#img01 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}/*imagem align,border*/
+
+section {
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+}/*section margin,texto feito*/
+
+#art02 {
+    background-color: #141212;
+    margin: 5%;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 5%;
+}/*articles*/
+
+
+#img02 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}/*imagem margin,border*/
+
+#main02 {
+    display: flex;
+}/*main colocando articles*/
+
+#art02 {
+    width: 33%;
+}/*articles*/
+
+
+#art02:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}/*articles com hover,cursor*/
+
+
+#art01:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}/*articles hover,borda,padding tirar errado*/
+
+#art03 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}/*articles terminar*/
+
+
+
+#sa03 {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 1%;
+}/*texto estilizado*/
+
+#art03:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}/*articles hover arrumar*/
+
+#img03 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}/*imagem*/
+
+
+
+#art04 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}/*articles feitos*/
+
+#ba02 {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}/*texto estilizado*/
+
+#ba03 {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 1%;
+}
+
+#art04:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}/*articles com hover*/
+
+#img04 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}/*imagem,texto,margin,alingn*/
+
+#ba01 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#art05 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}/*background color,box-shadow,margin,width,alingn*/
+
+#art05:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}/*articles color,cursor,transition*/
+
+#img05 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}/*imagem*/
+
+#ba10 {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}/*texto feito*/
+
+#art05 {
+    width: 33%;
+}/*articles*/
+
+#ba11 {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}/*texto estilizado com sucesso*/
+
+#art06 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}/*articles estilizados*/
+
+#art06:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}/*artices com hover feito*/
+
+#img06 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}/*imagem*/
+
+
+
+#ba6 {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}/*texto feito com estilizaçao*/
+
+#art06 {
+    width: 33%;
+}/*articles estilizados*/
+
+#papa06 {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}/*texto*/
+
+#main03 {
+    display: flex;
+}/*main feita completa*/
+
+
+
+#art07 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}/*articles,width,border, com margin e padding tirar*/
+
+#art07:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}/*articles com hover estilizado*/
+
+#img07 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}/*imagem*/
+
+
+
+#ba07 {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}/*texto estilizado*/
+
+#art07 {
+    width: 33%;
+}
+
+#papa07 {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}/*texto estilizado*/
+
+#pa08 {
+    color: whitesmoke;
+    text-align: center;
+}/*texto*/
+#pnt2 {
+    text-align: center;
+}
+h2 {
+    color: #267683;
+   
+}/*h2 feito*/
+#main02 {
+    display: flex;
+    flex-direction: column;
+    background-color: #141212;
+    align-items: center;
+
+}/*main 02 pronta*/
+#art05 {
+    width: 80%;
+    display: flex;
+    /*articles*/
+}
+#title1{
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}/*titles*/

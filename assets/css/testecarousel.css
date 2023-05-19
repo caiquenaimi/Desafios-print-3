@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0% auto;
+}
+.gallery-wrapper{
+    overflow-x: auto;
+}
+.gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+.arrow-left,
+.arrow-rigth{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0%;
+    font-size: 25px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: all 0.6s ease-in-out;
+}
+.arrow-rigth{
+    left: auto;
+    right: 0;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+}
+.arrow-left:hover{
+    opacity: 1;
+}
+.arrow-rigth:hover{
+    opacity: 1;
+}
+.item {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    opacity: 0.4;
+    transition: all 0.6s ease-in-out;
+}
+.current-item {
+    opacity: 1;
+}
+.gallery-wrapper::-webkit-scrollbar{
+    display: none;
+    
+}
+.gallery-wrapper{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.cyan{
+    background: cyan;
+}
+.deeppink {
+    background: deeppink;
+}
+.turqouise {
+    background: turquoise;
+}
+.darkblue {
+    background: darkblue;
+}
+.purple {
+    background: purple;
+}

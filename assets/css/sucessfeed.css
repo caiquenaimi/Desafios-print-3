@@ -1,0 +1,59 @@
+body {/*alterando a body*/
+    background-color: #222020;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #242424;
+    color: white;
+    margin:0;
+    padding:0;
+}
+#imgheader {/*arrumando imagem*/
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader2{/*arrumando imagem*/
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+
+#footer1 {/*jogando para cima*/
+    margin-bottom:-5px;
+}
+header{/*arrumando colocando cor no header e arrumando*/
+    background-color: black;
+    display: flex;
+    padding: 0;
+}
+/*estilização de botão de enviar*/
+#botao {
+    width: 10%;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 3%;
+}
+/* estilização do botão de enviar quando passamos o ponteiro em cima*/
+#botao:hover {
+    background: #d6d5d5;
+    color: black;
+    border: solid #333333;
+}
+#rodape{/*arrumando footer*/
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+h1{/*arrumando texto*/
+    font-size: 30px;
+    text-align: center;
+
+}
+#img{/*arrumando imagem*/
+    margin-top: -20px;
+}
+
