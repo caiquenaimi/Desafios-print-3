@@ -18,9 +18,9 @@ header {
     background-color: black;
 }
 
-#link1:hover{
-background-color: black;    
-}
+
+
+
 /*Estilização do box shadow dos banners e ajuste na posição*/
 article {
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
