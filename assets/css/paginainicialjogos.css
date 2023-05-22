@@ -77,6 +77,18 @@ article{/*sombra nos articles*/
     border-radius: 5%;
     
 }
+h3{
+    color: #257683;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+#materiaprincipal{
+    width: 80%;
+    margin-left: 7%;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+    padding: 5vh;
+}
 #imgm {/*alinhando imagem*/
     margin-right: 15%;
     margin-top: 10%;
@@ -211,3 +223,80 @@ border: none;
     margin: 0%;
 }
 
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    display:flex;
+}
+
+#comments {
+    display:flex;
+    margin-top:5%;
+}
+
+#perfil {
+    border:3px white ridge;
+    border-radius:1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin:2%;
+}
+
+#comentario {
+    margin:2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border:3px gray ridge;
+    margin-top:1%;
+}
+
+.sec123 {
+    cursor:pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom:-5px ;
+}
+
+p {
+    color:whitesmoke;
+}
+.comments1{
+    text-align: center;
+}
+a{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: whitesmoke;
+}
+
+@media (max-widht: 600px) {
+    #bannerprincipal{
+        width: 40%;
+    }
+    #comments{
+        display: inline;
+       
+    }
+
+  
+}
