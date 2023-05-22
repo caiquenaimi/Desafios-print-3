@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+    text-align: center;
+    margin: 1.5%;
+    font-size: 2em;
+}
+
+input {
+    border-radius: 30px;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 5px;
+    width: 17%;
+
+}
+
+
+.linkl {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.linkl:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+
+#bb1 {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#ulprinc {
+    list-style: none;
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    background-color: rgba(00, 00, 00, 1);
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    left: -250px;
+    transition: all 1.0s;
+}
+
+input[type="checkbox"]:checked~nav {
+    transform: translateX(250px);
+
+}
+
+#label1 {
+    position: absolute;
+    padding: 15px;
+    z-index: 1;
+}
+
+.seta {
+    width: 10px;
+    top: 84px;
+    margin-left: 5%;
+
+}
+
+
+.sub-menu {
+    display: none;
+    margin-left: 10%;
+    background-color: black;
+}
+
+nav ul li:hover .sub-menu {
+    display: block;
+}
+
+nav ul li:hover .sub-menu ul {
+    display: block;
+}
+
+nav ul li:hover .sub-menu ul li {
+    width: 225px;
+    transition: 10.0s;
+}
+
+ul {
+    list-style: none;
+    transition: all 1s;
+}
+
+li {
+    list-style: none;
+    background-color: black;
+}
+
+img {
+    border: none;
+}
+
+#header0 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: auto;
+    display: flex;
+}
+
+#header01 {
+    width: 20%;
+    margin-top: auto;
+}
+
+#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+#imgheader2 {
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+
+#escritalogo {
+    margin-left: 10%;
+    border: none;
+
+}
+
+#desenho {
+    float: right;
+    border: none;
+}
+
+#bltmenu {
+    border: none;
+    float: left;
+}
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+    animation: loading 1s alternate;
+    border-radius: 100px;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.logol {
+    padding: -200px;
+}
+
+#iconr:hover {
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+/*deixa o footer preso ao fundo da pagina o deixando fixado lá para ser chamado em outros sites*/
+
+h1 {
+    margin: 0.5%;
+    font-size: 15px;
+}
+
+/*ajeita o tamanho da fonte e a distancia dela da PsiArvore*/
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}
+
+body {
+    background-color: #222020;
+    color: whitesmoke;
+}
+
+#enemimg {
+    float: left;
+    border-radius: 5%;
+}
+
+#title-E {
+    margin: 3%;
+    color: azure;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text-E {
+    margin: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+#principal1 {
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: #141212;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 10%;
+}
+
+#sepimg {
+    display: flex;
+}
+
+#title-P {
+    margin: 5%;
+    text-align: center;
+    color: azure;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+
+h5 {
+    text-align: center;
+    color: azure;
+}
+
+#not123 {
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.sec123 {
+    width: 40%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: #141212;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
+    text-align: center;
+}
+
+#just-p {
+    text-align: justify;
+    margin: 2%;
+}
+
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: black;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
+    display: flex;
+}
+
+#comments {
+    display: flex;
+    margin-top: 5%;
+}
+
+#perfil {
+    border: 3px white ridge;
+    border-radius: 1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin: 2%;
+}
+
+#comentario {
+    margin: 2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border: 3px gray ridge;
+    margin-top: 1%;
+}
+
+.sec123 {
+    cursor: pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+
+
+p {
+    color: whitesmoke;
+}
+
+.comments1 {
+    text-align: center;
+}
+
+a {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+#artt {
+    box-shadow: none;
+}
+
+#mmm {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#sccr {
+    position: relative;
+    margin-bottom: -5%;
+}
+
+.gallery {
+    margin: auto;
+    margin-top: 12%;
+}
+
+h1 {
+    margin-bottom: 5%;
+    font-family: Bernard MT Condensed;
+}
+
+#pcar {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+button {
+    width: 17%;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background: #d6d5d5;
+    color: black;
+    border: solid #333333;
+}
+
+
+footer iframe {
+    margin-bottom: -5px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
