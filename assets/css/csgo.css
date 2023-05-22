@@ -3,15 +3,48 @@ body{
     color: white;
     font-size: 16px;
 }
-.bb{
-    background-color: #141212;
-    width: 70%;
-    color: white;
-    border-radius: 8px;
+header {
+    display: flex;
+    background-color: black;
+}
+#title1{
+    font-family: Bernard MT Condensed;
+    color: #257683;
+    font-size: 40px;
+}
+
+h2{/*arrumando h3*/
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: burlywood;
+    font-size: 22px;
+    color: #257683;
+
+    text-align: center;
+}
+
+#bannerprincipal {
+    width: 80%;
+    margin: auto;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    margin-left: 7%;
+    background-color: #141212;
+    padding:1%;
+    border-radius: 5%;
+    margin:10%;
+  
+}
+img{
+    border: solid 3px white;
+}
+h4{
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    font-size: 22px;
+
+    text-align: center;
 }
 #main1{
     display: flex;
@@ -37,23 +70,115 @@ body{
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    display:flex;
+}
+
+#comments {
+    display:flex;
+    margin-top:5%;
+}
+
+#perfil {
+    border:3px white ridge;
+    border-radius:1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin:2%;
+}
+
+#comentario {
+    margin:2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border:3px gray ridge;
+    margin-top:1%;
+}
+
+.sec123 {
+    cursor:pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom:-5px ;
+}
+
+p {
+    color:whitesmoke;
+}
+.comments1{
+    text-align: center;
+}
+
 
 @media (max-width: 600px) {
+    header{
+        width: 60%;
+        background-color: #141212;
+    }
     #main1{
         display: inline;
      
     }
+  
     #news{
-        width: 80%;
-        margin-left: 8%;
+        width: 60%;
+        margin-left: 12%;
        margin-top: 10vh;
+       font-size: 16px;
+        height: 40vh;
+    }
+    .banner1{
+        padding: 3vh;
+    }
+    .banner2{
+        padding: 3vh;
+    }
+
+   .bannerprincipal{
+        width: 90%; 
+        padding: 10vh;
+        margin-top: 5vh;
+         
+    }
+ 
+    .comments{
+        display: inline;
+ 
         
     }
-   .bb{
-        width: 90%; 
-        padding: 2vh;
-        margin-top: 5vh;
-         margin-right: 8%;
+    .comments123{
+        width: 70%;
+        margin-left: 15%;
+    }
+    h4{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    
+        font-size: 22px;
+    
+        text-align: center;
     }
    
 }
