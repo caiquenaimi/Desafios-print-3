@@ -1,30 +1,36 @@
-var nome = document.getElementById("input1").value;
-var resumo = document.getElementById("input2").value;
-var publi = document.getElementById("input3").value;
-var categoria = document.getElementById("input4").value;
-var autor = document.getElementById("input5").value;
-let nomearr= [];
-let resumoarr= [];
-let publiarr= [];
-let categoriaarr= [];
-let autorarr= [];
-
-nomearr.push(nome);
-resumoarr.push(resumo);
-publiarr.push(publi);
-categoria.push(categoria);
-autorarr.push(autor);
-
 
 function add() {
+    var nome = document.getElementById("input1").value;
+    var resumo = document.getElementById("input2").value;
+    var publi = document.getElementById("input3").value;
 
-    do {
-        var modal = document.getElementById("modal-container");
+    var autor = document.getElementById("input5").value;
+    var fixpubli = publi.split("-").reverse().join("/");
+    var nome1 = [];
+    var resumo1 = [];
+    var publi1 = [];
+ 
+    var autor1 = [];
 
+    var arr = [];
+  
 
-        modal.innerHTML = `<div class="modal"><p id="p">${nomearr}${resumoarr}${publiarr}${categoriaarr}${autorarr}</p></div>`
+    var modal = document.getElementById("modal-container");
+    nome1.push(nome);
+    resumo1.push(resumo);
+    publi1.push(fixpubli);
+    autor1.push(autor);
+    arr.push(nome1, resumo1, publi1, autor1);
+    console.log(arr);
+    modal.innerHTML = `<section><h1 id="h1">${nome1}</h1><br><p id="p">${resumo1}</p><br><p id="p">${publi1}</p><br><p id="p">${autor1}</p></section>`;
+    
+    var nome = document.getElementById("input1").value = '';
+    var resumo = document.getElementById("input2").value = '';
+    var publi = document.getElementById("input3").value = '';
 
+    var autor = document.getElementById("input5").value = '';
 
-    } while (!(nome === null || resumo === null || publi === null || categoria == null || autor == null));
+    modal.innerHTML = `<section><h1 id="h1">${nome1}</h1><br><p id="p">${resumo1}</p><br><p id="p">${publi1}</p><br><p id="p">${autor1}</p></section>`;
+    
 }
 

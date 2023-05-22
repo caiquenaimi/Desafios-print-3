@@ -239,8 +239,8 @@ header {
 }
 
 body {
-    background-color: #222020;
-    color: whitesmoke;
+    background-color: #ffffff;
+    
 }
 
 #enemimg {
@@ -367,7 +367,7 @@ h5 {
 
 
 p {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 }
 
 .comments1 {
@@ -420,7 +420,7 @@ button {
     width: 17%;
     background: transparent;
     border: 2px solid whitesmoke;
-    color: whitesmoke;
+    color: rgb(7, 7, 7);
     margin: auto;
     text-align: center;
     padding: 15px;
@@ -440,4 +440,9 @@ footer iframe {
     position: relative;
     width: 100%;
     bottom: 0;
+}
+#modal-container{
+    background-color: bisque;
+    color: #000000;
+    border-radius: 8px;
 }
