@@ -134,16 +134,15 @@ h5 {
         display: inline;
         align-items: center;
     }
-    #news{
-            width: 90%;
-            align-items: center;
-            text-align: justify;
-            background-color: #141212;
-            ;
-        
-
-
+    #imgm{
+        width: 50%;
+        height: 50%;
     }
+    #centralizarimg{
+        text-align: center;
+      
+    }
+
 }
 
 
