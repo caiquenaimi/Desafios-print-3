@@ -414,7 +414,7 @@ h1 {
     margin: 15px;
 }
 
-label button {
+ #btn {
     width: 17%;
     background: transparent;
     border: 2px solid whitesmoke;
@@ -426,7 +426,7 @@ label button {
     border-radius: 15px;
 }
 
-label button:hover {
+ #btn:hover {
     background: #d6d5d5;
     color: black;
     border: solid #333333;
