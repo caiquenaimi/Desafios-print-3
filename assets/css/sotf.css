@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 body {/*alterando cor do body*/
     background-color: #222020;
     color: whitesmoke;
@@ -279,4 +284,49 @@ a{
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: whitesmoke;
+}
+@media (max-width: 600px) {
+ 
+  #comments1{
+    margin-left: 10%;
+    display: inline;
+  }
+  .comments123{
+    margin-left: 3%;
+    width: 90%;
+  }
+#main1{
+    display: inline;
+}
+#news{
+    padding: 1%;
+}
+.banner1{
+    display: inline;
+    padding: 2%;
+    width: 100%;
+
+}
+#mainnews{
+    margin-left: 2%;
+
+}
+.principal{
+    margin-left: 10%;
+}
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#detalhe{
+    margin-left: 8%;
+}
+#tt2{
+    margin-left: 10%;
+}
+#tt3{
+    margin-left: 10%;  
+}
 }
