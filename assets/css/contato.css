@@ -81,7 +81,7 @@ article {
 @media (max-width: 600px) {
     article{
         width: 80%;
-     
+        margin-top: 15%;
     }
     #caixatext1{
         width: 100%;
@@ -96,5 +96,5 @@ article {
     #buttão{
         width: 110%;
     }
-    
+
 }
