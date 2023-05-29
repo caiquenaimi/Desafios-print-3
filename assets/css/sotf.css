@@ -100,12 +100,6 @@ main{
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
-} /*borda arredondada e distanciamento geral com cor de fundo*/
-#news:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
 } /*hover com mudança de cursor e de cor de fundo*/
 #section01{
     margin: 5%;
@@ -151,13 +145,7 @@ h5 {
     align-items: center;
     text-align: center;
     border-radius: 5%;
-} /*distanciamente geral ao redor item e display em linha background color ealinhamento dos itens do negocio */
-.lastnews:hover{
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-} /*alteração no cursor e cor de fundo junto com o hover*/
+}  /*alteração no cursor e cor de fundo junto com o hover*/
 #main02 {
     background-color: #141212;
     margin: auto;
@@ -218,4 +206,77 @@ img {
 }
 /*Ajuste do posicionamento das estrelas vazias*/#estrela1 {
     margin: 0%;
+}
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    display:flex;
+}
+#comentarios{
+   width: 95%;
+   margin-left: 2%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 13px;
+}
+
+#comments {
+    display:flex;
+    margin-top:5%;
+}
+
+#perfil {
+    border:3px white ridge;
+    border-radius:1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin:2%;
+}
+
+#comentario {
+    margin:2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border:3px gray ridge;
+    margin-top:1%;
+}
+
+.sec123 {
+    cursor:pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom:-5px ;
+}
+
+p {
+    color:whitesmoke;
+}
+#comments1{
+    text-align: center;
+    display: flex;
+}
+a{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: whitesmoke;
 }
