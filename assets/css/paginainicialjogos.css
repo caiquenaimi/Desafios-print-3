@@ -235,6 +235,13 @@ border: none;
     margin:2%;
     display:flex;
 }
+#comentarios{
+   width: 95%;
+   margin-left: 2%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 13px;
+}
 
 #comments {
     display:flex;
@@ -280,8 +287,9 @@ border: none;
 p {
     color:whitesmoke;
 }
-.comments1{
+#comments1{
     text-align: center;
+    display: flex;
 }
 a{
 
@@ -289,14 +297,21 @@ a{
    color: whitesmoke;
 }
 
-@media (max-widht: 600px) {
-    #bannerprincipal{
-        width: 40%;
+@media (max-width: 600px) {
+    #comentarios{
+        width: 90%;
+        margin-left: 3%;
     }
-    #comments{
-        display: inline;
-       
+    #comments1{
+display: inline;
+       margin-left: 3%;
     }
-
+   .comments123{
+    width: 90%;
+    margin-left: 3%;
+   }
+   footer{
+    width: 100%;
+   }
   
 }

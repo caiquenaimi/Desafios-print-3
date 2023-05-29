@@ -133,10 +133,7 @@ p {
 
 
 @media (max-width: 600px) {
-    header{
-        width: 60%;
-        background-color: #141212;
-    }
+  
     #main1{
         display: inline;
      
@@ -147,7 +144,7 @@ p {
         margin-left: 12%;
        margin-top: 10vh;
        font-size: 16px;
-        height: 40vh;
+        height: 60vh;
     }
     .banner1{
         padding: 3vh;
@@ -179,6 +176,10 @@ p {
         font-size: 22px;
     
         text-align: center;
+    }
+    header {
+        width: 70%;
+        background-color: black;
     }
    
 }
