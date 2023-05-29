@@ -158,6 +158,7 @@ header {
     #volei1 {
       float: none;
       margin: 2% auto;
+      margin-left: 20%; 
     }
     
     #logoc {
@@ -175,7 +176,8 @@ header {
         height: 15%;
     } 
     #instap {
-        margin-left: -8%;
+        margin-left: -10%;
     }
+    
   }
   
