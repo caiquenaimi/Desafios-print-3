@@ -122,3 +122,27 @@ article {
     height:100px;
     width: 100%;
 }
+/* inicio da responsividade */
+@media (max-width: 600px) {
+    article{
+        width: 80%;
+    }
+    #caixatext1{
+        width: 100%;
+        padding: 7%;
+       height: 10vh;
+
+    }
+    #mensag{
+        width: 80%;  
+       height: 20vh;
+    }
+    #buttão{
+        width: 110%;
+    }
+    header{
+        width: 40%;
+        background-color: black;
+    }
+   
+}
