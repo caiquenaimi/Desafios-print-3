@@ -1,37 +1,37 @@
 #Rafa {
     display: none;
-    margin-left:10%;
-    margin-top:2%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 #Giova {
     display: none;
-    margin-left:10%;
-    margin-top:2%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 #Caurin {
     display: none;
-    margin-left:10%;
-    margin-top:2%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 #Nic {
     display: none;
-    margin-left:10%;
-    margin-top:2%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 #Fab {
     display: none;
-    margin-left:10%;
-    margin-top:2%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 #Vic {
     display: none;
-    margin-left:10%;
-    margin-top:2%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 .container {
@@ -41,7 +41,7 @@
 #colunar {
     display: flex;
     flex-direction: column;
-    margin-left:3%;
+    margin-left: 3%;
 }
 
 body {
@@ -49,24 +49,51 @@ body {
 }
 
 h1 {
-    color:whitesmoke;
-    font-family:Bernard MT Condensed;
-    margin-right:20px;
-    margin-top:25%;
+    color: whitesmoke;
+    font-family: Bernard MT Condensed;
+    margin-right: 20px;
+    margin-top: 25%;
 }
 
 h1:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 img {
-    border-radius:10px;
-    border-left:5px ridge #257683;
+    border-radius: 10px;
+    border-left: 5px ridge #257683;
 }
-a{
- margin-right: 0;
+
+a {
+    margin-right: 0;
 }
-#gif{
+
+#gif {
     border: outset whitesmoke;
     margin-left: 11%;
+}
+
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
+    .imgcanvas {
+        margin-left: 9%;
+        height: 400px;
+        width: 80%;
+    }
+
+    #Rafa,
+    #Giova,
+    #Caurin,
+    #Nic,
+    #Fab,
+    #Vic {
+        margin-left: 5%;
+    }
+    #gif {
+        margin-left: 5%;
+
+    }
+
+    #escritalogo {
+        margin-left: 5%;
+    }
 }
