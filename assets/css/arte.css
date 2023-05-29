@@ -184,3 +184,10 @@ border: none;
 .arrumarimg {
     margin-left:-15%;
 }
+
+@media (max-width: 768px) {
+    #shakira {
+        object-fit: cover;
+    }
+
+}

@@ -202,3 +202,12 @@ p {
 ul{
     background-color: black;
 }
+
+@media (max-width: 768px) {
+    .banner1 {
+        padding: 10px;
+    }
+    #main1 {
+        flex-direction: column;
+    }
+}
