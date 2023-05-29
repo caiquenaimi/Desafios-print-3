@@ -299,19 +299,46 @@ a{
 
 @media (max-width: 600px) {
     #comentarios{
-        width: 90%;
-        margin-left: 3%;
+        width: 80%;
+        margin-left: 8%;
+        padding: 3%;
     }
     #comments1{
 display: inline;
-       margin-left: 3%;
+
     }
    .comments123{
     width: 90%;
-    margin-left: 3%;
+    margin-left: 4%;
    }
    footer{
     width: 100%;
    }
+   #main1{
+    display: inline;
+   }  
+   .banner1{
+    display: inline;
+    width: 90%;
+    border-radius: 10px;
   
+   }
+ #banner{
+    padding: 1%;
+    border-radius: 15px;
+ }
+#mainnews{
+    margin-left: 8%;
+}
+  
+   #news{
+    width: 80%;
+    margin-left: 8%;
+    padding: 2%;
+   }
+   #title1{
+    margin-left: 4%;
+    margin-right: 3%;
+   }
+
 }
