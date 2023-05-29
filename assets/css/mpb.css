@@ -406,7 +406,7 @@ h2 {
 h1 {
     text-align: center;
 }
-
+/* responsividade */
 @media (max-width:600px) {
     #comments {
         display: inline;
@@ -427,6 +427,12 @@ h1 {
     width: 40%;
     height: 40%;
    }
+   #imgrap1 {
+    margin-left: 27%;
+    margin-right: 30%;
+    height: 50%;
+    width:50%;
+}
    section{
     text-align: center;
     align-items: center;
