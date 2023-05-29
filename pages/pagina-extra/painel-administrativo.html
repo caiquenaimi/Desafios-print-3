@@ -127,41 +127,34 @@
 <section class="container">
 
     <div id="filho">
-        <form action="">
-            <h1 id="titulo">Painel administrativo</h1>
-            <label for="input1">Título:</label>
+        <h1 id="titulo">Painel administrativo</h1>
+        <label for="input1">Título:</label>
+        <br>
+        <input placeholder="Digite o titulo do artigo" required id="input1" type="text">
+        <br>
+        <label for="input2">Resumo:</label>
+        <br>
+        <input placeholder="Digite o resumo do seu artigo" required id="input2" type="text">
+        <br>
+        <label for="input3">Data de publicação:</label>
+        <br>
+        <input id="input3" required type="date">
+        <br>
+        <label for="input4">Categoria:</ /label>
             <br>
-            <input placeholder="Digite o titulo do artigo" required id="input1" type="text">
+            <input placeholder="Digite a categoria do seu artigo" required id="input4" type="text">
             <br>
-            <label for="input2">Resumo:</label>
+            <label for="input5">Autor:</label>
             <br>
-            <input placeholder="Digite o resumo do seu artigo" required id="input2" type="text">
+            <input placeholder="Digite o nome do autor do artigo" required id="input5" type="text">
             <br>
-            <label for="input3">Data de publicação:</label>
-            <br>
-            <input id="input3" required type="date">
-            <br>
-            <label for="input4">Categoria:</ /label>
-                <br>
-                <input placeholder="Digite a categoria do seu artigo" required id="input4" type="text">
-                <br>
-                <label for="input5">Autor:</label>
-                <br>
-                <input placeholder="Digite o nome do autor do artigo" required id="input5" type="text">
-                <br>
-                <button type="submit" onclick="add()">Adicionar</button>
-        </form>
+            <button type="submit" onclick="add()">Adicionar</button>
     </div>
-
-    <div id="modal-container" class="modal-container">
-        <div class="modal">
-          <p id="p"></p>
-          <h1 id="h1"></h1>
-          <p class="p" ></p>
-          <p></p>
-        </div>
-      </div>
 </section>
+<main>
+
+</main>
+
 <br>
 <footer>
     <iframe src="../../layouts/footer.html" scrolling="no" frameborder="0"></iframe>

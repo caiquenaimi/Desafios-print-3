@@ -211,14 +211,12 @@ footer {
     width: 100%;
 }
 
-/*deixa o footer preso ao fundo da pagina o deixando fixado lá para ser chamado em outros sites*/
 
 h1 {
     margin: 0.5%;
     font-size: 15px;
 }
 
-/*ajeita o tamanho da fonte e a distancia dela da PsiArvore*/
 
 header {
     display: flex;
@@ -416,7 +414,7 @@ h1 {
     margin: 15px;
 }
 
-button {
+label button {
     width: 17%;
     background: transparent;
     border: 2px solid whitesmoke;
@@ -428,7 +426,7 @@ button {
     border-radius: 15px;
 }
 
-button:hover {
+label button:hover {
     background: #d6d5d5;
     color: black;
     border: solid #333333;
@@ -440,4 +438,28 @@ footer iframe {
     position: relative;
     width: 100%;
     bottom: 0;
+}
+
+main {
+    display: flex;
+}
+
+main section {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 10px;
+    color: #000000;
+    max-width: 30%;
+}
+
+main section p {
+    color: #000000;
+}
+
+main section h1 {
+    color: #000000;
+}
+
+main section #date {
+    color: #333333;
 }

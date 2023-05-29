@@ -1,30 +1,51 @@
-var nome = document.getElementById("input1").value;
-var resumo = document.getElementById("input2").value;
-var publi = document.getElementById("input3").value;
-var categoria = document.getElementById("input4").value;
-var autor = document.getElementById("input5").value;
-let nomearr= [];
-let resumoarr= [];
-let publiarr= [];
-let categoriaarr= [];
-let autorarr= [];
+let title = [];
+let resum = [];
+let data = [];
+let cate = [];
+let autor = [];
 
-nomearr.push(nome);
-resumoarr.push(resumo);
-publiarr.push(publi);
-categoria.push(categoria);
-autorarr.push(autor);
+let i = 0;
 
 
 function add() {
+    title.push(document.getElementById('input1').value);
+    resum.push(document.getElementById('input2').value);
+    data.push(document.getElementById('input3').value);
+    cate.push(document.getElementById('input4').value);
+    autor.push(document.getElementById('input5').value);
+    let conteudoTitle = '';
+    let conteudoResum = '';
+    let conteudoData = '';
+    let conteudoCate = '';
+    let conteudoAutor = '';
+    while (i < title.length) {
+        conteudoTitle += '<section id="result' + i + '"><h1>' + title[i] + '</h1></section>';
+        document.getElementsByTagName('main')[0].innerHTML += conteudoTitle;
+        conteudoResum += '<p>' + resum[i] + '</p>';
+        document.getElementById('result' + i).innerHTML += conteudoResum;
+        conteudoAutor += '<p>' + 'por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
+        document.getElementById('result' + i).innerHTML += conteudoAutor;
+        conteudoCate += '<p>' + 'de: ' + cate[i] + '</p>';
+        document.getElementById('result' + i).innerHTML += conteudoCate;
+        conteudoData += '<p id="date">' + data[i] + '</p>';
+        document.getElementById('result' + i).innerHTML += conteudoData;
+        document.getElementById('result' + i).innerHTML += '<input name="checkRmv" type="radio">';
+        conteudoTitle = '';
+        conteudoResum = '';
+        conteudoData = '';
+        conteudoCate = '';
+        conteudoAutor = '';
+        i++;
+    }
 
-    do {
-        var modal = document.getElementById("modal-container");
 
-
-        modal.innerHTML = `<div class="modal"><p id="p">${nomearr}${resumoarr}${publiarr}${categoriaarr}${autorarr}</p></div>`
-
-
-    } while (!(nome === null || resumo === null || publi === null || categoria == null || autor == null));
 }
 
+let l = 0;
+
+while (l < document.getElementsByName('checkRmv').length){
+    if (document.getElementsByName('checkRmv')[l].checked){
+        document.getElementById('result' + l).style.display = 'none';
+    }
+    l++
+}
