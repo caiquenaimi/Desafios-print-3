@@ -285,7 +285,7 @@ ul {
     }
 }
 
-@media (max-width:422px) {
+@media (max-width:450px) {
     .banner1 {
         flex-direction: column;
     }
