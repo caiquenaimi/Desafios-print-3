@@ -519,7 +519,8 @@ button:hover {
 /* responsividade */
 @media (max-width:600px) {
     .container{
-        width: 70%;
-    
+        width: 100%;
+       border: none;
+      
     }
 }
