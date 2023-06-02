@@ -3,6 +3,7 @@ let resum = [];
 let data = [];
 let cate = [];
 let autor = [];
+let contaEdit = 0;
 let contador;
 let editTitle = '';
 /* let editResum = [];
@@ -29,7 +30,44 @@ function add() {
 
     while (i < title.length) {
         if (contador !== undefined) {
-            document.getElementsByTagName('h2')[contador].innerHTML = '<h3>' + document.getElementById('input1').value + '</h3>';
+            title[contador] = document.getElementById('input1').value;
+            document.getElementsByTagName('h2')[contador] = document.getElementById('input1').value;
+            // mwxer nisso aqui
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            console.log(document.getElementsByTagName('h2')[contador]);
             contador = undefined;
 
 
@@ -65,11 +103,15 @@ function rmv(hidden) {
 }
 
 function edt(edit) {
+
+
     document.getElementById('input1').value = title[edit];
     document.getElementById('input2').value = resum[edit];
     document.getElementById('input3').value = data[edit];
     document.getElementById('input4').value = cate[edit];
     document.getElementById('input5').value = autor[edit];
+
+    
     /*     editTitle.push(document.getElementById('input1').value);
         editResum.push(document.getElementById('input2').value);
         editData.push(document.getElementById('input3').value);
