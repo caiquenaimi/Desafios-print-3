@@ -55,8 +55,8 @@ function add() {
             document.getElementById('result' + i).innerHTML += conteudoCate;
             conteudoData += '<p class="datas" id="date">' + data[i] + '</p>';
             document.getElementById('result' + i).innerHTML += conteudoData;
-            document.getElementById('result' + i).innerHTML += '<button onclick="edt(' + "'" + i + "'" + ')">Editar</button>';
-            document.getElementById('result' + i).innerHTML += '<button onclick="rmv(' + "'" + i + "'" + ')">Remover</button>';
+            document.getElementById('result' + i).innerHTML += '<button id="btn1" onclick="edt(' + "'" + i + "'" + ')">Editar🖊</button>';
+            document.getElementById('result' + i).innerHTML += '<button id="btn2" onclick="rmv(' + "'" + i + "'" + ')">Remover🗑</button>';
             conteudoTitle = '';
             conteudoResum = '';
             conteudoData = '';
