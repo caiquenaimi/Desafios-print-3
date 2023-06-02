@@ -415,7 +415,7 @@ h1 {
     border: solid #333333;
 }
 
-
+/* footer */
 footer iframe {
     margin-bottom: -5px;
     position: relative;
@@ -423,7 +423,7 @@ footer iframe {
     bottom: 0;
 }
 
-
+/* estilização noticia após execução do JS */
 main section {
     background-color: #000000;
     padding: 2%;
@@ -449,7 +449,7 @@ main section #date {
     font-size: 17px;
 }
 
-
+/* estlização da to do list */
 .container{
     margin-left: 30%;
     margin-top: 10%;
