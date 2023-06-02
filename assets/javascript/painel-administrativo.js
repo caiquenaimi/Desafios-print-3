@@ -3,9 +3,9 @@ let resum = [];
 let data = [];
 let cate = [];
 let autor = [];
-let contaEdit = 0;
 let contador;
 let editTitle = '';
+
 /* let editResum = [];
 let editData = [];
 let editCate = [];
@@ -18,7 +18,7 @@ let i = 0;
 function add() {
     title.push(document.getElementById('input1').value);
     resum.push(document.getElementById('input2').value);
-    data.push(document.getElementById('input3').value);
+    data.push(document.getElementById('input3').value.split('-').reverse().join('-'));
     cate.push(document.getElementById('input4').value);
     autor.push(document.getElementById('input5').value);
     let conteudoTitle = '';
@@ -26,61 +26,34 @@ function add() {
     let conteudoData = '';
     let conteudoCate = '';
     let conteudoAutor = '';
-
-
-    while (i < title.length) {
-        if (contador !== undefined) {
-            title[contador] = document.getElementById('input1').value;
-            document.getElementsByTagName('h2')[contador] = document.getElementById('input1').value;
-            // mwxer nisso aqui
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-            console.log(document.getElementsByTagName('h2')[contador]);
-            contador = undefined;
-
-
-        } else {
+    if (contador !== undefined) {
+        title[contador] = document.getElementById('input1').value;
+        resum[contador] = document.getElementById('input2').value;
+        data[contador] = document.getElementById('input3').value.split('-').reverse().join('-');
+        cate[contador] = document.getElementById('input4').value;
+        autor[contador] = document.getElementById('input5').value;
+        document.getElementsByTagName('h2')[contador].innerHTML = title[contador];
+        document.getElementsByClassName('resumos')[contador].innerHTML = resum[contador];
+        document.getElementsByClassName('datas')[contador].innerHTML = data[contador];
+        document.getElementsByClassName('categorias')[contador].innerHTML = 'de: ' + cate[contador];
+        document.getElementsByClassName('autores')[contador].innerHTML = 'por: <strong>' + autor[contador] + '</strong>';
+        title.pop();
+        resum.pop();
+        data.pop();
+        cate.pop();
+        autor.pop();
+        contador = undefined;
+    } else {
+        while (i < title.length) {
             conteudoTitle += '<section id="result' + i + '"><h2>' + title[i] + '</h2></section>';
             document.getElementsByTagName('main')[0].innerHTML += conteudoTitle;
-            conteudoResum += '<p>' + resum[i] + '</p>';
+            conteudoResum += '<p class="resumos">' + resum[i] + '</p>';
             document.getElementById('result' + i).innerHTML += conteudoResum;
-            conteudoAutor += '<p>' + 'por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
+            conteudoAutor += '<p class="autores">' + 'por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
             document.getElementById('result' + i).innerHTML += conteudoAutor;
-            conteudoCate += '<p>' + 'de: ' + cate[i] + '</p>';
+            conteudoCate += '<p class="categorias">' + 'de: ' + cate[i] + '</p>';
             document.getElementById('result' + i).innerHTML += conteudoCate;
-            conteudoData += '<p id="date">' + data[i] + '</p>';
+            conteudoData += '<p class="datas" id="date">' + data[i] + '</p>';
             document.getElementById('result' + i).innerHTML += conteudoData;
             document.getElementById('result' + i).innerHTML += '<button onclick="edt(' + "'" + i + "'" + ')">Editar</button>';
             document.getElementById('result' + i).innerHTML += '<button onclick="rmv(' + "'" + i + "'" + ')">Remover</button>';
@@ -89,11 +62,11 @@ function add() {
             conteudoData = '';
             conteudoCate = '';
             conteudoAutor = '';
+            i++;
         }
 
-
-        i++;
     }
+
 
 
 }
@@ -103,21 +76,11 @@ function rmv(hidden) {
 }
 
 function edt(edit) {
-
-
     document.getElementById('input1').value = title[edit];
     document.getElementById('input2').value = resum[edit];
     document.getElementById('input3').value = data[edit];
     document.getElementById('input4').value = cate[edit];
     document.getElementById('input5').value = autor[edit];
-
-    
-    /*     editTitle.push(document.getElementById('input1').value);
-        editResum.push(document.getElementById('input2').value);
-        editData.push(document.getElementById('input3').value);
-        editCate.push(document.getElementById('input4').value);
-        editAutor.push(document.getElementById('input5').value); */
-
     contador = edit;
 
 }

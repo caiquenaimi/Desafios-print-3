@@ -12,13 +12,13 @@
 }
 
 input {
-   border-radius: 30px;
+    border-radius: 30px;
     border: 1px solid #000000;
-    padding: 20px;
+    padding: 5px;
     font-size: 16px;
     margin: 5px;
-    margin-bottom: 15px;
-    opacity: 0.5;
+    margin-top: 5px;
+    width: 17%;
 
 }
 
@@ -414,7 +414,7 @@ h1 {
     margin: 15px;
 }
 
-label button {
+ #btn {
     width: 17%;
     background: transparent;
     border: 2px solid whitesmoke;
@@ -426,7 +426,7 @@ label button {
     border-radius: 15px;
 }
 
-label button:hover {
+ #btn:hover {
     background: #d6d5d5;
     color: black;
     border: solid #333333;
@@ -462,36 +462,4 @@ main section h1 {
 
 main section #date {
     color: #333333;
-}
-/* estilização css painel parte do 'form' */
-#filho{
-    width: 30%;
-height: 50vh;
-    background-color: black;
-    border-radius: 15px;
-    padding: 1%;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    margin-left: 25%;
-}
-#titulo{
-    border-bottom: solid 2px white;
-    width: 30%;
-    margin-left: 35%;
-    margin-bottom: 10%;
-    font-family: Andale Mono;
-    opacity: 0.7;
-}
-input{
-    width: 50%;
-}
-label{
-    font-size: 20px;
-    
-}
-#result0{
-    width: 100%;
-    font-size: 20px;
-
 }
