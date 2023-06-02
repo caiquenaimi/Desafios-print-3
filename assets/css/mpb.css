@@ -462,3 +462,46 @@ p {
 #inv {
     color: #141212;
 }
+
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
+    /* Estilos para dispositivos com largura máxima de 900px */
+
+    * {
+        flex-direction: column;
+    }
+
+    #sobre1 {
+        width: 90%;
+    }
+
+    #hob-title {
+        margin: 2%;
+    }
+
+    .hobbies {
+        width: 90%;
+        height: auto;
+    }
+
+    #skate1,
+    #volei1 {
+        float: none;
+        margin: 2% auto;
+        margin-left: 20%;
+    }
+
+    #logoc {
+        margin-left: 30%;
+    }
+
+
+    #imagemmm {
+        width: 15%;
+        height: 15%;
+    }
+
+    #instap {
+        margin-left: -10%;
+    }
+
+}
