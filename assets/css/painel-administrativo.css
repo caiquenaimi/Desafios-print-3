@@ -515,3 +515,11 @@ button:hover {
         0 0 100px #03e9f4;
     cursor: pointer;
 }
+
+/* responsividade */
+@media (max-width:600px) {
+    .container{
+        width: 70%;
+    
+    }
+}
