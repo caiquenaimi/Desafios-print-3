@@ -158,12 +158,24 @@ header {
     #volei1 {
         float: none;
         margin: 2% auto;
-        margin-left: 20%;
+        margin-left: 25%;
     }
 
     #logoc {
         margin-left: 30%;
     }
+
+    header {
+        background-color: #000;
+        padding: 10px;
+        text-align: center; 
+      }
+    
+      #escritalogo {
+        position: relative;
+        left: 25%;
+        transform: translateX(-50%);
+      }
 
     footer {
         margin-bottom: -5px;
@@ -179,4 +191,5 @@ header {
     #instap {
         margin-left: -10%;
     }
+
 }
