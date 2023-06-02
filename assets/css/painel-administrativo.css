@@ -428,16 +428,21 @@ main section {
     color: white;
     width: 90%;
     border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 main section p {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
-main section h1 {
+main section h2 {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom:2% ;
 
 }
 
@@ -493,11 +498,17 @@ button {
 }
 #btn1:hover{
     background-color: rgb(9, 74, 9);
+   
 }
 #btn2:hover{
    background-color: rgb(86, 10, 10);
 }
-
+#btn2{
+    margin-left: 2%;
+}
+#btn1{
+    margin-left: 45%;
+}
 button:hover {
     background-color: rgb(17, 61, 105);
     box-shadow: 0 0 5px #03e9f4,
