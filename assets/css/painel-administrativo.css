@@ -10,10 +10,6 @@
     margin: 1.5%;
     font-size: 2em;
 }
-
-
-
-
 .linkl {
     text-decoration: none;
     color: white;
@@ -451,6 +447,7 @@ main section #date {
 
 /* estlização da to do list */
 .container{
+    padding-top: 20px;
     margin-left: 30%;
     margin-top: 10%;
     background-color: #000000;
@@ -459,11 +456,16 @@ main section #date {
     0 0 50px #000000,
     0 0 100px #030303;
     width: 30%;
-    height: 50vh;
+    height: 65vh;
     border: solid 3px rgb(17, 61, 105);
+}
+
+h1{
+    font-size: 50px;
 }
 input{
     background-color: #000000;
+    width: 80%;
     border: none;
     padding: 20px;
     border-bottom:solid 2px rgb(57, 56, 56);
@@ -473,7 +475,7 @@ color: #f5f5f5;
 font-size: 20px;
 }
   label{
-    font-size: 20px;
+    font-size: 30px;
    
   }
   button{
