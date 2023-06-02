@@ -24,7 +24,6 @@ section {
     margin: 1%;
 }
 
-
 /*estilização título*/
 h1 {
     color: azure;
@@ -251,9 +250,9 @@ body {
     margin: 10%;
 }
 
-/* #sepimg {
+#sepimg {
     display: flex;
-} */
+}
 
 #title-P {
     margin: 5%;
@@ -268,11 +267,6 @@ h5 {
     color: azure;
 }
 
-/* #not123 {
-    display: flex;
-    margin-bottom: 5%;
-    margin-left: 10%;
-} */
 
 .sec123 {
     width: 40%;
@@ -406,6 +400,7 @@ h2 {
 h1 {
     text-align: center;
 }
+
 /* responsividade */
 @media (max-width:600px) {
     #comments {
@@ -416,42 +411,50 @@ h1 {
         font-size: 14px;
         align-items: center;
     }
+
     .comments123 {
         width: 90%;
     }
-    #div1{
+
+    #div1 {
         display: inline;
-        width: 500% ;
+        width: 500%;
     }
-   .responsivoimg{
-    width: 40%;
-    height: 40%;
-   }
-   #imgrap1 {
-    margin-left: 27%;
-    margin-right: 30%;
-    height: 50%;
-    width:50%;
-}
-   section{
-    text-align: center;
-    align-items: center;
-   }
-   #art01{
-    align-items: center;
-    border-radius: 10px;
-    margin: 15%;
-    width: 70%;
-   }
-   #art02{
-    align-items: center;
-    border-radius: 10px;
-    margin: 15%;
-    width: 70%;
-   }
-   #h51{
-    font-size: 14px;
-   }
+
+    .responsivoimg {
+        width: 40%;
+        height: 40%;
+    }
+
+    #imgrap1 {
+        margin-left: 27%;
+        margin-right: 30%;
+        height: 50%;
+        width: 50%;
+    }
+
+    section {
+        text-align: center;
+        align-items: center;
+    }
+
+    #art01 {
+        align-items: center;
+        border-radius: 10px;
+        margin: 15%;
+        width: 70%;
+    }
+
+    #art02 {
+        align-items: center;
+        border-radius: 10px;
+        margin: 15%;
+        width: 70%;
+    }
+
+    #h51 {
+        font-size: 14px;
+    }
 }
 
 p {
@@ -470,38 +473,9 @@ p {
         flex-direction: column;
     }
 
-    #sobre1 {
-        width: 90%;
-    }
-
-    #hob-title {
-        margin: 2%;
-    }
-
-    .hobbies {
-        width: 90%;
-        height: auto;
-    }
-
-    #skate1,
-    #volei1 {
-        float: none;
-        margin: 2% auto;
-        margin-left: 20%;
-    }
-
-    #logoc {
-        margin-left: 30%;
-    }
-
-
     #imagemmm {
         width: 15%;
         height: 15%;
-    }
 
-    #instap {
-        margin-left: -10%;
     }
-
 }
