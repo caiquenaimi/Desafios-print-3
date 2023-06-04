@@ -173,7 +173,7 @@ header {
     
       #escritalogo {
         position: relative;
-        left: 25%;
+        left: 30%;
         transform: translateX(-50%);
       }
 
@@ -197,7 +197,7 @@ header {
     }
 
     #canva {
-        
+        width: 80%;
     }
 
 }
