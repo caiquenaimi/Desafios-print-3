@@ -1,35 +1,34 @@
+.container {
+    flex-direction: column;
+}
+
+
 #Rafa {
-    display: none;
     margin-left:10%;
     margin-top:2%;
 }
 
 #Giova {
-    display: none;
     margin-left:10%;
     margin-top:2%;
 }
 
 #Caurin {
-    display: none;
     margin-left:10%;
     margin-top:2%;
 }
 
 #Nic {
-    display: none;
     margin-left:10%;
     margin-top:2%;
 }
 
 #Fab {
-    display: none;
     margin-left:10%;
     margin-top:2%;
 }
 
 #Vic {
-    display: none;
     margin-left:10%;
     margin-top:2%;
 }
