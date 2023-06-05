@@ -462,15 +462,15 @@ button:hover {
 /* responsividade */
 @media screen and (max-width:600px) and (min-device-height:400px) {
     .container{
-        width: 100%;
-       border: none;
-      margin-left: 4%;
+        width: 90%;
+ 
+      margin-left: 5%;
     }
     button{
-        width: 40%;
+        width: 50%;
     }
    main section{
-       margin-left: 8%;
+       margin-left: 5%;
     }
   #btn2{
     margin-left: 40%;
