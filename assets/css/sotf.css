@@ -70,12 +70,7 @@ article{/*sombra nos articles*/
     display: flex;
     margin: auto;
 } /*display em linha e margem automatica*/
-.banner1:hover{
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all 1s;
-    cursor: pointer;
-} /*hover do baner mudando cor de fundo e cursor*/
+
 #bannerprincipal {
     display: flex;
     background-color: #141212;
@@ -105,7 +100,7 @@ main{
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
-} /*hover com mudança de cursor e de cor de fundo*/
+}
 #section01{
     margin: 5%;
     padding: none;
@@ -299,7 +294,8 @@ a{
     display: inline;
 }
 #news{
-    width: 90%;
+    margin-left: 10%;
+    width: 80%;
     padding: 1%;
 }
 .banner1{
@@ -309,8 +305,8 @@ a{
 
 }
 #mainnews{
-   
-    margin-right: 70%;
+   margin-left: 3%;
+  
 }
 .principal{
     margin-left: 2%;
