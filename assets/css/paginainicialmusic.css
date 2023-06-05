@@ -11,7 +11,7 @@ body {
         font-size: 14px;
     }
     footer{
-        width: 110%;
+        width: 120%;
         height: 100%;
     }
 }
@@ -20,6 +20,7 @@ body {
 header {
     display: flex;
     background-color: black;
+
 }
 
 
@@ -103,6 +104,9 @@ main {
     #shakira{
         order: 1;
         margin-left: 8%;
+    }
+    header{
+        width: 120%;
     }
 }
 
