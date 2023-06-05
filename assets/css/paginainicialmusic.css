@@ -139,6 +139,9 @@ h5 {
         text-align: center;
 
     }
+    footer{
+        position: fixed;
+    }
 
 }
 
