@@ -123,7 +123,7 @@ h5 {
     display: flex;
     margin: auto;
 }
-@media (max-width:600px) {
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
     #main1{
         display: inline;
         align-items: center;
