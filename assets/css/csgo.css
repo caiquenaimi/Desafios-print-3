@@ -160,11 +160,14 @@ p {
  #mainnews{
     margin-left: 3%;
  }
+ #section01{
+    margin-top: 10%;
+ }
     .comments{
         display: inline;
     }
     #detalhe{
-        margin-left: 3%;
+        margin-left: 4%;
     }
     #tt2{
         width: 90%;
