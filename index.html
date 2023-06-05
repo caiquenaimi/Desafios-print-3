@@ -6,6 +6,7 @@
     <title>PsiOmega</title>
     <link rel="stylesheet" href="assets/css/testecarousel.css" type="text/css">
     <link href="assets/css/paginainicialvestibular.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="assets/javascript/slider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!--linkar o css da pagina a ela-->
     <link rel="stylesheet" href="assets/css/menu2.css" type="text/css">
@@ -142,24 +143,24 @@
     <main id="mmm">
         <h1>Ultimas Noticias</h1>
         <div class="slider">
-            <button onclick="desavancar()"><</button>
+            <button id="prev-btn" onclick="desavancar()"><img width="25px" height="25px" src="./assets/images/arrow-branco.png"></button>
 
             <!--                 <img src="assets/images/Captura de tela 2023-03-27 103145.png" id="img1" width="20%"
                     alt=""> -->
             <a id="img1" href="pages/noticiaobb.html"><img src="assets/images/Enem2023.png" alt="banner da noticia"
-                    class="item"></a>
+                    ></a>
             <a id="img2" href="pages/literatura/noticiaa1.html"><img src="assets/images/kindle.webp"
-                    alt="banner da noticia" class="item"></a>
+                    alt="banner da noticia" ></a>
             <a id="img3" href="pages/musica/noticiashakira.html"><img
                     src="assets/images/shakira-world-record-billboard-1548.webp" alt="banner da noticia"></a>
             <a id="img4" href="pages/arte/exposição.html"><img src="assets/images/exposições.jfif"
-                    alt="banner da noticia" class="item "></a>
+                    alt="banner da noticia"></a>
             <a id="img5" href="pages/jogos/noticiaprincipaljogos.html"> <img src="assets/images/novo-mapa-fortnite.jfif"
                     alt="banner da noticia"></a>
             <a id="img6" href="pages/esportes/noticiaesporte1.html"><img src="assets/images/noticia-secundaria.jpg"
                     alt="banner da noticia"></a>
             <!--   <img src="assets/images/Captura de tela 2023-03-27 103145.png" id="img7" alt=""> -->
-            <button onclick="avancar()">></button>
+            <button id="next-btn" onclick="avancar()"><img width="25px" height="25px" src="./assets/images/arrow-branco.png"></button>
         </div>
     </main>
     <script src="assets/javascript/carouseltest.js"></script>
@@ -210,7 +211,7 @@
         <article id="comments">
             <section class="comments123">
                 <img src="assets/images/cisar.jfif" id="perfil" width="64px" height="64px">
-                <div>
+                <div id="isadora">
                     <h3 id="nome">
                         Angel of the night
                     </h3>
@@ -234,7 +235,7 @@
             </section>
             <section class="comments123">
                 <img src="assets/images/logo2.png" id="perfil" width="64px" height="64px">
-                <div>
+                <div id="isadora">
                     <h3 id="nome">
                         M. Rita
                     </h3>
@@ -256,7 +257,7 @@
             </section>
             <section class="comments123">
                 <img src="assets/images/logo2.png" id="perfil" width="64px" height="64px">
-                <div>
+                <div id="isadora">
                     <h3 id="nome">
                         Livia Belão
                     </h3>

@@ -221,11 +221,11 @@ header {
 }
 
 /*Ajuste no posicionamneto da logo com a escrita da equipe.*/
-#img1 {
+/* #img1 {
     margin: 5%;
     margin-left: 5%;
 }
-
+ */
 /*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/
 #link1 {
     padding: 0%;
@@ -283,6 +283,7 @@ ul {
     .banner1 {
         padding: 10px;
     }
+
 }
 
 @media (max-width:450px) {
