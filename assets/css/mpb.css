@@ -472,10 +472,4 @@ p {
     * {
         flex-direction: column;
     }
-
-    #imagemmm {
-        width: 15%;
-        height: 15%;
-
-    }
 }
