@@ -169,11 +169,6 @@ h5 {
     border-radius: 10px;
 }
 
-#news:hover {
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
 
 /*ajuste da posição imagem veigh*/
 #veigh {

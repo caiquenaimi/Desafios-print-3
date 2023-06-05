@@ -106,26 +106,14 @@ h4 {
 
 /*hover do banner primeira recomendação cantor */
 #art02:hover {
-
     transition: all .6s;
     cursor: pointer;
 }
-
 #art01:hover {
 
     transition: all .6s;
     cursor: pointer;
 }
-
-
-/*hover banner principal com o tema da categoria*/
-#artprinc:hover {
-
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
 #div1:hover {
     transition: all .6s;
     cursor: pointer;
