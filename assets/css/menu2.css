@@ -9,7 +9,7 @@ a {
     display: block;
 }
 
-a:hover {
+nav a:hover {
     background-color: rgb(33, 33, 33);
 }
 
@@ -51,11 +51,12 @@ nav {
 }
 
 /*tirar a borda da imagem*/
+
 img {
     border: none;
 }
 
-label {
+header label {
     position: absolute;
     padding: 15px;
     z-index: 1;
@@ -99,3 +100,4 @@ nav ul li:hover .sub-menu ul li{
     width: 225px;
    transition: 10.0s;
 }
+

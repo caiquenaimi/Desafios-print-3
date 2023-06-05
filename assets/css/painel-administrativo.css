@@ -11,17 +11,6 @@
     font-size: 2em;
 }
 
-.linkl {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-
-.linkl:hover {
-    background-color: rgb(33, 33, 33);
-}
-
 
 #bb1 {
     background-color: black;
@@ -29,36 +18,9 @@
 
 }
 
-input[type="checkbox"] {
-    display: none;
-}
 
-#ulprinc {
-    list-style: none;
-    top: 70px;
-    position: absolute;
-    width: 100%;
-}
 
-nav {
-    background-color: rgba(00, 00, 00, 1);
-    width: 250px;
-    height: 100%;
-    position: absolute;
-    left: -250px;
-    transition: all 1.0s;
-}
 
-input[type="checkbox"]:checked~nav {
-    transform: translateX(250px);
-
-}
-
-#label1 {
-    position: absolute;
-    padding: 15px;
-    z-index: 1;
-}
 
 .seta {
     width: 10px;
@@ -168,22 +130,9 @@ header {
     margin-top: 1%;
 }
 
-.logol {
-    padding: -200px;
-}
 
 #iconr:hover {
     animation: loading 1s linear infinite;
-}
-
-@keyframes loading {
-    0% {
-        transform: rotate(0);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
 }
 
 a {
@@ -197,11 +146,6 @@ h1 {
     font-size: 15px;
 }
 
-
-header {
-    display: flex;
-    background-color: black;
-}
 
 #iconr {
     float: right;
@@ -484,7 +428,6 @@ input {
 
 label {
     font-size: 30px;
-
 }
 
 button {
