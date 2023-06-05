@@ -84,6 +84,3 @@ function edt(edit) {
     contador = edit;
 
 }
-
-
-
