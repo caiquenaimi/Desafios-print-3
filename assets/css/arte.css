@@ -1,13 +1,7 @@
 body {
     background-color: #222020;
     color: whitesmoke;
-    text-align: center;
 } /*cor das letras e alinhamento de centro*/
-header {
-    display: flex;
-    padding: 0%;
-    background-color: black;
-} /*cor do backgorund do header e definição do padding junto com a disposição de alinhamento*/
 a {
     text-decoration: whitesmoke;
     color: whitesmoke;
@@ -43,10 +37,6 @@ article{
     float: right;
     margin-bottom: 0%;
 } /* tamanho definido da div da imagem em 50% par aajeitar a maneira a qual está disposta*/
-#escritalogo {
-    margin-left: -70%;
-    border: none;
-} /*alinhamento da logo central no meio com o distanciamento lateral da esquerda*/
 #desenho {
    float: right;
    border: none;
@@ -89,7 +79,7 @@ main{
     color: azure;
 } /*tamanho da fonte e cor da letra*/
 #news{
-    width: 100%;
+    width: 33%;
     align-items: center;
     text-align: justify;
     background-color: #141212;
@@ -174,6 +164,7 @@ border: none;
     margin: 3%;
     margin-left: 10%;
     margin-top: -0.5%;
+
     /*isso define distanciamento*/
 }
 #veigh{
@@ -183,4 +174,22 @@ border: none;
 
 .arrumarimg {
     margin-left:-15%;
+}
+
+
+@media (max-width: 768px) {
+    #shakira {
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width: 450px) {
+    #shakira {
+        margin: 0;
+    }
+
+    #Centralizar {
+        text-align: center;
+    }
 }

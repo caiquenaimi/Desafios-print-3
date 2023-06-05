@@ -23,9 +23,15 @@
     margin-right: -3%;
 }
 /*Ajustes da dimensão e posicionamneto do banner animado com as imagens, em relação ao corpo do site*/#mm{
-    margin-left: 31%;
+    display: flex;
+    justify-content: center;
     margin-top: 3%;
    align-items: center;
    
   
 }
+
+@media (max-width:450px) {
+
+}
+

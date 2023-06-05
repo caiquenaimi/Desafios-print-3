@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containerNoticiaArtes {
+    display: flex;
+}
+
+.containerNoticiaArtes h1 {
+    color: #257683;
+}
+
+.containerNoticiaArtes section {
+    width: 33%;
+    height: auto;
+    padding: 10px;
+    box-shadow: 10px 14px 23px 5px #d9d6d947;
+    border-radius: 5%;
+    margin: 0px 10px;
+}
+
+.containerNoticiaArtes section img {
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+}
+
+#publicado {
+    color: #257683;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width:768px) {
+    .containerNoticiaArtes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerNoticiaArtes section {
+        width: 80%;
+        margin: 10px 0;
+        box-shadow: 10px 14px 23px 5px #d9d6d947;
+    }
+
+    .containerNoticiaArtes section img {
+        height: 260px;
+        object-fit: contain;
+    }
+    
+}
