@@ -42,3 +42,9 @@ h3 {
     margin-top: 5%;
 }
 
+@media (max-width:768px) {
+    article {
+        margin: 0;
+        border-radius: 0;
+    }
+}
