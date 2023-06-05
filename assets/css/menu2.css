@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -100,20 +99,3 @@ nav ul li:hover .sub-menu ul li{
     width: 225px;
    transition: 10.0s;
 }
-
-@media screen and (max-width: 900px) and (min-device-height: 400px) {
-
-    header {
-        background-color: #000;
-        padding: 10px;
-        text-align: center; 
-      }
-    
-      #escritalogo {
-        position: relative;
-        left: 30%;
-        transform: translateX(-50%);
-      }
-}
-
-

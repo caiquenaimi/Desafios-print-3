@@ -78,8 +78,8 @@ article{/*sombra nos articles*/
     
 }
 h3{
-    color: #257683;
-    font-size: 20px;
+    color: #33b3c6; 
+       font-size: 20px;
     margin-bottom: 1%;
 }
 #materiaprincipal{
@@ -106,7 +106,7 @@ main{/*arrumando a main*/
 #title1 {/*alterando o titulo da notcia*/
     font-family: Bernard MT Condensed;
     font-size: 38px;
-    color: #257683;
+    color: #33b3c6;
 }
 #news{/*alterando a noticia*/
     width: 100%;
@@ -137,12 +137,12 @@ p {/*alterando dont family dos paragrafos*/
 }
 h2 {/*alterando os h2*/
     margin-top: 5%;
-    color: #257683;
+    color: #33b3c6;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h5 {/*mudando cor dos h5*/
-    color: #257683;
+    color: #33b3c6;
     margin-top: 3%;
 }
 #mainnews0 {/*arrumando as noticias*/
