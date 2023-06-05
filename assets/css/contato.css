@@ -78,23 +78,33 @@ article {
     margin: 0;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width:600px) and (min-device-height:400px) {
     article{
-        width: 80%;
-        margin-top: 15%;
+        padding: 2%;
+        width: 90%;
+        margin-top: 20%;
+        height: 82vh;
     }
     #caixatext1{
         width: 100%;
         padding: 7%;
-       height: 10vh;
-
+       height: 5vh;
+margin-top: 10%;
     }
     #mensag{
-        width: 80%;  
+        width: 85%;  
        height: 20vh;
     }
     #buttão{
-        width: 110%;
+        margin-top: 20%;
+        width: 100%;
     }
+    #escritalogo{
+        margin-left: 20%;
+    }
+  .labels{
+    display: none;
+  }
+   
 
 }
