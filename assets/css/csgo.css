@@ -141,28 +141,35 @@ p {
         width: 90%;
       
         margin-left: 5%;
-       margin-top: 10vh;
+       margin-top: 5%;
        font-size: 16px;
         height: 60vh;
     }
     .banner1{
-        padding: 3vh;
+        margin-right: 4%;
+        padding: 3%
     }
     .banner2{
-        padding: 3vh;
+        margin-right: 4%;
+      padding: 3%;
     }
 
    #bannerprincipal{
         width: 90%; 
-    
-        margin-top: 5vh;
-         
+     margin-left: 5%;   
     }
- 
+ #mainnews{
+    margin-left: 3%;
+ }
     .comments{
         display: inline;
- 
-        
+    }
+    #detalhe{
+        margin-left: 3%;
+    }
+    #tt2{
+        width: 90%;
+        margin-left: 5%;
     }
     .comments123{
         width: 90%;
@@ -174,22 +181,7 @@ p {
     h4{
         margin-top: 3%;
         margin-bottom: 3%;
-    
         font-size: 22px;
-    
         text-align: center;
     }
-    header {
-        width: 100%;
-   
-        background-color: black;
-            }
-   #imgheader2{
-    display: none;
-   }
-
-   #mainnews{
-    width: 70%;
-    margin-right: 30%;
-   }
 }
