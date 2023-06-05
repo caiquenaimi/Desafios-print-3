@@ -155,6 +155,28 @@ h5 {
         margin-left: 60%;
         
     }
+    header {
+        width: 110%;
+        height: 100%;
+    }
+
+    #veigh {
+        height: 50%;
+        width: 50%;
+        margin-top: 8%;
+    }
+
+    #coldplay {
+        height: 50%;
+        width: 50%;
+        margin-top: 8%;
+    }
+    #a1 {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: auto;
+    }
 
 }
 
