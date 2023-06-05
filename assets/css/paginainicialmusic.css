@@ -6,20 +6,23 @@ body {
 
 }
 
-@media screen and (max-width: 900px) and (min-device-height: 400px) {
+@media (max-width:600px) {
     body {
         font-size: 14px;
     }
 }
 
+/*ajustes na estilização do header*/
 header {
     display: flex;
     background-color: black;
 }
 
+#link1:hover {
+    background-color: black;
+}
 
-
-
+/*Estilização do box shadow dos banners e ajuste na posição*/
 article {
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
@@ -35,23 +38,27 @@ article {
     display: flex;
 }
 
+/*ajuste na posição da imagem*/
 #imgheader0 {
     margin: auto;
     margin-bottom: 0%;
 }
 
+/*ajuste na posição da imagem*/
 #imgheader {
     width: 50%;
     margin: auto;
     margin-bottom: 0%;
 }
 
+/*centralizar logo e tirar a borda*/
 #escritalogo {
     margin-left: -70%;
     border: none;
 
 }
 
+/*ajuste na logo com o link*/
 #desenho {
     float: right;
     border: none;
@@ -78,7 +85,7 @@ main {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 900px) and (min-device-height: 400px) {
+@media (max-width:600px) {
     #bannerprincipal {
         display: inline;
         background-color: #141212;
@@ -124,25 +131,11 @@ h5 {
     margin: auto;
 }
 
-@media screen and (max-width: 900px) and (min-device-height: 400px) {
+@media (max-width:600px) {
     #main1 {
         display: inline;
         align-items: center;
     }
-
-    #imgm {
-        width: 50%;
-        height: 50%;
-    }
-
-    #centralizarimg {
-        text-align: center;
-
-    }
-    footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
 
 }
 
@@ -170,15 +163,102 @@ h5 {
     border-radius: 10px;
 }
 
+#news:hover {
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
 
+/*ajuste da posição imagem veigh*/
 #veigh {
     height: 4.5cm;
     width: 5cm;
     margin-top: 8%;
 }
 
+/*ajuste da posição imagem coldplay*/
 #coldplay {
     margin-top: 25%;
     height: 4.5cm;
 }
+
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
+
+    #main1 {
+        display: inline;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    #imgm {
+        width: 50%;
+        height: 50%;
+    }
+
+    #centralizarimg {
+        text-align: center;
+
+    }
+
+    /* footer.css */
+    footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    #news {
+        width: 100%;
+        align-items: center;
+        text-align: justify;
+        background-color: #141212;
+        margin: 5%;
+        border-radius: 10px;
+    }
+
+    #section01 {
+        margin: 5%;
+        padding: none;
+    }
+
+    #veigh {
+        height: 50%;
+        width: 50%;
+        margin-top: 8%;
+    }
+
+    #coldplay {
+        height: 50%;
+        width: 50%;
+        margin-top: 8%;
+    }
+
+    #bannerprincipal {
+        display: inline;
+        background-color: #141212;
+        margin: 10%;
+        border-radius: 10px;
+
+    }
+
+
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
