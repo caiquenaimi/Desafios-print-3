@@ -10,6 +10,10 @@ body {
     body {
         font-size: 14px;
     }
+    footer{
+        width: 110%;
+        height: 100%;
+    }
 }
 
 /*ajustes na estilização do header*/
