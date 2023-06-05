@@ -262,7 +262,7 @@ p {
 .comments1{
     text-align: center;
 }
-@media (max-width: 600px) {
+@media screen and (max-width:600px) and (min-device-height:400px)  {
     .banner1{
         display: inline;
         padding: 2%;
@@ -287,5 +287,9 @@ p {
     }
     #escritalogo{
         margin-left: 30%;
+    }
+    #tt2{
+        width: 80%;
+        margin-left: 10%;
     }
 }
