@@ -2,11 +2,11 @@ body {
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
-    
-    
+
+
 }
 
-@media (max-width:600px) {
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
     body {
         font-size: 14px;
     }
@@ -78,7 +78,7 @@ main {
     border-radius: 10px;
 }
 
-@media (max-width:600px) {
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
     #bannerprincipal {
         display: inline;
         background-color: #141212;
@@ -123,18 +123,21 @@ h5 {
     display: flex;
     margin: auto;
 }
+
 @media screen and (max-width: 900px) and (min-device-height: 400px) {
-    #main1{
+    #main1 {
         display: inline;
         align-items: center;
     }
-    #imgm{
+
+    #imgm {
         width: 50%;
         height: 50%;
     }
-    #centralizarimg{
+
+    #centralizarimg {
         text-align: center;
-      
+
     }
 
 }
