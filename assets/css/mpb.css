@@ -393,6 +393,7 @@ h1 {
 @media (max-width:600px) {
     #comments {
         display: inline;
+      
     }
 
     body {
