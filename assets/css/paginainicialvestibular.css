@@ -11,6 +11,12 @@ header {
     display: flex;
     padding: 0%;
 }
+/*Estilização do box shadow dos banners*/
+article{
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+}
 
 /*Estilização do box shadow dos banners*/
 article {
@@ -29,13 +35,15 @@ article {
     display: flex;
     margin-bottom: 0%;
 }
-
 /*Ajustes de posição da section do botão do menu no header*/
 #header01 {
     width: 20%;
     margin-top: auto;
 }
 
+/*Estilização da logo escrita no centro do header*
+/#escritalogo {
+=======
 /*Estilização da logo escrita no centro do header*/
 #escritalogo {
     margin: 0%;

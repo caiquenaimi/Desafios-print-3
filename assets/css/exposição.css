@@ -81,6 +81,9 @@ img {
 }
 
 #imgheader {
+    margin-top:-1.5%;
+}
+
     margin-top: -1.5%;
 }
 
@@ -101,7 +104,4 @@ img {
         margin-right: 0;
         margin-left: 0;
     }
-
-
-
 }
