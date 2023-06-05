@@ -141,7 +141,7 @@ p {
         width: 90%;
       
         margin-left: 5%;
-       margin-top: 10vh;
+       margin-top: 5%;
        font-size: 16px;
         height: 60vh;
     }
@@ -163,8 +163,13 @@ p {
  }
     .comments{
         display: inline;
- 
-        
+    }
+    #detalhe{
+        margin-left: 3%;
+    }
+    #tt2{
+        width: 90%;
+        margin-left: 5%;
     }
     .comments123{
         width: 90%;
