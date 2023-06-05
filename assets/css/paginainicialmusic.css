@@ -139,9 +139,10 @@ h5 {
         text-align: center;
 
     }
-    footer{
-        position: fixed;
-    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
 
 }
 
@@ -179,4 +180,5 @@ h5 {
 #coldplay {
     margin-top: 25%;
     height: 4.5cm;
+}
 }
