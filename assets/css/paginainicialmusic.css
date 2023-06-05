@@ -102,6 +102,7 @@ main {
     }
     #shakira{
         order: 1;
+        margin-left: 8%;
     }
 }
 
@@ -145,6 +146,9 @@ h5 {
     #main1 {
         display: inline;
     }
+    #centralizarimg{
+        text-align: center;
+    }
 
     #imgm {
         width: 50%;
@@ -178,12 +182,10 @@ h5 {
         width: 50%;
         margin-top: 8%;
     }
-    #a1 {
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-        width: auto;
-    }
+  
+ #news{
+    width: 70%;
+ }
 
 }
 
