@@ -61,24 +61,20 @@ article{/*sombra nos articles*/
 .banner1 {/*arrumando primeira noticia*/
     display: flex;
     margin: auto;
-    
+    padding: 2%;
+   
 }
-.banner1:hover{/*utilizando o hover para dar uma estetica melhor*/
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all 1s;
-    cursor: pointer;
-}
+
 #bannerprincipal {/*arrumando a noticia*/
     display: flex;
     background-color: #141212;
     margin: 5%;
-    
-    border-radius: 5%;
+    border-radius: 20px;
+  
     
 }
 h3{
-    color: #33b3c6; 
+    color: #5cd3e6; 
        font-size: 20px;
     margin-bottom: 1%;
 }
@@ -106,7 +102,7 @@ main{/*arrumando a main*/
 #title1 {/*alterando o titulo da notcia*/
     font-family: Bernard MT Condensed;
     font-size: 38px;
-    color: #33b3c6;
+    color: #5cd3e6;
 }
 #news{/*alterando a noticia*/
     width: 100%;
@@ -137,12 +133,12 @@ p {/*alterando dont family dos paragrafos*/
 }
 h2 {/*alterando os h2*/
     margin-top: 5%;
-    color: #33b3c6;
+    color: #5cd3e6;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h5 {/*mudando cor dos h5*/
-    color: #33b3c6;
+    color: #5cd3e6;
     margin-top: 3%;
 }
 #mainnews0 {/*arrumando as noticias*/
