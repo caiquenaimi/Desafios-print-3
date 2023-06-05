@@ -160,7 +160,10 @@ header {
         margin: 2% auto;
         margin-left: 25%;
     }
-
+    .container{
+        margin-left: 5%;
+        margin-right: 10%;
+    }
     #logoc {
         margin-left: 30%;
     }
@@ -189,16 +192,18 @@ header {
     }
 
     #instap {
-        margin-left: -10%;
+        margin-left: -5%;
     }
 
     #gif {
-        margin-left: -30%;
+        margin-left: -20%;
     }
 
     #canva {
         width: 80%;
     }
-
+#hobbies{
+    margin-right: 15%;
+}
 
 }
