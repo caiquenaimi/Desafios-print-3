@@ -43,7 +43,7 @@ body {
     text-align: justify;
 }
 
-#principal1 {
+#bannerprincipal {
     width: 80%;
     margin: auto;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -186,7 +186,10 @@ h1 {
     flex-direction: column;
 }
 
+
 @media (max-width:768px) {
+
+
     #comments {
         flex-direction: column;
     }
@@ -200,4 +203,23 @@ h1 {
         width: 100%;
     }
 
+    #not123 {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .sec123 {
+        width: 80%;
+        box-shadow: none;
+    }
+
+
+}
+
+@media (max-width:450px) {
+    .comments123 {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
