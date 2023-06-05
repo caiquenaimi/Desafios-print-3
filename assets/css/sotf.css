@@ -70,12 +70,7 @@ article{/*sombra nos articles*/
     display: flex;
     margin: auto;
 } /*display em linha e margem automatica*/
-.banner1:hover{
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all 1s;
-    cursor: pointer;
-} /*hover do baner mudando cor de fundo e cursor*/
+
 #bannerprincipal {
     display: flex;
     background-color: #141212;
@@ -105,7 +100,7 @@ main{
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
-} /*hover com mudança de cursor e de cor de fundo*/
+}
 #section01{
     margin: 5%;
     padding: none;
@@ -285,48 +280,49 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    color: whitesmoke;
 }
-@media (max-width: 600px) {
+@media screen and (max-width:600px) and (min-device-height:400px) {
  
-  #comments1{
-    margin-left: 10%;
-    display: inline;
-  }
-  .comments123{
-    margin-left: 3%;
-    width: 90%;
-  }
+    #comments1{
+        display: inline;
+        
+            }
+     .comments123{
+      width: 90%;
+                margin-left: 4%;
+       }
 #main1{
     display: inline;
 }
 #news{
+    margin-left: 10%;
+    width: 80%;
     padding: 1%;
 }
 .banner1{
     display: inline;
-    padding: 2%;
-    width: 100%;
+ 
+    width: 95%;
 
 }
 #mainnews{
-    margin-left: 2%;
-
+   margin-left: 3%;
+  
 }
 .principal{
-    margin-left: 10%;
+    margin-left: 2%;
 }
 
-*{
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
+
 #detalhe{
-    margin-left: 8%;
+    margin-left: 2%;
 }
 #tt2{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 #tt3{
-    margin-left: 10%;  
+    margin-left: 4%;  
+}
+#escritalogo{
+    margin-left: 30%;
 }
 }

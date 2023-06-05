@@ -65,12 +65,7 @@ article{/*sombra nos articles*/
     display: flex;
     margin: auto;
 } /*display em linha e margem automatica*/
-.banner1:hover{
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all 1s;
-    cursor: pointer;
-} /*hover do baner mudando cor de fundo e cursor*/
+
 #bannerprincipal {
     display: flex;
     background-color: #141212;
@@ -101,12 +96,7 @@ main{
     margin: 5%;
     border-radius: 5%;
 } /*borda arredondada e distanciamento geral com cor de fundo*/
-#news:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-} /*hover com mudança de cursor e de cor de fundo*/
+
 #section01{
     margin: 5%;
     padding: none;
@@ -152,12 +142,7 @@ h5 {
     text-align: center;
     border-radius: 5%;
 } /*distanciamente geral ao redor item e display em linha background color ealinhamento dos itens do negocio */
-.lastnews:hover{
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-} /*alteração no cursor e cor de fundo junto com o hover*/
+
 #main02 {
     background-color: #141212;
     margin: auto;
@@ -203,9 +188,7 @@ img {
     margin-bottom: 0%;
 
 }
-/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/#link1:hover {
-    background-color: black;
-}
+/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/
 /*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments {
     width: 100%;
     height: 100%;
@@ -293,7 +276,7 @@ p {
     #news{
         width: 80%;
         padding: 2%;
-        margin-left: 8%;
+        margin-left: 10%;
     }
     #comments1{
         display: inline;
@@ -302,5 +285,7 @@ p {
         width: 90%;
         margin-left: 4%;
     }
-  
+    #escritalogo{
+        margin-left: 30%;
+    }
 }
