@@ -4,8 +4,7 @@
     margin: 0;
 }
 
-
-body {
+ main body {
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
@@ -262,7 +261,6 @@ header {
 
     }
 }
-/*Ajuste do posicionamento das estrelas*/
 #estrela {
     margin: 0%;
 }
@@ -280,4 +278,26 @@ p {
 
 ul {
     background-color: black;
+}
+
+
+
+@media (max-width:768px) {
+    main h2 {
+        margin: 10px 10px 0 10px;
+    }
+
+    article {
+        box-shadow: none;
+    }
+
+    .banner1 {
+        padding: 10px;
+    }
+}
+
+@media (max-width:450px) {
+    .banner1 {
+        flex-direction: column;
+    }
 }

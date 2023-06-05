@@ -3,6 +3,10 @@ header {
     background-color: black;
 }
 
+img {
+    object-fit: contain;
+}
+
 #iconr {
     float: right;
 }
@@ -198,4 +202,23 @@ h1 {
 #pcar {
     display: flex;
     flex-direction: column;
+
+
+}
+
+@media (max-width:768px) {
+    #comments {
+        flex-direction: column;
+    }
+
+    .comments123 {
+        width: auto;
+        border-radius: 0;
+    }
+
+    #isadora {
+        width: 100%;
+    }
+
+
 }
