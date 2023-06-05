@@ -299,13 +299,16 @@ a{
 
 @media (max-width: 600px) {
     #comentarios{
-        width: 80%;
-        margin-left: 8%;
+        width: 90%;
+        margin-left: 5%;
         padding: 3%;
     }
     #comments1{
 display: inline;
 
+    }
+    #escritalogo{
+        margin-left: 30%;
     }
    .comments123{
     width: 90%;
@@ -328,12 +331,14 @@ display: inline;
     border-radius: 15px;
  }
 #mainnews{
-    margin-left: 8%;
+    margin-left: 7%;
 }
-  
+  #imgprincipal{
+    width: 80%;
+  }
    #news{
     width: 80%;
-    margin-left: 8%;
+    margin-left: 10%;
     padding: 2%;
    }
    #title1{
