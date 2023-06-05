@@ -67,6 +67,8 @@ section {
 
 #art02 {
     width: 33%;
+    
+
 }
 
 #pa04 {
@@ -76,10 +78,10 @@ section {
 }
 
 #art02:hover {
-    background-color: #5c5757;
     outline: double whitesmoke;
     transition: all .6s;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 #pa05 {
@@ -101,7 +103,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 10px;
     margin: 5%;
     width: 33%;
 }

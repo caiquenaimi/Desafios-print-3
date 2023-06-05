@@ -1,5 +1,10 @@
 /*Estilização do plano de fundo e da cor dos textos com conteudo*/
-body {
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ main body {
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
@@ -249,7 +254,13 @@ header {
     margin: 0%;
 }
 
-/*Ajuste do posicionamento das estrelas*/
+@media (max-width:600px) {
+    #comments{
+        width: 140%;
+        height: 140%;
+
+    }
+}
 #estrela {
     margin: 0%;
 }

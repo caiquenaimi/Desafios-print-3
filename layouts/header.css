@@ -15,7 +15,7 @@
 }
 
 
-#bb1{
+#bb1 {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -52,37 +52,43 @@ label {
     z-index: 1;
 }
 
-.seta{
+.seta {
     width: 10px;
-    top:84px;
-    margin-left:5% ;
+    top: 84px;
+    margin-left: 5%;
 
 }
 
 
-.sub-menu{
+.sub-menu {
     display: none;
     margin-left: 10%;
     background-color: black;
-    }
-nav ul li:hover .sub-menu{
-    display: block;
-    }
-nav ul li:hover .sub-menu ul{
+}
+
+nav ul li:hover .sub-menu {
     display: block;
 }
-nav ul li:hover .sub-menu ul li{
+
+nav ul li:hover .sub-menu ul {
+    display: block;
+}
+
+nav ul li:hover .sub-menu ul li {
     width: 225px;
-   transition: 10.0s;
+    transition: 10.0s;
 }
-ul{
+
+ul {
     list-style: none;
     transition: all 1s;
 }
-li{
+
+li {
     list-style: none;
     background-color: black;
 }
+
 img {
     border: none;
 }
@@ -95,33 +101,40 @@ img {
     margin-top: auto;
     display: flex;
 }
-#header01{
+
+#header01 {
     width: 20%;
     margin-top: auto;
 }
+
 #imgheader0 {
     margin: auto;
     margin-bottom: 0%;
 }
+
 #imgheader {
     width: 50%;
     margin: auto;
     margin-bottom: 0%;
 }
-#imgheader2{
+
+#imgheader2 {
     width: 50%;
     float: right;
     margin-bottom: 0%;
 }
+
 #escritalogo {
     margin-left: 10%;
     border: none;
-    
+
 }
+
 #desenho {
-   float: right;
-   border: none;
+    float: right;
+    border: none;
 }
+
 #bltmenu {
     border: none;
     float: left;
@@ -148,7 +161,7 @@ header {
 }
 
 .logol {
-    padding:-200px;
+    padding: -200px;
 }
 
 #iconr:hover {
@@ -156,14 +169,24 @@ header {
 }
 
 @keyframes loading {
-	0% {
-		transform: rotate(0);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
+}
+
+@media (max-width:600px) {
+    #iconmenu {
+        width: 8%;
+        height: 8%;
+        margin-top: -14px;
+    }
+
 }

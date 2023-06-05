@@ -3,42 +3,45 @@ body {
     background-color: #222020;
 }
 
-/*Estilização dos paragrafos*/p {
+/*Estilização dos paragrafos*/
+p {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /*Estilização dos paragrafos descrição da música*/
-#p1{
+#p1 {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10%;
     font-size: 17px;
 }
+
 /*Ajustes de posição da section*/
 section {
     align-items: center;
     text-align: center;
     margin: 1%;
 }
-/*alinhamento geral*/
-main{
-    display: flex;
-}
+
 /*estilização título*/
-h1{
+h1 {
     color: azure;
     font-family: Bernard MT Condensed;
 }
+
 /*estilização subtítulo artista responsável pela música indicada*/
 h4 {
     color: moccasin;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /*Ajuste da posição dos títulos*/
-#h1princ{
+#h1princ {
     margin-top: 5%;
 }
+
 /*Ajuste da posição e estilização das datas da publicação*/
 #h51 {
     text-align: left;
@@ -46,6 +49,7 @@ h4 {
     margin-left: 1%;
     margin-bottom: 2%;
 }
+
 /*Estilização do box shadow dos banners e ajuste na posição*/
 #art01 {
     background-color: #141212;
@@ -53,10 +57,11 @@ h4 {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 10px;
     margin: 5%;
     width: 33%;
 }
+
 /*Estilização do box shadow dos banners e ajuste na posição*/
 #artprinc {
     background-color: #141212;
@@ -64,15 +69,17 @@ h4 {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 10px;
     margin: 5%;
-    
+
 }
+
 /*ajuste da posição da imagem primeiro banner mpb */
 #img01 {
     margin-left: 34%;
-    margin-right: 34% ;
+    margin-right: 34%;
 }
+
 /*Estilização do box shadow dos banners e ajuste na posição*/
 #art02 {
     background-color: #141212;
@@ -81,8 +88,9 @@ h4 {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 5%;
+    border-radius: 10px;
 }
+
 /*ajuste da posição da imagem da cantora rita lee*/
 #img02 {
     text-align: center;
@@ -90,31 +98,38 @@ h4 {
     align-items: center;
     border: outset whitesmoke;
 }
+
 /*ajuste da posição banner primeira recomendação cantor*/
 #art02 {
     width: 33%;
 }
+
 /*hover do banner primeira recomendação cantor */
 #art02:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
     transition: all .6s;
     cursor: pointer;
 }
-/*hover banner principal com o tema da categoria*/
-#artprinc:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
+#art01:hover {
+
     transition: all .6s;
     cursor: pointer;
 }
+#div1:hover {
+    transition: all .6s;
+    cursor: pointer;
+}
+
+#div1 {
+    display: flex;
+}
+
 /*ajuste da posição da imagem cantor*/
 #img03 {
     text-align: center;
     margin: 2%;
     align-items: center;
-    border: outset whitesmoke;
 }
+
 /*ajuste da posição da imagem cantor*/
 #img04 {
     text-align: center;
@@ -122,6 +137,7 @@ h4 {
     align-items: center;
     border: outset whitesmoke;
 }
+
 /*ajuste da posição e borda da música*/
 #img05 {
     text-align: center;
@@ -129,6 +145,12 @@ h4 {
     align-items: center;
     border: outset whitesmoke;
 }
+
+#linkimg:hover {
+    background-color: #141212;
+    ;
+}
+
 /*ajuste da posição e borda da música*/
 #img06 {
     text-align: center;
@@ -136,6 +158,7 @@ h4 {
     align-items: center;
     border: outset whitesmoke;
 }
+
 /*ajuste da posição e borda da música*/
 #img07 {
     text-align: center;
@@ -143,9 +166,298 @@ h4 {
     align-items: center;
     border: outset whitesmoke;
 }
+
 /*ajuste da posição da imagem primeiro banner rap e pop */
-#imgrap1{
+#imgrap1 {
     margin-left: 27%;
     margin-right: 30%;
 }
 
+#link1:hover {
+    background-color: black;
+}
+
+a:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+#cent {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}
+
+body {
+    background-color: #222020;
+    color: whitesmoke;
+}
+
+#enemimg {
+    float: left;
+    border-radius: 5%;
+}
+
+#title-E {
+    margin: 3%;
+    color: azure;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text-E {
+    margin: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+#principal1 {
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: #141212;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 10%;
+}
+
+#sepimg {
+    display: flex;
+}
+
+#title-P {
+    margin: 5%;
+    text-align: center;
+    color: azure;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+
+h5 {
+    text-align: center;
+    color: azure;
+}
+
+
+.sec123 {
+    width: 40%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: #141212;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
+    text-align: center;
+}
+
+#just-p {
+    text-align: justify;
+    margin: 2%;
+}
+
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: black;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
+    display: flex;
+}
+
+#comments {
+    display: flex;
+    margin-top: 5%;
+}
+
+#perfil {
+    border: 3px white ridge;
+    border-radius: 1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin: 2%;
+}
+
+
+#comentario {
+    margin: 2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border: 3px gray ridge;
+    margin-top: 1%;
+}
+
+.sec123 {
+    cursor: pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom: -5px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.comments1 {
+    text-align: center;
+}
+
+a {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+#artt {
+    box-shadow: none;
+}
+
+#mmm {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#sccr {
+    position: relative;
+    margin-bottom: -5%;
+}
+
+.gallery {
+    margin: auto;
+    margin-top: 12%;
+}
+
+h1 {
+    margin-bottom: 5%;
+    font-family: Bernard MT Condensed;
+}
+
+#pcar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2 {
+    margin-top: 5%;
+    color: azure;
+    margin-bottom: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#h1princ {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* responsividade */
+@media (max-width:600px) {
+    #comments {
+        display: inline;
+    }
+
+    body {
+        font-size: 14px;
+        align-items: center;
+    }
+
+    .comments123 {
+        width: 90%;
+    }
+
+    #div1 {
+        display: inline;
+        width: 500%;
+    }
+
+    .responsivoimg {
+        width: 40%;
+        height: 40%;
+    }
+
+    #imgrap1 {
+        margin-left: 27%;
+        margin-right: 30%;
+        height: 50%;
+        width: 50%;
+    }
+
+    section {
+        text-align: center;
+        align-items: center;
+    }
+
+    #art01 {
+        align-items: center;
+        border-radius: 10px;
+        margin: 15%;
+        width: 70%;
+    }
+
+    #art02 {
+        align-items: center;
+        border-radius: 10px;
+        margin: 15%;
+        width: 70%;
+    }
+
+    #h51 {
+        font-size: 14px;
+    }
+}
+
+p {
+    text-align: justify;
+    margin: 2%;
+}
+
+#inv {
+    color: #141212;
+}
+
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
+    /* Estilos para dispositivos com largura máxima de 900px */
+
+    * {
+        flex-direction: column;
+    }
+}

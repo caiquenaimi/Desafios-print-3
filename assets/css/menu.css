@@ -4,6 +4,7 @@
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /*estilização dos links*/
 a {
     text-decoration: none;
@@ -11,6 +12,7 @@ a {
     padding: 20px;
     display: block;
 }
+
 /*estilização dos links quando passamos o ponteiro em cima*/
 a:hover {
     background-color: rgb(33, 33, 33);
@@ -20,6 +22,7 @@ a:hover {
 input[type="checkbox"] {
     display: none;
 }
+
 /*estilização  da listagem principal*/
 #ulprinc {
     list-style: none;
@@ -27,6 +30,7 @@ input[type="checkbox"] {
     position: absolute;
     width: 100%;
 }
+
 /*estilização da navegação*/
 nav {
     background-color: rgba(00, 00, 00, 1);
@@ -36,57 +40,68 @@ nav {
     left: -250px;
     transition: all 1.0s;
 }
+
 /*estilização transição horizontal*/
 input[type="checkbox"]:checked~nav {
     transform: translateX(250px);
 
 }
+
 /*estilização label icon do menu, quando clicar acionar a transição*/
 label {
     position: absolute;
     padding: 15px;
     z-index: 1;
 }
+
 /*estilização seta*/
-.seta{
+.seta {
     width: 10px;
-    top:84px;
-    margin-left:5% ;
+    top: 84px;
+    margin-left: 5%;
 
 }
+
 /*estilização geral do submenu para sumir*/
-.sub-menu{
+.sub-menu {
     display: none;
     margin-left: 10%;
     background-color: black;
-    }
+}
+
 /*estilização para quando o ponteiro passar no ul o submenu aparecer*/
-nav ul li:hover .sub-menu{
+nav ul li:hover .sub-menu {
     display: block;
-    }
+}
+
 /*estilização para quando o ponteiro passar no ul o submenu continuar fixo*/
-nav ul li:hover .sub-menu ul{
+nav ul li:hover .sub-menu ul {
     display: block;
 }
+
 /*estilização para quando o ponteiro passar ativar o hover do ul e li*/
-nav ul li:hover .sub-menu ul li{
+nav ul li:hover .sub-menu ul li {
     width: 225px;
-   transition: 10.0s;
+    transition: 10.0s;
 }
+
 /*estilização para tirar o ponto da lista e transição para aparecer quando clicar */
-ul{
+ul {
     list-style: none;
     transition: all 1s;
 }
+
 /*estilização para tirar o ponto da lista e deixar o fundo padronizado*/
-li{
+li {
     list-style: none;
     background-color: black;
 }
+
 /*tirar a borda da imagem*/
 img {
     border: none;
 }
+
 /*ajuste da posição do header*/
 #header0 {
     width: 50%;
@@ -96,46 +111,54 @@ img {
     margin-top: auto;
     display: flex;
 }
+
 /*ajuste no alinhamento da header*/
-#header01{
+#header01 {
     width: 20%;
     margin-top: auto;
 }
+
 /*ajuste na posição da imagem*/
 #imgheader0 {
     margin: auto;
     margin-bottom: 0%;
 }
+
 /*ajuste na posição da imagem*/
 #imgheader {
     width: 50%;
     margin: auto;
     margin-bottom: 0%;
 }
+
 /*ajuste na posição da imagem*/
-#imgheader2{
+#imgheader2 {
     width: 50%;
     float: right;
     margin-bottom: 0%;
 }
+
 /*centralizar logo e tirar a borda*/
 #escritalogo {
     margin-left: 10%;
     border: none;
-    
+
 }
+
 /*ajuste na logo com o link*/
 #desenho {
-   float: right;
-   border: none;
+    float: right;
+    border: none;
 }
+
 /*ajuste na posição icon menu */
 #bltmenu {
     border: none;
     float: left;
 }
+
 /*colocar o footer no final da página*/
 iframe {
-    margin-bottom:-5px;
+    margin-bottom: -5px;
 }
 
