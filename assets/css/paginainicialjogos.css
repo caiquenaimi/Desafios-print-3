@@ -231,7 +231,7 @@ border: none;
     margin:2%;
     display:flex;
 }
-#comentarios{
+#principal{
    width: 95%;
    margin-left: 2%;
    padding: 10px;
@@ -294,8 +294,8 @@ a{
 }
 
 @media screen and (max-width:600px) and (min-device-height:400px) {
-    #comentarios{
-        width: 90%;
+    #principal{
+        width: 80%;
         margin-left: 5%;
         padding: 3%;
     }

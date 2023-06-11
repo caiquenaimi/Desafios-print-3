@@ -28,21 +28,13 @@ h3 {
     border: none;
 }
 
-/*Estilização do efito responsivel ao repouso do mouse sob o botão que encaminha para o site da obb quando clicar*/
-#siteobb:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-    ;
 
-}
 
 #emoji {
     margin-top: 5%;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:600px) and (min-device-height:400px) {
     article {
         margin: 0;
         border-radius: 0;

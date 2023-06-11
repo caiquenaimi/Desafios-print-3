@@ -75,13 +75,7 @@ article {
 
 }
 
-/*Estilização do efeito responsivo ao reposuso do ponteiro do mouse nos banners*/
-.banner1:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all 1s;
-    cursor: pointer;
-}
+
 
 /*Estilização do banner da manchete principal*/
 #bannerprincipal {
@@ -189,13 +183,7 @@ h5 {
     border-radius: 5%;
 }
 
-/*Estilização do efeito rsponsivo ao repouso do mouse nos banner das noticias na seção de noticías passadas.*/
-.lastnews:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 /*Definição do plano de fundo da seção com os artigos.*/
 #main02 {
@@ -243,10 +231,7 @@ header {
 
 }
 
-/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/
-#link1:hover {
-    background-color: black;
-}
+
 
 /*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/
 #comments {
