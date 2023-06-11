@@ -26,6 +26,7 @@ function add() {
     let conteudoData = '';
     let conteudoCate = '';
     let conteudoAutor = '';
+ 
     if (contador !== undefined) {
         title[contador] = document.getElementById('input1').value;
         resum[contador] = document.getElementById('input2').value;
@@ -43,7 +44,9 @@ function add() {
         cate.pop();
         autor.pop();
         contador = undefined;
-    } else {
+    }
+   
+    else {
         while (i < title.length) {
             conteudoTitle += '<section id="result' + i + '"><h2>' + title[i] + '</h2></section>';
             document.getElementsByTagName('main')[0].innerHTML += conteudoTitle;
