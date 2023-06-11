@@ -95,7 +95,10 @@ article{
     }
     #im1im2{
         width: 77%;
-       
+    }
+    #voleiimg{
+        margin-left: 5%;
+        display: flex;
     }
     h2{
         margin-top: 2%;
