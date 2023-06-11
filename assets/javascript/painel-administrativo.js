@@ -22,12 +22,12 @@ function add() {
   msg.innerHTML = '';
 
   if (contador !== undefined) {
-    title[contador] = inputTitle;
+    title[contador] = inputTitle + ' - Editado';
     resum[contador] = inputResum;
     data[contador] = inputData;
     cate[contador] = inputCate;
     autor[contador] = inputAutor;
-    contador = undefined; 
+    contador = undefined;
   } else {
     title.push(inputTitle);
     resum.push(inputResum);
