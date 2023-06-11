@@ -10,7 +10,8 @@ body {
     body {
         font-size: 14px;
     }
-    footer{
+
+    footer {
         width: 120%;
         height: 100%;
     }
@@ -97,15 +98,18 @@ main {
         border-radius: 10px;
 
     }
-    .banner1{
-       display: flex;
-       flex-direction: column;
+
+    .banner1 {
+        display: flex;
+        flex-direction: column;
     }
-    #shakira{
+
+    #shakira {
         order: 1;
         margin-left: 8%;
     }
-    header{
+
+    header {
         width: 120%;
     }
 }
@@ -146,11 +150,15 @@ h5 {
     margin: auto;
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
+
+
     #main1 {
         display: inline;
+
     }
-    #centralizarimg{
+
+    #centralizarimg {
         text-align: center;
     }
 
@@ -163,13 +171,16 @@ h5 {
         text-align: center;
 
     }
-    #iconmenu{
+
+    #iconmenu {
         align-items: center;
     }
-    #escritalogo{
+
+    #escritalogo {
         margin-left: 60%;
-        
+
     }
+
     header {
         width: 110%;
         height: 100%;
@@ -186,12 +197,50 @@ h5 {
         width: 50%;
         margin-top: 8%;
     }
-  
- #news{
-    width: 70%;
- }
+
+    #news {
+        width: 80%;
+    }
+
+    @media (max-width: 768px) {
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #title1 {
+            text-align: center;
+        }
+
+        article {
+            margin-bottom: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        #main1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #mainnews0 {
+            margin-top: 10px;
+        }
+    }
 
 }
+
 
 
 #news {
@@ -230,7 +279,8 @@ h5 {
     margin-top: 25%;
     height: 4.5cm;
 }
-#escritalogo{
+
+#escritalogo {
     margin-left: auto;
-    
+
 }
