@@ -22,15 +22,13 @@ function add() {
   msg.innerHTML = '';
 
   if (contador !== undefined) {
-    // Atualizar os valores do item existente
     title[contador] = inputTitle;
     resum[contador] = inputResum;
     data[contador] = inputData;
     cate[contador] = inputCate;
     autor[contador] = inputAutor;
-    contador = undefined; // Redefinir o contador
+    contador = undefined; 
   } else {
-    // Adicionar um novo item
     title.push(inputTitle);
     resum.push(inputResum);
     data.push(inputData);
