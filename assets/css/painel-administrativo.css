@@ -63,36 +63,8 @@ img {
     border: none;
 }
 
-#header0 {
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-}
 
-#header01 {
-    width: 20%;
-    margin-top: auto;
-}
 
-#imgheader0 {
-    margin: auto;
-    margin-bottom: 0%;
-}
-
-#imgheader {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 0%;
-}
-
-#imgheader2 {
-    width: 50%;
-    float: right;
-    margin-bottom: 0%;
-}
 
 #escritalogo {
     margin-left: 10%;
