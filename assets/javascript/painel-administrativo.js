@@ -42,8 +42,8 @@ function add() {
     conteudo += '<section id="result' + i + '">';
     conteudo += '<h2>' + title[i] + '</h2>';
     conteudo += '<p class="resumos">' + resum[i] + '</p>';
-    conteudo += '<p class="autores">' + 'por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
-    conteudo += '<p class="categorias">' + 'de: ' + cate[i] + '</p>';
+    conteudo += '<p class="autores">' + 'Por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
+    conteudo += '<p class="categorias">' + 'Categoria: ' + cate[i] + '</p>';
     conteudo += '<p class="datas" id="date">' + data[i] + '</p>';
     conteudo += '<button id="btn1" onclick="edt(' + i + ')">Editar🖊</button>';
     conteudo += '<button id="btn2" onclick="rmv(' + i + ')">Remover🗑</button>';
