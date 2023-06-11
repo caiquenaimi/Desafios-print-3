@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -430,6 +431,13 @@ button:hover {
         0 0 100px #03e9f4;
     cursor: pointer;
 }
+
+    #p1 {
+        text-align: center;
+        color: rgb(247, 3, 3);
+        padding: 10%;
+    }
+
 
 /* responsividade */
 @media screen and (max-width:600px) and (min-device-height:400px) {

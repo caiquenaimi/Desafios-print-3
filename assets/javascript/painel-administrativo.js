@@ -6,72 +6,51 @@ let autor = [];
 let contador;
 let editTitle = '';
 
-/* let editResum = [];
-let editData = [];
-let editCate = [];
-let editAutor = []; */
+
 
 
 let i = 0;
 
-
 function add() {
-    title.push(document.getElementById('input1').value);
-    resum.push(document.getElementById('input2').value);
-    data.push(document.getElementById('input3').value.split('-').reverse().join('-'));
-    cate.push(document.getElementById('input4').value);
-    autor.push(document.getElementById('input5').value);
-    let conteudoTitle = '';
-    let conteudoResum = '';
-    let conteudoData = '';
-    let conteudoCate = '';
-    let conteudoAutor = '';
- 
-    if (contador !== undefined) {
-        title[contador] = document.getElementById('input1').value;
-        resum[contador] = document.getElementById('input2').value;
-        data[contador] = document.getElementById('input3').value.split('-').reverse().join('-');
-        cate[contador] = document.getElementById('input4').value;
-        autor[contador] = document.getElementById('input5').value;
-        document.getElementsByTagName('h2')[contador].innerHTML = title[contador];
-        document.getElementsByClassName('resumos')[contador].innerHTML = resum[contador];
-        document.getElementsByClassName('datas')[contador].innerHTML = data[contador];
-        document.getElementsByClassName('categorias')[contador].innerHTML = 'de: ' + cate[contador];
-        document.getElementsByClassName('autores')[contador].innerHTML = 'por: <strong>' + autor[contador] + '</strong>';
-        title.pop();
-        resum.pop();
-        data.pop();
-        cate.pop();
-        autor.pop();
-        contador = undefined;
-    }
-   
-    else {
-        while (i < title.length) {
-            conteudoTitle += '<section id="result' + i + '"><h2>' + title[i] + '</h2></section>';
-            document.getElementsByTagName('main')[0].innerHTML += conteudoTitle;
-            conteudoResum += '<p class="resumos">' + resum[i] + '</p>';
-            document.getElementById('result' + i).innerHTML += conteudoResum;
-            conteudoAutor += '<p class="autores">' + 'por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
-            document.getElementById('result' + i).innerHTML += conteudoAutor;
-            conteudoCate += '<p class="categorias">' + 'de: ' + cate[i] + '</p>';
-            document.getElementById('result' + i).innerHTML += conteudoCate;
-            conteudoData += '<p class="datas" id="date">' + data[i] + '</p>';
-            document.getElementById('result' + i).innerHTML += conteudoData;
-            document.getElementById('result' + i).innerHTML += '<button id="btn1" onclick="edt(' + "'" + i + "'" + ')">Editar🖊</button>';
-            document.getElementById('result' + i).innerHTML += '<button id="btn2" onclick="rmv(' + "'" + i + "'" + ')">Remover🗑</button>';
-            conteudoTitle = '';
-            conteudoResum = '';
-            conteudoData = '';
-            conteudoCate = '';
-            conteudoAutor = '';
-            i++;
-        }
+    let inputTitle = document.getElementById('input1').value;
+    let inputResum = document.getElementById('input2').value;
+    let inputData = document.getElementById('input3').value.split('-').reverse().join('-');
+    let inputCate = document.getElementById('input4').value;
+    let inputAutor = document.getElementById('input5').value;
 
+    if (inputTitle === '' || inputResum === '' || inputData === '' || inputCate === '' || inputAutor === '') {
+        let msg = document.getElementById('p1');
+        msg.innerHTML = 'Preencha o formulário antes de adicionar um artigo';
+        return;
     }
 
+    let msg = document.getElementById('p1');
+    msg.innerHTML = '';
 
+    title.push(inputTitle);
+    resum.push(inputResum);
+    data.push(inputData);
+    cate.push(inputCate);
+    autor.push(inputAutor);
 
+    let i = 0;
+    let conteudo = '';
+
+    while (i < title.length) {
+        conteudo += '<section id="result' + i + '">';
+        conteudo += '<h2>' + title[i] + '</h2>';
+        conteudo += '<p class="resumos">' + resum[i] + '</p>';
+        conteudo += '<p class="autores">' + 'por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
+        conteudo += '<p class="categorias">' + 'de: ' + cate[i] + '</p>';
+        conteudo += '<p class="datas" id="date">' + data[i] + '</p>';
+        conteudo += '<button id="btn1" onclick="edt(' + "'" + i + "'" + ')">Editar🖊</button>';
+        conteudo += '<button id="btn2" onclick="rmv(' + "'" + i + "'" + ')">Remover🗑</button>';
+        conteudo += '</section>';
+
+        i++;
+    }
+
+    document.getElementsByTagName('main')[0].innerHTML = conteudo;
 }
 
 function rmv(hidden) {
