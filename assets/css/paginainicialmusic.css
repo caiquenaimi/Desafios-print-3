@@ -191,7 +191,9 @@ h5 {
     }
   
  #news{
-    width: 70%;
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
  }
 
 }
