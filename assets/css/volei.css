@@ -79,3 +79,30 @@ article{
     margin-bottom: 3%;
     box-shadow: none;
 }/*articles feitos*/
+
+/* responsividade */
+@media screen and (max-width:600px) and (min-device-height:400px){
+    #hist{
+       width: 80%;
+       padding: 2%;
+    }
+    #volei1{
+        width: 80%;
+    }
+    #regras1{
+        width: 80%;
+        padding: 3%;  
+    }
+    #im1im2{
+        width: 77%;
+       
+    }
+    h2{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #title1{
+        font-size: 50px;
+        padding: 15px;
+    }
+}
