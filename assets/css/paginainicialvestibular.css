@@ -264,7 +264,7 @@ ul {
 
 
 
-@media (max-width:768px) {
+@media screen and (max-width:600px) and (min-device-height:400px)  {
     main h2 {
         margin: 10px 10px 0 10px;
     }
@@ -272,15 +272,20 @@ ul {
     article {
         box-shadow: none;
     }
-
+     #main1{
+        display: inline;
+     }
+     #news{
+        width: 80%;
+        margin-left: 10%;
+     }
+     .lastnews{
+        width: 80%;
+        margin-left: 10%;
+     }
     .banner1 {
+        width: 80%;
         padding: 10px;
-    }
-
-}
-
-@media (max-width:450px) {
-    .banner1 {
         flex-direction: column;
     }
 }
