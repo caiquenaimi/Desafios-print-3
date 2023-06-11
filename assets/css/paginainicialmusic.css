@@ -10,8 +10,7 @@ body {
     body {
         font-size: 14px;
     }
-
-    footer {
+    footer{
         width: 120%;
         height: 100%;
     }
@@ -98,18 +97,15 @@ main {
         border-radius: 10px;
 
     }
-
-    .banner1 {
-        display: flex;
-        flex-direction: column;
+    .banner1{
+       display: flex;
+       flex-direction: column;
     }
-
-    #shakira {
+    #shakira{
         order: 1;
         margin-left: 8%;
     }
-
-    header {
+    header{
         width: 120%;
     }
 }
@@ -154,14 +150,10 @@ h5 {
 
 
     #main1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
+        display: inline;
+       
     }
-
-    #centralizarimg {
+    #centralizarimg{
         text-align: center;
     }
 
@@ -174,16 +166,13 @@ h5 {
         text-align: center;
 
     }
-
-    #iconmenu {
+    #iconmenu{
         align-items: center;
     }
-
-    #escritalogo {
+    #escritalogo{
         margin-left: 60%;
-
+        
     }
-
     header {
         width: 110%;
         height: 100%;
@@ -200,10 +189,10 @@ h5 {
         width: 50%;
         margin-top: 8%;
     }
-
-    #news {
-        margin: 10px;
-    }
+  
+ #news{
+    width: 70%;
+ }
 
 }
 
@@ -244,8 +233,7 @@ h5 {
     margin-top: 25%;
     height: 4.5cm;
 }
-
-#escritalogo {
+#escritalogo{
     margin-left: auto;
-
+    
 }
