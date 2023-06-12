@@ -315,14 +315,10 @@ button:hover {
 }
 .banner1{
     display: inline;
- 
-    width: 95%;
+    width: 70%;
 
 }
-#mainnews{
-   margin-left: 3%;
-  
-}
+
 .principal{
     margin-left: 2%;
 }
@@ -340,6 +336,6 @@ button{
     margin-left: 4%;  
 }
 #escritalogo{
-    margin-left: 30%;
+    margin-left: 10%;
 }
 }
