@@ -364,7 +364,7 @@ main section p {
 main section h2 {
     color: white;
     font-size: 40px;
-    margin-bottom:2% ;
+    margin-bottom: 2%;
 
 }
 
@@ -417,17 +417,20 @@ button {
     border: solid 3px rgb(17, 61, 105);
     border-radius: 13px;
 }
-#btn1:hover{
+
+#btn1:hover {
     background-color: rgb(9, 74, 9);
-   
-}
-#btn2:hover{
-   background-color: rgb(86, 10, 10);
+
 }
 
-#btn1{
+#btn2:hover {
+    background-color: rgb(86, 10, 10);
+}
+
+#btn1 {
     margin-left: 30%;
 }
+
 button:hover {
     background-color: rgb(17, 61, 105);
     box-shadow: 0 0 5px #03e9f4,
@@ -437,33 +440,37 @@ button:hover {
     cursor: pointer;
 }
 
-    #p1 {
-        text-align: center;
-        color: rgb(247, 3, 3);
-        padding: 10%;
-    }
+#p1 {
+    text-align: center;
+    color: rgb(247, 3, 3);
+    padding: 10%;
+}
 
 
 /* responsividade */
 @media screen and (max-width:600px) and (min-device-height:400px) {
-    .container{
+    .container {
         width: 90%;
- 
-      margin-left: 5%;
+        margin-left: 5%;
+        height: 100%;
     }
-    button{
+
+    button {
         width: 50%;
     }
-   main section{
-       margin-left: 5%;
+
+    main section {
+        margin-left: 5%;
     }
-  #btn2{
-    margin-left: 40%;
-    margin-top: 2%;
-    width: 50%;
-  }
-  #btn1{
-    margin-left: 40%;
-    width: 50%;
-  }
+
+    #btn2 {
+        margin-left: 40%;
+        margin-top: 2%;
+        width: 50%;
+    }
+
+    #btn1 {
+        margin-left: 40%;
+        width: 50%;
+    }
 }
