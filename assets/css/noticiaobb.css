@@ -2,7 +2,7 @@
 /*Ajustes do posicionamento da seção com os conteudos da noticia*/
 article {
     margin: 5%;
-    border-radius: 3%;
+    border-radius: 10px;
     text-align: center;
 }
 /*Estilização dos padrões de posicionamento e tamanho dos parágrafos com os coteudos da noticia*/

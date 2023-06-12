@@ -1,553 +1,1011 @@
-/*estização corpo do css*/body {
+/*estização corpo do css*/
+body {
     background-color: #222020;
 }
+*{
+    padding: 0;
+    margin: 0;
+}
 
-/*estilização paragrafo 1*/#pa01 {
+/*estilização paragrafo 1*/
+#pa01 {
     color: azure;
     text-align: center;
     font-family: Bernard MT Condensed;
 }
 
-/*estilização h2*/#aut01 {
+/*estilização h2*/
+#aut01 {
     color: azure;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*estilização h2*/#aut02 {
-    color: azure;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/*estilização h2*/#aut03 {
-    color: azure;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/*estilização h2*/#aut04 {
-    color: azure;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/*estilização h2*/#aut05 {
-    color: azure;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/*estilização h2*/#aut06 {
-    color: azure;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/*estilização h2*/#aut07 {
-    color: azure;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-/*estilização h2*/#aut08 {
-    color: azure;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-/*estilização h2*/#aut09 {
-    color: azure;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-
-/*artigo estilização*/#art01 {
+/*artigo estilização*/
+#art01,#art02 {
     background-color: #141212;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 10px;
     margin: 5%;
 }
 
-/*texto estilização*/#pa02 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
 
-/*imagem estilização*/#img01 {
+
+/*imagem estilização*/
+#img01 {
     text-align: center;
     margin: 2%;
     align-items: center;
     border: outset whitesmoke;
-
     margin-left: 42%;
 
 }
 
-/*estilização secction*/section {
+/*estilização secction*/
+section {
     align-items: center;
     text-align: center;
     margin: 1%;
 }
 
-/*artigo estilização*/#art02 {
+/*imagem estilização*/
+#img02 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*estilização secction*/
+#mainn02 {
+    display: flex;
+    background-color: #222020;
+}
+
+@media screen and (max-width:600px) and (min-device-height:400px)  {
+    #mainn02 {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50%;
+    }
+   #img01{ 
+
+    border: outset whitesmoke;
+    margin-left: 30%;
+
+   }
+   
+}
+
+/*artigo estilização*/
+#art02 {
+    width: 33%;
+}
+
+/*texto estilização*/
+#pa04 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+
+/*texto estilização*/
+#pa05 {
+    text-align: left;
+    color: azure;
+    margin-left: 1%;
+}
+
+
+
+/*artigo estilização*/
+#art03 {
     background-color: #141212;
-    margin: 5%;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+
+/*texto estilização*/
+#sa02 {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+/*texto estilização*/
+#sa03 {
+    text-align: left;
+    color: azure;
+    margin-left: 1%;
+}
+/*imagem estilização*/
+#img03 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*texto estilização*/
+#sa01 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+/*artigo estilização*/
+#art04 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+
+/*texto estilização*/
+#ba03 {
+    text-align: left;
+    color: azure;
+    margin-left: 1%;
+}
+
+
+/*imagem estilização*/
+#img04 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*texto estilização*/
+#ba01 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+/*titulo estilização*/
+#tit1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+/*artigo estilização*/
+#art05 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+
+
+/*imagem estilização*/
+#img05 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*estilização paragrafo menor*/
+#para01 {
+    text-align: center;
+    font-family: Bernard MT Condensed;
+    color: azure;
+}
+
+/*artigo estilização*/
+#art05 {
+    width: 33%;
+}
+
+/*texto estilização*/
+#ba11 {
+    text-align: left;
+    color: azure;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+/*artigo estilização*/
+#art06 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+
+
+/*imagem estilização*/
+#img06 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*estilização paragrafo menor*/
+#pa06 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+/*texto estilização*/
+#ba6 {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+/*artigo estilização*/
+#art06 {
+    width: 33%;
+}
+
+/*estilização secction*/
+#main03 {
+    display: flex;
+}
+
+
+
+/*artigo estilização*/
+#art07 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+
+
+
+/*imagem estilização*/
+#img07 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*estilização paragrafo menor*/
+#pa07 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+
+/*artigo estilização*/
+#art07 {
+    width: 33%;
+}
+
+
+/*texto estilização*/
+#lit10 {
+    text-align: center;
+    font-family: Bernard MT Condensed;
+    color: azure;
+}
+
+/*estilização secction*/
+#main04 {
+    display: flex;
+}
+
+/*artigo estilização*/
+#art08 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+
+
+/*imagem estilização*/
+#img08 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*estilização paragrafo menor*/
+#pa08 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+/*artigo estilização*/
+#art08 {
+    width: 33%;
+}
+
+/*estilização paragrafo menor*/
+#papa08 {
+    text-align: left;
+    color: azure;
+    margin-left: 1%;
+}
+h5{
+    margin-bottom: 1%;
+}
+
+/*artigo estilização*/
+#art09 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+/*imagem estilização*/
+#img09 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*estilização paragrafo menor*/
+#pa09 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+
+/*artigo estilização*/
+#art09 {
+    width: 33%;
+}
+
+/*artigo estilização*/
+#art10 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+
+
+/*imagem estilização*/
+#img10 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+/*estilização paragrafo menor*/
+#pa10 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+
+/*artigo estilização*/
+#art10 {
+    width: 33%;
+}
+
+
+/*titulo*/
+#tit1 {
+    font-family: Bernard MT Condensed;
+}
+
+#txtprincipal{
+    padding-bottom: 4%;
+}
+/*Estilização do plano de fundo e da cor dos textos com conteudo*/
+body {
+    background-color: #222020;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+/*Estilização do padrão para a posição do header*/
+header {
+    display: flex;
+    padding: 0%;
+}
+/*Estilização do box shadow dos banners*/
+article{
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+}
+
+/*Estilização do box shadow dos banners*/
+article {
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+}
+
+/*Ajuste nos tamanhos e posições dos itens no header*/
+#header0 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: auto;
+    display: flex;
+    margin-bottom: 0%;
+}
+/*Ajustes de posição da section do botão do menu no header*/
+#header01 {
+    width: 20%;
+    margin-top: auto;
+}
+
+/*Estilização da logo escrita no centro do header*
+/#escritalogo {
+=======
+/*Estilização da logo escrita no centro do header*/
+#escritalogo {
+    margin: 0%;
+    margin-left: 5%;
+    margin-bottom: -5%;
+}
+
+/*Estlização da logo com  desenho no canto esquerdo do header*/
+#desenho {
+
+    margin-left: 78%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+
+}
+
+/*Posicionamento do botão para abrir o menu no no header*/
+#bltmenu {
+    border: none;
+    float: left;
+
+}
+
+/*Definição do posicionamento dos itens no banner das noticias*/
+.banner1 {
+    display: flex;
+    margin: auto;
+
+}
+
+
+
+/*Estilização do banner da manchete principal*/
+#bannerprincipal {
+    display: flex;
+    background-color: #141212;
+    margin: 5%;
+
+    border-radius: 5%;
+
+}
+
+#imgm {
+    margin-left: 6%;
+}
+
+/*Definição do posicionamento da main*/
+#main1 {
+    display: flex;
+    margin: auto;
+}
+
+main {
+    text-align: center;
+
+
+}
+
+/*Estilização dos títulos das seções*/
+#title1 {
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+
+/*Estilização dos banner com as ultimas notícias*/
+#news {
+    width: 33%;
+    text-align: center;
+    background-color: #141212;
+    margin: 5%;
     border-radius: 5%;
 }
 
-/*texto estilização*/#pa03 {
-    color: whitesmoke;
+/*Ajustes do posicionamento da section das noticias*/
+#section01 {
+    margin: 5%;
+    padding: 10%;
+}
+
+/*Estilização dos paragrafos com as descriçãoes*/
+p {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+    text-align: justify;
+
 }
 
-/*imagem estilização*/#img02 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
+/*Ajustes do posicionamento dos parágrafos com a descrição dos artigos*/
+#ppp {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-/*estilização secction*/#mainn02 {
+/*Ajuste da estilizçã das noticias principais*/
+#mainnews {
+    margin: 5%;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 5%;
+
+}
+
+/*Estilização da fonte e cores dos títulos*/
+h2 {
+    margin-top: 5%;
+    color: azure;
+    margin-bottom: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/*Estilização das escritas com as datas de publicação.*/
+h5 {
+    color: #304c89;
+    margin-top: 3%;
+}
+
+#mainnews0 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/*Estlização da linha divisória entre as categorias.*/
+#linha0 {
+    width: 93%;
+    height: 8px;
+}
+
+/*Estilização da seção com as notícias passadas.*/
+.lastnews {
     display: flex;
-    background-color:#222020;
-}
-
-/*artigo estilização*/#art02 {
-    width: 33%;
-}
-
-/*texto estilização*/#pa04 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: azure;
-}
-
-/*artigo estilização*/#art02:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
-/*texto estilização*/#pa05 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-}
-
-/*artigo estilização*/#art01:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
-/*artigo estilização*/#art03 {
-    background-color: #141212;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    align-items: center;
-    border-radius: 7%;
     margin: 5%;
-    width: 33%;
-}
-
-/*texto estilização*/#sa02 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
-
-/*texto estilização*/#sa03 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-}
-
-/*artigo estilização*/#art03:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
-/*imagem estilização*/#img03 {
-    text-align: center;
-    margin: 2%;
+    background-color: rgb(34, 32, 32);
     align-items: center;
-    border: outset whitesmoke;
-}
-
-/*texto estilização*/#sa01 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: azure;
+    border-radius: 5%;
 }
 
-/*artigo estilização*/#art04 {
+
+
+/*Definição do plano de fundo da seção com os artigos.*/
+#main02 {
     background-color: #141212;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    align-items: center;
-    border-radius: 7%;
-    margin: 5%;
-    width: 33%;
+    margin: auto;
+
+
 }
 
-/*texto estilização*/#ba02 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
-
-/*texto estilização*/#ba03 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-}
-
-/*artigo estilização*/#art04:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
-/*imagem estilização*/#img04 {
-    text-align: center;
+#imgnews2 {
     margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
 }
 
-/*texto estilização*/#ba01 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: azure;
+/*Ajuste na estilização das imagens.*/
+img {
+    border-radius: 3%;
+    border: whitesmoke outset;
 }
 
-/*titulo estilização*/#tit1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
+/*Ajustes na estilização do header.*/
+header {
+    background-color: black;
+    margin-bottom: 0%;
+    padding: -5%;
 }
 
-/*artigo estilização*/#art05 {
-    background-color: #141212;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    align-items: center;
-    border-radius: 7%;
+
+/*Posicionamento do footer*/
+#footer1 {
+    margin-bottom: -5px;
+}
+
+/*Ajuste no posicionamneto da logo com a escrita da equipe.*/
+/* #img1 {
     margin: 5%;
-    width: 33%;
+    margin-left: 5%;
+}
+ */
+/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/
+#link1 {
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    margin-bottom: 0%;
+
 }
 
-/*artigo estilização*/#art05:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
 
-/*imagem estilização*/#img05 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
-}
 
-/*estilização paragrafo menor*/#para01 {
-    text-align: center;
-    font-family: Bernard MT Condensed;
-    color: azure;
-}
-
-/*texto estilização*/#ba10 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/
+#comments {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
     font-size: small;
+    margin: 0%;
 }
 
-/*artigo estilização*/#art05 {
-    width: 33%;
+/*Ajuste do posicionamento das estrelas*/
+#estrela {
+    margin: 0%;
 }
 
-/*texto estilização*/#ba11 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-    margin-bottom: 2%;
+/*Ajuste do posicionamento das estrelas vazias*/
+#estrela1 {
+    margin: 0%;
 }
 
-/*artigo estilização*/#art06 {
-    background-color: #141212;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    align-items: center;
-    border-radius: 7%;
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+ul {
+    background-color: black;
+}
+
+
+
+@media screen and (max-width:600px) and (min-device-height:400px)  {
+    main h2 {
+        margin: 10px 10px 0 10px;
+    }
+    #comments1{
+        display: inline;
+            }
+   .comments123{
+    width: 95%;
+   }
+    article {
+        box-shadow: none;
+    }
+     #main1{
+        display: inline;
+     }
+     #news{
+        width: 80%;
+        margin-left: 10%;
+     }
+     .lastnews{
+        width: 80%;
+        margin-left: 10%;
+        display: inline;
+        margin-bottom: 10%;
+     }
+     #imgm{
+        width: 110%;
+        margin-right: 20%;
+     }
+    .banner1 {
+        width: 80%;
+        padding: 10px;
+        flex-direction: column;
+    }
+  
+}
+
+/*Ajustes do posicionamento da seção com os conteudos da noticia*/
+article {
     margin: 5%;
-    width: 33%;
-}
-
-/*artigo estilização*/#art06:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
-/*imagem estilização*/#img06 {
+    border-radius: 10px;
     text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
+}
+/*Estilização dos padrões de posicionamento e tamanho dos parágrafos com os coteudos da noticia*/
+p {
+    margin-left: 3%;
+     margin-right: 3%;
+    margin-bottom: 3%;
+}
+/*Definição da margem das imagens contidas no inicio e no fim da matéria*/
+img {
+    margin: 3%;
+}
+/*Estlização do subtítulo da noticia*/
+h3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: burlywood;
+    font-size: 22px;
 }
 
-/*estilização paragrafo menor*/#pa06 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
+/*Ajuste na borda do batão linkado ao site da obb*/
+#siteobb {
+    border: none;
 }
 
-/*texto estilização*/#ba6 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+
+
+#emoji {
+    margin-top: 5%;
 }
 
-/*artigo estilização*/#art06 {
-    width: 33%;
+@media screen and (max-width:600px) and (min-device-height:400px) {
+    article {
+        margin: 0;
+        border-radius: 0;
+    }
 }
-
-/*estilização paragrafo menor*/#papa06 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-    margin-bottom: 2%;
-}
-
-/*estilização secction*/#main03 {
+header {
     display: flex;
+    background-color: black;
 }
 
-
-
-/*artigo estilização*/#art07 {
-    background-color: #141212;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    align-items: center;
-    border-radius: 7%;
-    margin: 5%;
-    width: 33%;
+img {
+    object-fit: contain;
 }
 
-/*artigo estilização*/#art07:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
+#iconr {
+    float: right;
 }
 
-/*imagem estilização*/#img07 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
+#logos {
+    margin: auto;
 }
 
-/*estilização paragrafo menor*/#pa07 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
 }
 
-/*texto estilização*/#ba07 {
+body {
+    background-color: #222020;
     color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
 }
 
-/*artigo estilização*/#art07 {
-    width: 33%;
+#enemimg {
+    float:left;
+    border-radius: 5%;
 }
 
-/*estilização paragrafo menor*/#papa07 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-    margin-bottom: 2%;
-}
-
-/*texto estilização*/#lit10 {
+#title-E {
+    margin:3%;
+    color:azure;
     text-align: center;
-    font-family: Bernard MT Condensed;
-    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*estilização secction*/#main04 {
+#text-E {
+    margin:3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+#bannerprincipal {
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: #141212;
+    padding:1%;
+    border-radius: 5%;
+    margin:10%;
+}
+
+#sepimg {
     display: flex;
 }
 
-/*artigo estilização*/#art08 {
-    background-color: #141212;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    align-items: center;
-    border-radius: 7%;
-    margin: 5%;
-    width: 33%;
-}
-
-/*artigo estilização*/#art08:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
-/*imagem estilização*/#img08 {
+#title-P {
+    margin:5%;
     text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
-}
-
-/*estilização paragrafo menor*/#pa08 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
-}
-
-/*texto estilização*/#ba08 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
-
-/*artigo estilização*/#art08 {
-    width: 33%;
-}
-
-/*estilização paragrafo menor*/#papa08 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-    margin-bottom: 2%;
-}
-
-/*artigo estilização*/#art09 {
-    background-color: #141212;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    align-items: center;
-    border-radius: 7%;
-    margin: 5%;
-    width: 33%;
-}
-
-/*artigo estilização*/#art09:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
-/*imagem estilização*/#img09 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
-}
-
-/*estilização paragrafo menor*/#pa09 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
-}
-
-/*texto estilização*/#ba09 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
-
-/*artigo estilização*/#art09 {
-    width: 33%;
-}
-
-/*estilização paragrafo menor*/#papa09 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-    margin-bottom: 2%;
-}
-
-/*artigo estilização*/#art10 {
-    background-color: #141212;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    align-items: center;
-    border-radius: 7%;
-    margin: 5%;
-    width: 33%;
-}
-
-/*artigo estilização*/#art10:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-
-/*imagem estilização*/#img10 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
-}
-
-/*estilização paragrafo menor*/#pa10 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: azure;
-}
-
-/*texto estilização*/#ba10 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
-
-/*artigo estilização*/#art10 {
-    width: 33%;
-}
-
-/*estilização paragrafo menor*/#papa10 {
-    text-align: left;
-    color: azure;
-    margin-left: 1%;
-    margin-bottom: 2%;
-}
-/*titulo*/#tit1 {
+    color:azure;
     font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+
+h5 {
+    text-align: center;
+    color:azure;
+}
+
+#not123 {
+    display:flex;
+    margin-bottom:5%;
+    margin-left:10%;
+}
+
+.sec123 {
+    width: 40%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: #141212;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    text-align: center;
+}
+
+#just-p {
+    text-align: justify;
+    margin:2%;
+}
+
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    display:flex;
+}
+
+#comments {
+    display:flex;
+    margin-top:5%;
+}
+
+#perfil {
+    border:3px white ridge;
+    border-radius:1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin:2%;
+}
+
+#comentario {
+    margin:2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border:3px gray ridge;
+    margin-top:1%;
+}
+
+.sec123 {
+    cursor:pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom:-5px ;
+}
+
+p {
+    color:whitesmoke;
+}
+.comments1{
+    text-align: center;
+}
+a{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: whitesmoke;
+}
+
+#artt{
+    box-shadow: none;
+}
+#mmm {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#sccr {
+    position: relative;
+    margin-bottom: -5%;
+}
+.gallery{
+    margin: auto;
+    margin-top: 12%;
+}
+h1 {
+    margin-bottom: 5%;
+    font-family: Bernard MT Condensed;
+}
+#pcar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width:768px) {
+
+
+    #comments {
+        flex-direction: column;
+    }
+
+    .comments123 {
+        width: auto;
+        border-radius: 0;
+    }
+
+    #isadora {
+        width: 100%;
+    }
+
+    #not123 {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .sec123 {
+        width: 80%;
+        box-shadow: none;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .comments123 {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
