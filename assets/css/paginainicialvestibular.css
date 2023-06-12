@@ -268,7 +268,12 @@ ul {
     main h2 {
         margin: 10px 10px 0 10px;
     }
-
+    #comments1{
+        display: inline;
+            }
+   .comments123{
+    width: 95%;
+   }
     article {
         box-shadow: none;
     }
