@@ -51,6 +51,12 @@ function add() {
   }
 
   document.getElementsByTagName('main')[0].innerHTML = conteudo;
+
+  document.getElementById('input1').value = '';
+  document.getElementById('input2').value = '';
+  document.getElementById('input3').value = '';
+  document.getElementById('input4').value = '';
+  document.getElementById('input5').value = '';
 }
 
 function rmv(hidden) {
