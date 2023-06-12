@@ -61,6 +61,11 @@ function add() {
 
 function rmv(hidden) {
   document.getElementById('result' + hidden).style.display = 'none';
+  title.splice(hidden, 1);
+  resum.splice(hidden, 1);
+  data.splice(hidden, 1);
+  cate.splice(hidden, 1);
+  autor.splice(hidden, 1);
 }
 
 function edt(edit) {
