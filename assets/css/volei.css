@@ -49,6 +49,7 @@ body {
     margin-bottom:5%;
     background-color: #141212;
     border-radius: 5%;
+    padding: 10px;
 }/*regras width,margin,box-shadow,border,moz-box-shadow*/
 
 #p-regras {
@@ -63,9 +64,11 @@ body {
 
 #im1im2 {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #title1{
-    width: 60%;
+    margin: 0 20px;
     font-size: 60px;
     color: azure;
 }/*title1*/
@@ -93,9 +96,6 @@ article{
         width: 80%;
         padding: 3%;  
     }
-    #im1im2{
-        width: 77%;
-    }
     #voleiimg{
         margin-left: 5%;
         display: flex;
@@ -106,7 +106,18 @@ article{
     }
     #title1{
         font-size: 50px;
-        padding: 15px;
     }
    
+}
+
+@media (max-width:768px) {
+    #regras1{
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    #volei1{
+        width: 200px;
+        height: auto;
+    }
 }
