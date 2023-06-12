@@ -8,13 +8,22 @@ let contador;
 function add() {
   let inputTitle = document.getElementById('input1').value;
   let inputResum = document.getElementById('input2').value;
-  let inputData = document.getElementById('input3').value;
+  let inputData = new Date(document.getElementById('input3').value).getFullYear(document.getElementById('input3').value) + '-' + Number(new Date(document.getElementById('input3').value).getMonth() + 1) + '-' + Number(new Date(document.getElementById('input3').value).getDate() + 1);
+  let dataHj = new Date(inputData);
+  console.log(dataHj);
+  console.log(new Date());
   let inputCate = document.getElementById('input4').value;
   let inputAutor = document.getElementById('input5').value;
 
   if (inputTitle === '' || inputResum === '' || inputData === '' || inputCate === '' || inputAutor === '') {
     let msg = document.getElementById('p1');
     msg.innerHTML = 'Preencha o formulário antes de adicionar um artigo';
+    return;
+  }
+
+  if (dataHj.setHours(20) < new Date()) {
+    let msg = document.getElementById('p1');
+    msg.innerHTML = 'Preencha com a data a partir do dia de hoje';
     return;
   }
 

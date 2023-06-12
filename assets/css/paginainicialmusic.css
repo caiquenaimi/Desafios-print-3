@@ -196,6 +196,7 @@ h5 {
 hr {
     height: 10px;
     background: linear-gradient(to right, white, black);
+ border-radius: 10px;
 
 }
 
