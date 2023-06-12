@@ -14,7 +14,6 @@
 
 <body>
 
-    <!--começando a header-->
     <header>
         <input type="checkbox" id="chec">
         <label for="chec">
@@ -138,7 +137,7 @@
     <div class="container">
         <h1>Crie sua notícia:</h1>
         <div id="filho">
-
+            
             <label for="input1">Título:</label>
             <br>
             <input placeholder="Digite o titulo do artigo" required id="input1" type="text">
@@ -159,11 +158,12 @@
             <br>
             <input placeholder="Digite o nome do autor do artigo" required id="input5" type="text">
             <br>
-            <button type="submit" onclick="add()">Adicionar</button>
+            <button type="submit" onclick="add()"><a href="#painelNoticias">Adicionar</a></button>
+            <p id="p1"></p>
         </div>
     </div>
 
-    <main>
+    <main id="painelNoticias">
 
     </main>
 

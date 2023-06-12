@@ -136,3 +136,15 @@
         margin: 0px 20px;
     }
 }
+
+@media (max-width: 415px) {
+    .slider a img {
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 380px) {
+    .slider a {
+        padding: 5px;
+    }
+}

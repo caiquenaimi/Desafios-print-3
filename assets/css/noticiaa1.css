@@ -1,0 +1,837 @@
+header {
+    display: flex;
+    background-color: black;
+}
+
+img {
+    object-fit: contain;
+}
+
+#iconr {
+    float: right;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}
+
+body {
+    background-color: #222020;
+    color: whitesmoke;
+}
+
+#enemimg {
+    float: left;
+    border-radius: 5%;
+}
+
+#title-E {
+    margin: 3%;
+    color: azure;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text-E {
+    margin: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+#bannerprincipal {
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: #141212;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 10%;
+}
+
+#sepimg {
+    display: flex;
+}
+
+#title-P {
+    margin: 5%;
+    text-align: center;
+    color: azure;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+
+h5 {
+    text-align: center;
+    color: azure;
+}
+
+#not123 {
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+.sec123 {
+    width: 40%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: #141212;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
+    text-align: center;
+}
+
+#just-p {
+    text-align: justify;
+    margin: 2%;
+}
+
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: black;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
+    display: flex;
+}
+
+#comments {
+    display: flex;
+    margin-top: 5%;
+}
+
+#perfil {
+    border: 3px white ridge;
+    border-radius: 1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin: 2%;
+}
+
+#comentario {
+    margin: 2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border: 3px gray ridge;
+    margin-top: 1%;
+}
+
+.sec123 {
+    cursor: pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom: -5px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.comments1 {
+    text-align: center;
+}
+
+a {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+#artt {
+    box-shadow: none;
+}
+
+#mmm {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#sccr {
+    position: relative;
+    margin-bottom: -5%;
+}
+
+.gallery {
+    margin: auto;
+    margin-top: 12%;
+}
+
+h1 {
+    margin-bottom: 5%;
+    font-family: Bernard MT Condensed;
+}
+
+#pcar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*estilização de fundo do site*/
+body {
+    background-color: #222020;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+/*concerto do header*/
+header {
+    display: flex;
+    padding: 0%;
+}
+
+/*cores paragrafo*/
+a {
+    text-decoration: whitesmoke;
+    color: whitesmoke;
+}
+
+/*fundo colorido dos articles*/
+article {
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+}
+
+/*header principal*/
+#header0 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: auto;
+    display: flex;
+}
+
+/*tamanho header*/
+#header01 {
+    width: 20%;
+    margin-top: auto;
+}
+
+/*imagem header*/
+#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+/*imagem header*/
+#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+/*imagem header*/
+#imgheader2 {
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+
+/*escrita do logo*/
+#escritalogo {
+    margin-left: 10%;
+    margin-left: 30%;
+    border: none;
+
+}
+
+/*desenho header*/
+#desenho {
+    float: right;
+    border: none;
+}
+
+/*menu*/
+#bltmenu {
+    border: none;
+    float: left;
+
+}
+
+/*banner1*/
+.banner1 {
+    display: flex;
+    margin: auto;
+
+}
+
+/*banner principal*/
+#bannerprincipal {
+    display: flex;
+    background-color: #141212;
+    margin: 5%;
+    border-radius: 5%;
+
+}
+
+/*estilização imagem*/
+#imgm {
+    margin-left: 6%;
+}
+
+/*main 1 estilização*/
+#main1 {
+    display: flex;
+    margin: auto;
+}
+
+/*main 2 estilização*/
+main {
+    text-align: center;
+
+
+}
+
+/*primeiro titulo*/
+#title1 {
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+
+/*noticias*/
+#news {
+    width: 33%;
+    text-align: center;
+    background-color: #141212;
+    margin: 5%;
+    border-radius: 5%;
+}
+
+/*primeira section*/
+#section01 {
+    margin: 5%;
+    padding: 10%;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+
+}
+
+/*paragrafo*/
+#ppp {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*main das noticias*/
+#mainnews {
+    margin: auto;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+/*h2 geral*/
+h2 {
+    margin-top: 5%;
+    color: azure;
+    margin-bottom: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h5 {
+    color: azure;
+    margin-top: 3%;
+}
+
+/*main noticias*/
+#mainnews0 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/*linhas*/
+#linha0 {
+    width: 93%;
+    height: 8px;
+}
+
+/*ultima noticia*/
+.lastnews {
+    display: flex;
+    margin: 5%;
+    background-color: rgb(34, 32, 32);
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+}
+
+/*hover ultima noticia*/
+.lastnews:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+/*main 2*/
+#main02 {
+    background-color: #141212;
+    margin: auto;
+
+
+}
+
+/*imagem noticia 2*/
+#imgnews2 {
+    margin: 2%;
+}
+
+/*imagem geral*/
+img {
+    border-radius: 3%;
+    border: whitesmoke outset;
+}
+
+/*header*/
+header {
+    background-color: black;
+}
+
+
+/*footer*/
+#footer1 {
+    margin-bottom: -5px;
+}
+
+/*imagem 1*/
+#img1 {
+    margin-left: 5%;
+}
+
+/* formato dos textos */
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+h3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: burlywood;
+    font-size: 22px;
+}
+
+*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página* p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+ul {
+    background-color: black;
+}
+
+h3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: burlywood;
+    font-size: 22px;
+}
+
+*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página* #comments {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    font-size: small;
+    margin: 0%;
+}
+
+/*Ajuste do posicionamento das estrelas*/
+#estrela {
+    margin: 0%;
+}
+
+/*Ajuste do posicionamento das estrelas vazias*/
+#estrela1 {
+    margin: 0%;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+ul {
+    background-color: black;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+#materiaprincipal {
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+}
+
+img {
+    border-radius: 10px;
+}
+
+#comments1 {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    font-size: small;
+    margin: 0%;
+}
+
+/*Ajuste do posicionamento das estrelas*/
+#estrela {
+    margin: 0%;
+}
+
+
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}
+
+body {
+    background-color: #222020;
+    color: whitesmoke;
+
+}
+
+
+#title-P {
+    margin: 5%;
+    text-align: center;
+    color: azure;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
+
+h5 {
+    text-align: center;
+    color: azure;
+}
+
+
+#comments {
+
+    margin-top: 5%;
+}
+
+
+#perfil {
+    border: 3px white ridge;
+    border-radius: 1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin: 2%;
+}
+
+
+#comentario {
+    margin: 2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border: 3px gray ridge;
+    margin-top: 1%;
+}
+
+.sec123 {
+    cursor: pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom: -5px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.comments1 {
+    text-align: center;
+}
+
+a {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+
+h1 {
+    margin-bottom: 5%;
+    font-family: Bernard MT Condensed;
+}
+
+#cmt1 {
+    display: flex;
+}
+
+#ppp {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
+    /* Estilos para dispositivos com largura máxima de 900px */
+
+    * {
+        flex-direction: column;
+    }
+
+    .comments123 {
+        width: 90%;
+    }
+
+    #comments {
+        display: inline;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    #logoc {
+        margin-left: 30%;
+    }
+
+    #imagemmm {
+        width: 15%;
+        height: 15%;
+    }
+
+    #instap {
+        margin-left: -10%;
+    }
+
+    #comments {
+        display: inline;
+    }
+
+    body {
+        font-size: 14px;
+        align-items: center;
+    }
+
+    .comments123 {
+        width: 90%;
+    }
+
+    #div1 {
+        display: inline;
+        width: 500%;
+    }
+
+    * {
+        flex-direction: column;
+    }
+
+    #imagemmm {
+        width: 15%;
+        height: 15%;
+
+    }
+
+    #imgcp {
+        width: 50%;
+        height: 50%;
+    }
+    
+    #comments {
+        flex-direction: column;
+    }
+
+    .comments123 {
+        width: auto;
+        border-radius: 0;
+    }
+
+    #isadora {
+        width: 100%;
+    }
+
+    #not123 {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .sec123 {
+        width: 80%;
+        box-shadow: none;
+    }
+
+
+}
+
+
+.sec123 {
+    width: 40%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: #141212;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
+    text-align: center;
+}
+
+#just-p {
+    text-align: justify;
+    margin: 2%;
+}
+
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    background-color: black;
+    padding: 1%;
+    border-radius: 5%;
+    margin: 2%;
+    display: flex;
+}
+
+#comments {
+    display: flex;
+    margin-top: 5%;
+}
+
+#perfil {
+    border: 3px white ridge;
+    border-radius: 1000px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin: 2%;
+}
+
+
+#comentario {
+    margin: 2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border: 3px gray ridge;
+    margin-top: 1%;
+}
+
+.sec123 {
+    cursor: pointer;
+}
+
+#footer-1 {
+    margin-bottom: -5px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.comments1 {
+    text-align: center;
+}
+
+a {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+
+
+#pcar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2 {
+    margin-top: 5%;
+    color: azure;
+    margin-bottom: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#h1princ {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+

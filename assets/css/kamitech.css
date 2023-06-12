@@ -1,0 +1,7 @@
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
+    footer {
+        bottom: 0;
+        width: 100%;
+        position: absolute;
+    }
+}

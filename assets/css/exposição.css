@@ -84,9 +84,6 @@ img {
     margin-top:-1.5%;
 }
 
-    margin-top: -1.5%;
-}
-
 @media (max-width:768px) {
     #comments {
         flex-direction: column;
