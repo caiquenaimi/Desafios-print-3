@@ -307,4 +307,9 @@ h2 {
     #art05 {
         flex-direction: column;
     }
+
+    #ba6, #ba10, #ba07 {
+        font-weight:lighter;
+        font-size: 17px;
+    }
 }
