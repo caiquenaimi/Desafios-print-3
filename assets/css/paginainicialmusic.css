@@ -193,19 +193,34 @@ h5 {
     width: 50%;
 }
 
+hr {
+    height: 10px;
+    background: linear-gradient(to right, white, black);
+
+}
+
 @media (max-width: 600px) {
     body {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+    }
+
+    #imgsepcenter {
+        text-align: center;
+        width: 88%;
+        margin-left: auto;
     }
 
     footer {
         width: 120%;
     }
-       
 
+    hr {
+        display: none;
+    }
 
     h5 {
         text-align: center;
@@ -224,7 +239,7 @@ h5 {
 
     header {
         width: 120%;
-   
+
     }
 
     #iconmenu {
