@@ -204,6 +204,8 @@ h5 {
     footer {
         width: 120%;
     }
+       
+
 
     h5 {
         text-align: center;
@@ -222,6 +224,7 @@ h5 {
 
     header {
         width: 120%;
+        margin-left: 20%;
     }
 
     #iconmenu {
