@@ -287,10 +287,17 @@ ul {
      .lastnews{
         width: 80%;
         margin-left: 10%;
+        display: inline;
+        margin-bottom: 10%;
+     }
+     #imgm{
+        width: 110%;
+        margin-right: 20%;
      }
     .banner1 {
         width: 80%;
         padding: 10px;
         flex-direction: column;
     }
+  
 }
