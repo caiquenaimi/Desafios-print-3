@@ -10,18 +10,12 @@ body {
     body {
         font-size: 14px;
     }
-
-    footer {
-        width: 120%;
-        height: 100%;
-    }
 }
 
 /*ajustes na estilização do header*/
 header {
     display: flex;
     background-color: black;
-
 }
 
 
@@ -90,29 +84,16 @@ main {
     border-radius: 10px;
 }
 
-/* @media (max-width:728px) {
+@media (max-width:600px) {
     #bannerprincipal {
-        display: inline;
+        display: flex;
         background-color: #141212;
         margin: 10%;
         border-radius: 10px;
 
     }
 
-    .banner1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #shakira {
-        order: 1;
-        margin-left: 8%;
-    }
-
-    header {
-        width: 120%;
-    }
-} */
+}
 
 #mainnews0 {
     margin-left: 3%;
@@ -150,117 +131,28 @@ h5 {
     margin: auto;
 }
 
-@media (max-width:768px) {
-    #bannerprincipal {
-        display: inline;
-        background-color: #141212;
-        margin: 10%;
-        border-radius: 10px;
-
-    }
-
-    .banner1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #shakira {
-        order: 1;
-        margin-left: 8%;
-    }
-
-    header {
-        width: 120%;
-    }
-
+@media (max-width:600px) {
     #main1 {
         display: inline;
-
-    }
-
-    #centralizarimg {
-        text-align: center;
-    }
-
-    #imgm {
-        width: 50%;
-        height: 50%;
-    }
-
-    #centralizarimg {
-        text-align: center;
-
-    }
-
-    #iconmenu {
         align-items: center;
     }
 
-    #escritalogo {
-        margin-left: 60%;
-
+    h5 {
+        font-size: 14px;
     }
 
-    header {
-        width: 110%;
-        height: 100%;
-    }
-
-    #veigh {
-        height: 50%;
+    #imgm {
+        margin-top: 4%;
         width: 50%;
-        margin-top: 8%;
-    }
-
-    #coldplay {
         height: 50%;
-        width: 50%;
-        margin-top: 8%;
     }
 
-    #news {
-        width: 80%;
-    }
+    #centralizarimg {
+        text-align: center;
 
-    @media (max-width: 768px) {
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        main {
-            width: 100%;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-        }
-
-        #title1 {
-            text-align: center;
-        }
-
-        article {
-            margin-bottom: 20px;
-            max-width: 600px;
-            width: 100%;
-        }
-
-        #main1 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #mainnews0 {
-            margin-top: 10px;
-        }
     }
 
 }
-
 
 
 #news {
@@ -289,18 +181,112 @@ h5 {
 
 /*ajuste da posição imagem veigh*/
 #veigh {
-    height: 4.5cm;
-    width: 5cm;
-    margin-top: 8%;
+    height: 50%;
+    width: 50%;
+    margin-top: 4%;
 }
 
 /*ajuste da posição imagem coldplay*/
 #coldplay {
-    margin-top: 25%;
-    height: 4.5cm;
+    margin-top: 4%;
+    height: 50%;
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        width: 120%;
+    }
+       
+
+
+    h5 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    h2 {
+        text-align: center;
+
+    }
+
+    #iconmenu {
+        margin-left: 100px;
+    }
+
+
+    header {
+        width: 120%;
+   
+    }
+
+    #iconmenu {
+        margin-left: 2%;
+    }
+
+    #escritalogo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #title1 {
+        text-align: center;
+    }
+
+    article {
+        margin-bottom: 20px;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    #main1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #bannerprincipal {
+        margin-left: 8%;
+        margin-right: 4%;
+    }
+
+    #mainnews0 {
+        margin-top: 6px;
+    }
+
+    .banner1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner1 img {
+        order: 1;
+    }
+
+    #title1 {
+        margin-left: 12%;
+
+
+    }
 }
 
 #escritalogo {
     margin-left: auto;
-
+    margin-right: auto;
 }
