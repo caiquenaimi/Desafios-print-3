@@ -133,4 +133,8 @@ input#email {
     #footer_social_media {
         justify-content: center;
     }
+
+    #footer_content {
+        color: #ccc; 
+     }
 }
