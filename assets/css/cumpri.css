@@ -180,11 +180,7 @@ header {
         transform: translateX(-50%);
       }
 
-    footer {
-        margin-bottom: -5px;
-        bottom: 0;
-        position: absolute;
-    }
+    
 
     #imagemmm {
         width: 15%;
