@@ -49,7 +49,7 @@ function add() {
 
   for (let i = 0; i < title.length; i++) {
     conteudo += '<section id="result' + i + '">';
-    conteudo += '<h2>' + title[i] + '</h2>';
+    conteudo += '<h2 id = "h2title">' + title[i] + '</h2>';
     conteudo += '<p class="resumos">' + resum[i] + '</p>';
     conteudo += '<p class="autores">' + 'Por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
     conteudo += '<p class="categorias">' + 'Categoria: ' + cate[i] + '</p>';
