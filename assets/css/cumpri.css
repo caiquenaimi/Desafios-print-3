@@ -142,7 +142,12 @@ header {
     }
 
     #sobre1 {
+        padding: 5%;
         width: 90%;
+    }
+
+    #gif {
+        margin: 10%;
     }
 
     #hob-title {
