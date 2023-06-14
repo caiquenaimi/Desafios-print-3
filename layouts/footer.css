@@ -1,10 +1,8 @@
-
-
 #footer1 {
     background-color: black;
 }
 
-p{
+p {
     text-align: center;
 }
 
@@ -124,6 +122,7 @@ input#email {
         padding: 2rem;
     }
 
+
     #footer_contacts,
     .footer-list,
     #footer_feedback {
@@ -135,6 +134,10 @@ input#email {
     }
 
     #footer_content {
-        color: #ccc; 
-     }
+        color: #ccc;
+        margin-bottom: 0;
+        position: absolute;
+        background-color: black;
+        margin: 1%;
+    }
 }
