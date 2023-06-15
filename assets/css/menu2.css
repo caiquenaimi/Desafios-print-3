@@ -47,6 +47,7 @@ nav {
     height: 100%;
     position: absolute;
     left: -250px;
+    z-index: 9999;
     transition: all 1.0s;
 }
 
