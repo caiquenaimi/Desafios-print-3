@@ -138,10 +138,29 @@ p {
 
 /*Ajustes do posicionamento dos parágrafos com a descrição dos artigos*/
 #ppp {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
+    width: 60%;
 }
-
+#ppp1{
+    margin-left: 30%;
+    width: 50%;
+}
+#tt2{
+    margin-left: 40%;
+   
+}
+#tt3{
+    margin-left: 10%;
+}
+/* publicado por */
+#pub{
+    margin-left: 15%;
+}
+/* ajuste icon */
+label{
+    margin-top: -1%;
+}
 /*Ajuste da estilizçã das noticias principais*/
 #mainnews {
     margin: 5%;
@@ -265,14 +284,28 @@ p {
 ul {
     background-color: black;
 }
-
-
-
+/* arrumando imagens */
+#imgm1{
+    margin-top: 25%;
+}
+#lastimg{
+    margin-left: 20%;
+}
+#lastimg1{
+    width: 50%;  
+  
+}
+#lastimg2{
+    width: 60%;
+    margin-left: 12%;
+}
 @media screen and (max-width:600px) and (min-device-height:400px) {
     main h2 {
         margin: 10px 10px 0 10px;
     }
-
+    label{
+        margin-top: -3%;
+    }
     #comments1 {
         display: inline;
     }
