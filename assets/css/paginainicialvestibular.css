@@ -300,6 +300,7 @@ ul {
         flex-direction: column;
     }
   #lastimg{
-    margin-left: 0%;
+    width: 97%;
+    margin-left: 1%;
   }
 }

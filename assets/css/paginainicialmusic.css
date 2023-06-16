@@ -200,12 +200,13 @@ hr {
 
 }
 
-@media (max-width: 600px) {
+@media  screen and (max-width:600px) and (min-device-height:400px) {
     body {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-left: -3%;
 
     }
 
@@ -216,7 +217,8 @@ hr {
     }
 
     footer {
-        width: 120%;
+        width: 110%;
+       
     }
 
     hr {
@@ -239,7 +241,7 @@ hr {
 
 
     header {
-        width: 120%;
+        width: 100%;
 
     }
 

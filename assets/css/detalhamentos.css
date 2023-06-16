@@ -383,6 +383,9 @@ h1 {
     .comments123 {
         width: 90%;
     }
+    #escritalogo{
+        margin-left: 20%;
+    }
 
     #div1 {
         display: inline;
