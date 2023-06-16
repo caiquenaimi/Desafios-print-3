@@ -8,6 +8,7 @@ let contador;
 function add() {
 
   document.getElementById('buttonadd').innerHTML = 'Adicionar';
+  document.getElementById('editado').innerHTML = '';
   let inputTitle = document.getElementById('input1').value;
   let inputResum = document.getElementById('input2').value;
   let inputData = document.getElementById('input3').value.split('-').join('/');
