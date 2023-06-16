@@ -9,6 +9,17 @@ header {/*fixando a header*/
     padding: 0%;
     background-color: black;
 }
+/* arrumando header */
+#escritalogo {
+
+    border: none;
+
+}
+
+label{
+    margin-top: -1%;  
+    
+}
 a {/*decorando os links*/
     text-decoration: whitesmoke;
     color: whitesmoke;
@@ -45,7 +56,7 @@ a {/*decorando os links*/
     margin-bottom: 0%;
 }
 #escritalogo {/*tirando borda e alinhando*/
-    margin-left: -70%;
+    margin-left: 20%;
     border: none;
     
 }
