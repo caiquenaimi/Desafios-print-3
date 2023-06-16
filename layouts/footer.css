@@ -146,6 +146,7 @@ input#email {
     }
 
     #footer1 {
+        background-color: red;
         width: 100%;
     }
 }
