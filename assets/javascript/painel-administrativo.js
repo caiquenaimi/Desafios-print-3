@@ -31,16 +31,14 @@ function add() {
   let msg = document.getElementById('p1');
   msg.innerHTML = '';
 
- if (contador !== undefined) {
-  if (!title[contador].endsWith('-Editado')) {
-    title[contador] = title[contador] + '-Editado';
+  if (contador !== undefined) {
+    title[contador] = inputTitle + ' - Editado0]';
+    resum[contador] = inputResum;
+    data[contador] = inputData;
+    cate[contador] = inputCate;
+    autor[contador] = inputAutor;
+    contador = undefined;
   }
-  resum[contador] = inputResum;
-  data[contador] = inputData;
-  cate[contador] = inputCate;
-  autor[contador] = inputAutor;
-  contador = undefined;
- }
 
 
   else {
