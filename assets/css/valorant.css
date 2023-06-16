@@ -292,4 +292,14 @@ p {
         width: 80%;
         margin-left: 10%;
     }
+
+    #escritalogo {
+        margin-left: -3%;
+    }
+
+    h5 {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        text-align: center;
+      }
 }
