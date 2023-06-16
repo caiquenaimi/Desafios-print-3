@@ -144,4 +144,8 @@ input#email {
         background-color: black;
         margin: 1%;
     }
+
+    #footer1 {
+        width: 100%;
+    }
 }
