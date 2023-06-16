@@ -292,12 +292,14 @@ ul {
      }
      #imgm{
         width: 110%;
-        margin-right: 20%;
+        margin-left: -2%;
      }
     .banner1 {
         width: 80%;
         padding: 10px;
         flex-direction: column;
     }
-  
+  #lastimg{
+    margin-left: 0%;
+  }
 }
