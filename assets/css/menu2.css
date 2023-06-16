@@ -27,7 +27,9 @@ header #link1 {
 input[type="checkbox"] {
     display: none;
 }
-
+    #escritalogo{
+        margin-top: -10%;
+    }
 /*estilização transição horizontal*/
 input[type="checkbox"]:checked~nav {
     transform: translateX(250px);

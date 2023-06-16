@@ -13,9 +13,10 @@ body {
 
 }
 
-/*ajustes na estilização do header*/
+/* coisinhas da header */
 header {
     display: flex;
+    height: 10vh;
     background-color: black;
 }
 
@@ -223,10 +224,11 @@ hr {
 
     }
 
-    #iconmenu {
-        margin-left: 100px;
+  /* arrumando icon do menu lateral */
+    label{
+        margin-left: 10%;
     }
-
+/* a logo  */
     #escritalogo {
         margin-left: 25%;
 

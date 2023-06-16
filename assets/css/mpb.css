@@ -184,9 +184,10 @@ a:hover {
 #cent {
     text-align: center;
 }
-
+/* coisinhas da header */
 header {
     display: flex;
+    height: 10vh;
     background-color: black;
 }
 
@@ -273,7 +274,7 @@ h5 {
     text-align: justify;
     margin: 2%;
 }
-
+/* editando comentários  */
 .comments123 {
     width: 30%;
     margin: auto;

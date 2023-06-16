@@ -12,7 +12,8 @@ h3 {
     font-size: 22px;
 }
 
-*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página* p {
+/*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/
+ p {
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
@@ -86,10 +87,10 @@ img {
     margin: 0%;
 }
 
-
-
+/*  arrumando header */
 header {
     display: flex;
+    height: 10vh;
     background-color: black;
 }
 
@@ -384,8 +385,11 @@ h1 {
     .comments123 {
         width: 90%;
     }
+    /* imagem da header */
     #escritalogo{
         margin-left: 20%;
+       
+        margin-top: -3%;
     }
 
     #div1 {
