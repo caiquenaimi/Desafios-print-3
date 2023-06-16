@@ -10,10 +10,12 @@ function add() {
   document.getElementById('buttonadd').innerHTML = 'Adicionar';
   let inputTitle = document.getElementById('input1').value;
   let inputResum = document.getElementById('input2').value;
+    //variaveis da data
   let inputData = document.getElementById('input3').value.split('-').join('/');
-
   let dataHj = new Date(inputData);
+
   let inputCate = document.getElementById('input4').value;
+
   let inputAutor = document.getElementById('input5').value;
 
   if (inputTitle === '' || inputResum === '' || inputData === '' || inputCate === '' || inputAutor === '') {
@@ -21,7 +23,7 @@ function add() {
     msg.innerHTML = 'Preencha o formulário antes de adicionar um artigo';
     return;
   }
-
+//if da data
   if (dataHj.setHours(20) < new Date()) {
     let msg = document.getElementById('p1');
     msg.innerHTML = 'Preencha com a data a partir do dia de hoje';

@@ -286,7 +286,20 @@ p{
     font-family: Bernard MT Condensed;
     font-size: 38px;
 }/*titles*/
-
+/* font size */
+#ba10 ,#ba6, #ba07{
+    font-size: 18px;
+    text-align: justify;
+}
+#ba08{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10%;
+}
+/* arrumando imagens  */
+#img5{
+    margin-top: 0%;
+}
 /* detalhes */
 .containerNoticiaArtes{
     margin-bottom: 5%;

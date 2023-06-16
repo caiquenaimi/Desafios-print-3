@@ -16,6 +16,8 @@ body {
     align-items: center;
     border-radius: 7%;
     margin: 5%;
+    display: flex;
+    font-size: 20px;
 }
 
 #pa02 {
@@ -30,6 +32,7 @@ body {
     align-items: center;
     border: outset whitesmoke;
     margin-left: 2%;
+    width: 120%;
 }
 
 section {
@@ -45,7 +48,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 5%;
+    border-radius: 10%;
 }
 
 #pa03 {
@@ -75,12 +78,6 @@ section {
     color: azure;
 }
 
-#art02:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
 
 #pa05 {
     text-align: left;
@@ -88,12 +85,7 @@ section {
     margin-left: 1%;
 }
 
-#art01:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 #art03 {
     background-color: #141212;
@@ -116,14 +108,10 @@ section {
     text-align: left;
     color: azure;
     margin-left: 1%;
+    margin-top: 12%;
 }
 
-#art03:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 #img03 {
     text-align: center;
@@ -159,14 +147,9 @@ section {
     text-align: left;
     color: azure;
     margin-left: 1%;
+    margin-top: 15%;
 }
 
-#art04:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
 
 #img04 {
     text-align: center;
@@ -198,12 +181,7 @@ section {
     width: 33%;
 }
 
-#art05:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 #img05 {
     text-align: center;
@@ -246,12 +224,7 @@ section {
     width: 33%;
 }
 
-#art06:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 #img06 {
     text-align: center;
@@ -280,7 +253,8 @@ section {
     text-align: left;
     color: azure;
     margin-left: 1%;
-    margin-bottom: 2%;
+   
+    margin-top: 15%;
 }
 
 #main03 {
@@ -300,12 +274,7 @@ section {
     width: 33%;
 }
 
-#art07:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 #img07 {
     text-align: center;
@@ -358,12 +327,7 @@ section {
     width: 33%;
 }
 
-#art08:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 #img08 {
     text-align: center;
@@ -406,12 +370,7 @@ section {
     width: 33%;
 }
 
-#art09:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 #img09 {
     text-align: center;
@@ -454,12 +413,7 @@ section {
     width: 33%;
 }
 
-#art10:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 
 #img10 {
     text-align: center;
@@ -489,4 +443,18 @@ section {
     color: azure;
     margin-left: 1%;
     margin-bottom: 2%;
+}
+@media screen and (max-width:600px) and (min-device-height:400px){
+    #mainn02{
+        display: inline;
+    }
+    #main03{
+        display: inline; 
+    }
+    #main04{
+        display: inline;
+    }
+    #main01{
+        display: inline; 
+    }
 }
