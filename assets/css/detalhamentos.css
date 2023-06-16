@@ -396,19 +396,22 @@ h1 {
         display: inline;
         width: 500%;
     }
-    #comments {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 5%;
-      }
-    
-      .comments123 {
-        width: 90%;
-        margin: 2%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+
 }
+@media (max-width: 600px) {
+    #comments {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5%;
+    }
+  
+    .comments123 {
+      width: 90%;
+      margin: 2%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
