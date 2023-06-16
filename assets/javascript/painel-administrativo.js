@@ -31,16 +31,18 @@ function add() {
   let msg = document.getElementById('p1');
   msg.innerHTML = '';
 
-  if (contador !== undefined) {
-    title[contador] = inputTitle + '- Editado';
-    resum[contador] = inputResum;
-    data[contador] = inputData;
-    cate[contador] = inputCate;
-    autor[contador] = inputAutor;
-    contador = undefined;
-
-
+ if (contador !== undefined) {
+  if (!title[contador].endsWith('-Editado')) {
+    title[contador] = title[contador] + '-Editado';
   }
+  resum[contador] = inputResum;
+  data[contador] = inputData;
+  cate[contador] = inputCate;
+  autor[contador] = inputAutor;
+  contador = undefined;
+ }
+
+
   else {
     title.push(inputTitle);
     resum.push(inputResum);
