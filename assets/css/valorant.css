@@ -26,6 +26,16 @@ a {/*decorando os links*/
     margin-top: auto;
     display: flex;
 }
+#escritalogo {
+    margin-left: 20%;
+    border: none;
+
+}
+
+label{
+    margin-top: -1%;  
+    
+}
 #header01{/*alinhando tudo*/
     width: 20%;
     margin-top: auto;
@@ -50,7 +60,7 @@ a {/*decorando os links*/
     margin-bottom: 0%;
 } /*margem baixa anulada e flutuação na direita com widht 100%*/
 #escritalogo {
-    margin-left: -70%;
+    margin-left: 17%;
     border: none;
 } /*borda anulada e margem na esquerda aumentada*/
 #desenho {
@@ -213,7 +223,7 @@ img {
 }
 
 #comments {
-    display:flex;
+   
     margin-top:5%;
 }
 
@@ -256,8 +266,9 @@ img {
 p {
     color:whitesmoke;
 }
-.comments1{
+#comments1{
     text-align: center;
+    display: flex;
 }
 @media screen and (max-width:600px) and (min-device-height:400px)  {
     .banner1{

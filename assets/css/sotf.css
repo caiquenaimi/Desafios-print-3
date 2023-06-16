@@ -82,10 +82,15 @@ a {
 
 /*margem baixa anulada e flutuação na direita com widht 100%*/
 #escritalogo {
-    margin-left: -70%;
+    margin-left: 17%;
     border: none;
+
 }
 
+label{
+    margin-top: -1%;  
+    
+}
 /*borda anulada e margem na esquerda aumentada*/
 #desenho {
     float: right;
