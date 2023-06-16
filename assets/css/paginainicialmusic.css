@@ -33,7 +33,8 @@ article {
 
 /*centralizar logo e tirar a borda*/
 #escritalogo {
-    margin-left: -70%;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
 
 }
@@ -217,7 +218,7 @@ hr {
     }
 
     header {
-        width: 100%;
+        width: 111%;
 
     }
 
