@@ -67,7 +67,7 @@ main {
     border-radius: 10px;
 }
 
-@media (max-width:600px) {
+/* @media (max-width:600px) {
     #bannerprincipal {
         display: flex;
         background-color: #141212;
@@ -76,7 +76,7 @@ main {
 
     }
 
-}
+} */
 
 #mainnews0 {
     margin-left: 3%;
@@ -190,7 +190,6 @@ hr {
         align-items: center;
         justify-content: center;
 
-
     }
 
 
@@ -244,14 +243,14 @@ hr {
     }
 
     #title1 {
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     article {
         margin-bottom: 20px;
         width: 100%;
     }
-
     #main1 {
         display: flex;
         flex-wrap: wrap;
@@ -262,9 +261,13 @@ hr {
     }
 
     #bannerprincipal {
-        margin-left: 10%;
-        margin-right: 4%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2%;
     }
+
 
     #mainnews0 {
         margin-top: 6px;
@@ -280,11 +283,7 @@ hr {
         order: 1;
     }
 
-    #title1 {
-        margin-left: 12%;
-
-
-    }
+  
 }
 
 #escritalogo {
@@ -299,7 +298,6 @@ hr {
         margin: 0 ;
         box-sizing: border-box;
     }
-
 
     button {
         background-color: #212121;
@@ -324,4 +322,26 @@ hr {
         cursor: pointer;
     }
 
+}
+button {
+    background-color: #212121;
+    color: #f5f5f5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    font-size: 30px;
+    height: 7vh;
+    width: 40%;
+    border: solid 3px rgb(17, 61, 105);
+    border-radius: 13px;
+}
+
+/* hover do botão */
+button:hover {
+    background-color: rgb(17, 61, 105);
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+    cursor: pointer;
 }
