@@ -8,8 +8,9 @@ body {
 
 @media (max-width:600px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
+
 }
 
 /*ajustes na estilização do header*/
@@ -28,31 +29,12 @@ article {
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
 
-#header0 {
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-}
 
-/*ajuste na posição da imagem*/
-#imgheader0 {
-    margin: auto;
-    margin-bottom: 0%;
-}
-
-/*ajuste na posição da imagem*/
-#imgheader {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 0%;
-}
 
 /*centralizar logo e tirar a borda*/
 #escritalogo {
-    margin-left: -70%;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
 
 }
@@ -196,11 +178,11 @@ h5 {
 hr {
     height: 10px;
     background: linear-gradient(to right, white, black);
- border-radius: 10px;
+    border-radius: 10px;
 
 }
 
-@media  screen and (max-width:600px) and (min-device-height:400px) {
+@media screen and (max-width:600px) and (min-device-height:400px) {
     body {
         display: flex;
         flex-direction: column;
@@ -217,8 +199,8 @@ hr {
     }
 
     footer {
-        width: 110%;
-       
+        width: 100%;
+
     }
 
     hr {
@@ -235,23 +217,18 @@ hr {
 
     }
 
+    header {
+        width: 111%;
+
+    }
+
     #iconmenu {
         margin-left: 100px;
     }
 
-
-    header {
-        width: 100%;
-
-    }
-
-    #iconmenu {
-        margin-left: 2%;
-    }
-
     #escritalogo {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 100%;
+
     }
 
     main {
@@ -267,7 +244,6 @@ hr {
 
     article {
         margin-bottom: 20px;
-        max-width: 600px;
         width: 100%;
     }
 
@@ -276,6 +252,8 @@ hr {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin-left: 2%;
+    
     }
 
     #bannerprincipal {
@@ -292,7 +270,6 @@ hr {
         flex-direction: column;
         align-items: center;
     }
-
     .banner1 img {
         order: 1;
     }
