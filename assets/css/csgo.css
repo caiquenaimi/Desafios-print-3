@@ -25,7 +25,23 @@ h2 {
 
     text-align: center;
 }
-
+/* arrumando publicado por */
+.pubpor{
+    margin-top: 10%;
+}
+.pubpor1{
+    margin-top: 10%;
+}
+#pubporaimple{
+    margin-top: 20%;
+}
+/* arrumando texto */
+.p1{
+    margin-top: 10%;
+}
+.p2{
+    margin-top: 20%;
+}
 #bannerprincipal {
     width: 80%;
     margin: auto;
@@ -36,6 +52,7 @@ h2 {
     padding: 1%;
     border-radius: 5%;
     margin: 10%;
+    height: 40vh;
 
 }
 
@@ -53,6 +70,16 @@ h4 {
     margin-bottom: 10vh;
     gap: 10vh;
     padding: 10vh;
+}
+#main2{
+    display: flex;
+    margin-bottom: 10vh;
+    gap: 10vh;
+    margin-left: 10%;
+    padding: 10vh;  
+}
+#liminha{
+    margin-top: 12%;
 }
 
 #banner1 {
@@ -181,8 +208,24 @@ button:hover {
         display: inline;
 
     }
-
-
+  #main2{
+    display: inline;
+  }
+  .p1{
+    margin-top: 0%;
+}
+.p2{
+    margin-top: 0%;
+}
+p{
+    text-align: justify;
+}
+.pubpor{
+    margin-top: 20%;
+}
+.pubpor1{
+    margin-top: 15%;
+}
     #news {
         width: 70%;
         margin-left: 13%;
@@ -207,6 +250,7 @@ button:hover {
     #bannerprincipal {
         width: 90%;
         margin-left: 5%;
+        height: 70vh;
     }
 
     #mainnews {
@@ -252,9 +296,9 @@ button:hover {
         margin-bottom: 3vh;
         text-align: center;
     }
-
+/* arrumando o liminha (unico que estava dando errado) */
     #liminha {
-        margin-bottom: 5vh;
+    margin-top: 3%;
     }
 
 
