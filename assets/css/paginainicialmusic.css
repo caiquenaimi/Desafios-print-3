@@ -188,9 +188,10 @@ hr {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: -3%;
+
 
     }
+
 
     #imgsepcenter {
         text-align: center;
@@ -218,7 +219,8 @@ hr {
     }
 
     header {
-        width: 111%;
+        width: 120%
+
 
     }
 
@@ -227,7 +229,7 @@ hr {
     }
 
     #escritalogo {
-        margin-left: 100%;
+        margin-left: 25%;
 
     }
 
@@ -253,7 +255,7 @@ hr {
         justify-content: center;
         align-items: center;
         margin-left: 2%;
-    
+
     }
 
     #bannerprincipal {
@@ -270,6 +272,7 @@ hr {
         flex-direction: column;
         align-items: center;
     }
+
     .banner1 img {
         order: 1;
     }
