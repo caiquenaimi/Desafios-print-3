@@ -108,6 +108,9 @@ p {
 label{
     margin-top: -1%;
 }
+#escritalogo{
+   margin-top: 10%;
+}
 #mainnews {
     margin: auto;
     text-align: justify;
@@ -195,4 +198,8 @@ border: none;
     #Centralizar {
         text-align: center;
     }
+    label{
+        margin-top: -3%;
+    }
+
 }

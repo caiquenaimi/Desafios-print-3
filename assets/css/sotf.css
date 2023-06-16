@@ -16,8 +16,11 @@ body {
     width: 95%;
     height: 40vh;
     margin-left: 10%;
+    margin-top: 5%;
 }
-
+p{
+    text-align: justify;
+}
 header {
     /*fixando a header*/
     display: flex;
@@ -132,7 +135,7 @@ label{
 
 /*disposição em linha e margem automatica*/
 main {
-    text-align: center;
+  
     margin: 0%;
 }
 
@@ -191,7 +194,9 @@ h5 {
     color: #5cd3e6;
     margin-top: 3%;
 }
-
+.desce{
+    margin-bottom: 3%;
+}
 /*distanciamento no topo e cor do texto*/
 #mainnews0 {
     margin-left: 3%;

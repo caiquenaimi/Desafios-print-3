@@ -1,8 +1,6 @@
 body {/*alterando cor do body*/
     background-color: #222020;
     color: whitesmoke;
-    text-align: center;
-    
 }
 header {/*fixando a header*/
     display: flex;
@@ -19,6 +17,11 @@ header {/*fixando a header*/
 label{
     margin-top: -1%;  
     
+}
+
+/* arrumando textos */
+p{
+    text-align: justify;
 }
 a {/*decorando os links*/
     text-decoration: whitesmoke;
@@ -69,11 +72,12 @@ a {/*decorando os links*/
     float: left;
 
 }
-.banner1 {/*arrumando primeira noticia*/
+
+.banner1, #banner {/*arrumando primeira noticia*/
     display: flex;
     margin: auto;
     padding: 2%;
-   
+    border-radius: 20px;
 }
 
 #bannerprincipal {/*arrumando a noticia*/
@@ -130,7 +134,7 @@ main{/*arrumando a main*/
 p {/*alterando dont family dos paragrafos*/
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
+    
 }
 #ppp {/*arrumando os paragrafos*/
     margin-left: 5%;

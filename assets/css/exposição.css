@@ -64,7 +64,7 @@ p{
 }
 /* arrumando header */
 #escritalogo{
-    margin-top: 2%;
+    margin-top: -1%;
 }
 
 /*cursor ao pasar em cima*/
@@ -82,7 +82,7 @@ p{
 /*colagem do footer*/
 
 header {
-    height: 75px;
+    height: 50px;
 }
 
 img {
