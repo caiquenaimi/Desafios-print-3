@@ -10,6 +10,7 @@ body {
     body {
         font-size: 14px;
     }
+
 }
 
 /*ajustes na estilização do header*/
@@ -196,11 +197,11 @@ h5 {
 hr {
     height: 10px;
     background: linear-gradient(to right, white, black);
- border-radius: 10px;
+    border-radius: 10px;
 
 }
 
-@media  screen and (max-width:600px) and (min-device-height:400px) {
+@media screen and (max-width:600px) and (min-device-height:400px) {
     body {
         display: flex;
         flex-direction: column;
@@ -217,8 +218,8 @@ hr {
     }
 
     footer {
-        width: 110%;
-       
+        width: 100%;
+
     }
 
     hr {
@@ -235,23 +236,18 @@ hr {
 
     }
 
+    header {
+        width: 111%;
+
+    }
+
     #iconmenu {
         margin-left: 100px;
     }
 
-
-    header {
-        width: 100%;
-
-    }
-
-    #iconmenu {
-        margin-left: 2%;
-    }
-
     #escritalogo {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 100%;
+
     }
 
     main {
@@ -267,7 +263,6 @@ hr {
 
     article {
         margin-bottom: 20px;
-        max-width: 600px;
         width: 100%;
     }
 
@@ -276,6 +271,8 @@ hr {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin-left: 2%;
+    
     }
 
     #bannerprincipal {
@@ -292,7 +289,6 @@ hr {
         flex-direction: column;
         align-items: center;
     }
-
     .banner1 img {
         order: 1;
     }
