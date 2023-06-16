@@ -320,26 +320,3 @@ ul {
 
 }
 
-button {
-    background-color: #212121;
-    color: #f5f5f5;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    font-size: 30px;
-    height: 7vh;
-    width: 20%;
-    border: solid 3px rgb(17, 61, 105);
-    border-radius: 13px;
-}
-
-/* hover do botão */
-button:hover {
-    background-color: rgb(17, 61, 105);
-    box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
-    cursor: pointer;
-}
-
