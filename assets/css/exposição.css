@@ -10,7 +10,12 @@
     margin: 2%;
     display: flex;
 }
-
+#materiaprincipal{
+    padding: 1%;
+}
+p{
+    text-align: justify;
+}
 /*shadow box de fundo, borda redonda e distanciamento geral ao redor junto ocm conteudo adicional ao redor co cor preta de fundo*/
 
 #comments {
@@ -56,6 +61,10 @@
 
 .sec123 {
     cursor: pointer;
+}
+/* arrumando header */
+#escritalogo{
+    margin-top: 2%;
 }
 
 /*cursor ao pasar em cima*/
