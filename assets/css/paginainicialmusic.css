@@ -220,7 +220,7 @@ hr {
     }
 
     header {
-        width: 120%
+        width: 120%;
 
 
     }
@@ -290,3 +290,32 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
+    #footer_content {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    #footer_copyright{
+      height: auto;
+
+    }
+
+    #footer_contacts,
+    .footer-list,
+    #footer_feedback {
+        text-align: center;
+    }
+
+    #footer_social_media {
+        justify-content: center;
+    }
+
+    #footer_content {
+        color: #ccc;
+        margin-bottom: 0;
+        position: absolute;
+        background-color: black;
+     
+    }
+}
+
