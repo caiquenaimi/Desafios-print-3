@@ -149,7 +149,7 @@ main {
 #news {
     width: 100%;
     align-items: center;
-    text-align: justify;
+  
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
@@ -163,7 +163,7 @@ main {
 /*nenhum padding e distanciamento geral ao redor*/
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
+ 
 }
 
 /*justificação do texto*/
@@ -369,6 +369,7 @@ header {
 }
 
 p {
+    text-align: justify;
     color: whitesmoke;
 }
 
