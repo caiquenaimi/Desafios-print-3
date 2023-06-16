@@ -14,9 +14,13 @@ body {
     align-items: center;
     border-radius: 7%;
     margin: 5%;
+    padding: 1%;
 }/*articles com hover borda,magin estilizar*/
 
-
+/* arrumando imagem noticia passada */
+#img05{
+    width: 60%;
+}
 #img01 {
     text-align: center;
     margin: 2%;
@@ -56,7 +60,9 @@ section {
     width: 33%;
 }/*articles*/
 
-
+p{
+    text-align: justify;
+}
 
 
 
@@ -257,10 +263,7 @@ section {
 #pnt2 {
     text-align: center;
 }
-h2 {
-    color: #267683;
-   
-}/*h2 feito*/
+
 #main02 {
     display: flex;
     flex-direction: column;
@@ -278,9 +281,13 @@ h2 {
     font-size: 38px;
 }/*titles*/
 
-
-
-
+/* detalhes */
+.containerNoticiaArtes{
+    margin-bottom: 5%;
+}
+#pubpor{
+    margin-top: 17%;
+}
 /* responsividade */
 @media screen and (max-width:600px) and (min-device-height:400px){
     #art02, #art03, #art04{
@@ -296,6 +303,9 @@ h2 {
     }
     #img02, #img03, #img04, #img05, #img06, #img07{
         width: 70%;
+    }
+    p{
+        text-align: justify;
     }
 }
 
