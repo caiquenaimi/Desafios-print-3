@@ -6,6 +6,8 @@ let autor = [];
 let contador;
 
 function add() {
+
+  document.getElementById('buttonadd').innerHTML = 'Adicionar';
   let inputTitle = document.getElementById('input1').value;
   let inputResum = document.getElementById('input2').value;
   let inputData = document.getElementById('input3').value.split('-').join('/');
@@ -83,4 +85,12 @@ function edt(edit) {
   document.getElementById('input4').value = cate[edit];
   document.getElementById('input5').value = autor[edit];
   contador = edit;
+
+
+  if (contador !== undefined) {
+    let buttonadd = document.getElementById("buttonadd");
+
+    buttonadd.innerHTML = `Atualizar`
+  }
+
 }
