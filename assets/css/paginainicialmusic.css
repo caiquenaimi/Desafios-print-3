@@ -189,7 +189,7 @@ hr {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-      
+
 
     }
 
@@ -220,7 +220,8 @@ hr {
     }
 
     header {
-        width: 120%;
+        width: 120%
+
 
     }
 
@@ -256,7 +257,7 @@ hr {
         justify-content: center;
         align-items: center;
         margin-left: 2%;
-    
+
     }
 
     #bannerprincipal {
@@ -273,6 +274,7 @@ hr {
         flex-direction: column;
         align-items: center;
     }
+
     .banner1 img {
         order: 1;
     }
