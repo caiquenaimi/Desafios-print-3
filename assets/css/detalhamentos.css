@@ -228,6 +228,16 @@ h1 {
         flex-direction: column;
     }
 
+    #escritalogo{
+        margin-left: 35%;
+      
+    }
+    section.comments123 {
+        margin-bottom: 20px;
+        max-width: 100%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
     #logoc {
         margin-left: 30%;
     }

@@ -461,5 +461,10 @@ p {
     * {
         flex-direction: column;
     }
+    #escritalogo{
+        margin-left: 35%;
+      
+    }
+
 }
 
