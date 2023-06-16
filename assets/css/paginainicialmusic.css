@@ -29,27 +29,7 @@ article {
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
 
-#header0 {
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-}
 
-/*ajuste na posição da imagem*/
-#imgheader0 {
-    margin: auto;
-    margin-bottom: 0%;
-}
-
-/*ajuste na posição da imagem*/
-#imgheader {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 0%;
-}
 
 /*centralizar logo e tirar a borda*/
 #escritalogo {
@@ -237,7 +217,7 @@ hr {
     }
 
     header {
-        width: 111%;
+        width: 100%;
 
     }
 
