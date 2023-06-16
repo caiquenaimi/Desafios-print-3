@@ -591,6 +591,10 @@ h2 {
 h1 {
     text-align: center;
 }
+/* escrita logo  */
+#escritalogo{
+    margin-left: 20%;
+}
 
 @media (max-width:600px) {
     #comments {
@@ -625,6 +629,8 @@ h1 {
         margin-right: 4%;
     }
 
-
+#escritalogo{
+    margin-left: 10%;
+}
 
 }
