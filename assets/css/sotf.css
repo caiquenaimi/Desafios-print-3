@@ -11,6 +11,12 @@ body {
     text-align: center;
 
 }
+/* arrumando imagem */
+#imgsoft{
+    width: 95%;
+    height: 40vh;
+    margin-left: 10%;
+}
 
 header {
     /*fixando a header*/
@@ -436,5 +442,6 @@ button:hover {
     #imgsoft {
         margin-left: -10%;
         padding: 5%;
+        width: 120%;
     }
 }
