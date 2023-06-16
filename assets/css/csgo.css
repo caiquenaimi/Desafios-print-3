@@ -182,7 +182,7 @@ button:hover {
 
     }
 
-   
+
     #news {
         width: 70%;
         margin-left: 13%;
@@ -251,10 +251,11 @@ button:hover {
         margin-top: 3vh;
         margin-bottom: 3vh;
         text-align: center;
-      }
-#liminha{
-    margin-bottom: 5vh;
-}
-     
-      
+    }
+
+    #liminha {
+        margin-bottom: 5vh;
+    }
+
+
 }
