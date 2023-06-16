@@ -8,7 +8,6 @@ let contador;
 function add() {
 
   document.getElementById('buttonadd').innerHTML = 'Adicionar';
-  document.getElementById('editado').innerHTML = '';
   let inputTitle = document.getElementById('input1').value;
   let inputResum = document.getElementById('input2').value;
   let inputData = document.getElementById('input3').value.split('-').join('/');
@@ -33,13 +32,16 @@ function add() {
   msg.innerHTML = '';
 
   if (contador !== undefined) {
-    title[contador] = inputTitle + ' - Editado';
+    title[contador] = inputTitle + '- Editado';
     resum[contador] = inputResum;
     data[contador] = inputData;
     cate[contador] = inputCate;
     autor[contador] = inputAutor;
     contador = undefined;
-  } else {
+
+
+  }
+  else {
     title.push(inputTitle);
     resum.push(inputResum);
     data.push(inputData);
@@ -86,7 +88,7 @@ function edt(edit) {
   document.getElementById('input3').value = data[edit];
   document.getElementById('input4').value = cate[edit];
   document.getElementById('input5').value = autor[edit];
-  
+
   contador = edit;
 
 
