@@ -214,7 +214,12 @@ header {
     #volei1 {
         float: none;
         margin: 2% auto;
-        margin-left: 10%;
+        margin-left: 8%;
+        width: 85%;
+    }
+
+    #hobtit,#hobtit1 {
+        text-align: center;
     }
 
     .container {
@@ -263,6 +268,11 @@ header {
 
     #imagemmm {
         margin-left: 10%;
+    }
+
+    #foto1 {
+        width: 50%;
+        height: 10%;
     }
 
 
