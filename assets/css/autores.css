@@ -444,17 +444,3 @@ section {
     margin-left: 1%;
     margin-bottom: 2%;
 }
-@media screen and (max-width:600px) and (min-device-height:400px){
-    #mainn02{
-        display: inline;
-    }
-    #main03{
-        display: inline; 
-    }
-    #main04{
-        display: inline;
-    }
-    #main01{
-        display: inline; 
-    }
-}

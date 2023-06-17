@@ -290,6 +290,7 @@ p{
     text-align: justify;
     margin-top: 10%;
 }
+
 /* arrumando imagens  */
 #img5{
     margin-top: 0%;
@@ -297,6 +298,11 @@ p{
 /* detalhes */
 .containerNoticiaArtes{
     margin-bottom: 5%;
+}
+#title2{
+    margin-left: 25%;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
 }
 #pubpor{
     margin-top: 17%;

@@ -945,7 +945,9 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-
+#pa02{
+    font-size: 20px;
+}
 
 @media (max-width:768px) {
 
@@ -982,6 +984,33 @@ h1 {
         margin-right: 0;
         margin-left: 0;
     }
+    /* responsividade autores */
+    #art04, #art03, #art02, #art01, #art05, #art06, #art07, #art08, #art09, #art10{
+        width: 80%;
+        margin-left: 10%;
+        padding: 1%;
+    }
+    #art05, #art06, #art07, #art08, #art09, #art10{
+        width: 80%;
+        margin-left: 13%; 
+        padding: 1%;
+    }
+    #para01{
+        margin-left: 5%;
+    }
+    #art01{
+        display: inline;
+    }
+    #img01{
+        width: 70%;
+        margin-left: 12%;
+    }
+    #pa02{
+        font-size: 16px;
+    }
+   #main03, #main04{
+    display: inline;
+   }
 
     #mainn02 {
         display: flex;
