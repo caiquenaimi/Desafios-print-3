@@ -121,6 +121,11 @@ input#email {
 }
 
 @media screen and (max-width: 900px) and (min-device-height: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
     #footer_content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -132,6 +137,7 @@ input#email {
     .footer-list,
     #footer_feedback {
         text-align: center;
+        margin-bottom: 20%;
     }
 
     #footer_social_media {
@@ -148,6 +154,7 @@ input#email {
 
     h1 {
         text-align: center;
+        margin-right: 10%;
     }
 
 
