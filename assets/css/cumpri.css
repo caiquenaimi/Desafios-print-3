@@ -11,7 +11,20 @@
     background-color: #141212;
     height: 90%;
 }
-
+#sobre2{
+    text-align: center;
+    width: 40%;
+    color: whitesmoke;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    margin-top: 2%;
+    border-radius: 5%;
+    background-color: #141212;
+    height: 90%;
+  
+}
 /*luminosidade de fundo, arredondamento da borda, distanciamento ao topo, autocentralização definir cor para branca w tamanho para 40%*/
 
 #foto1-text {
@@ -19,13 +32,22 @@
     margin-top: 2%;
     margin-bottom: 2%;
     padding-bottom: 2%;
-}
 
+}
+#foto2-text {
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    padding: 5%;
+
+}
 /*deixar o texto alinhado e com distanciamento das laterais*/
 
 #foto1 {
     border: outset whitesmoke 3px;
     border-radius: 3%;
+    
 }
 
 /*borda na foto principal*/
@@ -217,7 +239,10 @@ h3 {
         margin-left: 30%;
     }
 
-
+   #sobre2{
+        width: 100%;
+        padding: 4%;
+    }
 
     #imagemmm {
         width: 15%;

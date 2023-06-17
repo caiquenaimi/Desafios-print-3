@@ -73,7 +73,14 @@ main {
     margin: 5%;
     border-radius: 5%;
 }
-
+/* pag para ler */
+#news1 {
+    width: 33%;
+    text-align: center;
+    background-color: #141212;
+    margin: 5%;
+    border-radius: 5%;
+}
 /*Ajustes do posicionamento da section das noticias*/
 #section01 {
     margin: 5%;
@@ -207,7 +214,10 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
 }
-
+/* imagem pag para ler */
+#imgm{
+    height: 15vh;
+}
 ul {
     background-color: black;
 }
@@ -253,14 +263,22 @@ ul {
         width: 80%;
         margin-left: 10%;
     }
-
+    /* responsividade pag para ler */
+    #news1{
+        width: 80%;
+        margin-left: 13%;
+    }
+   #imgm{
+    margin-top: 10%;
+   }
+   /* acabou a para ler */
     .lastnews {
         width: 80%;
         margin-left: 10%;
         display: inline;
         margin-bottom: 10%;
     }
-
+    
     #imgm {
         width: 110%;
         margin-left: -2%;
