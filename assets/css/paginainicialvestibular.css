@@ -2,17 +2,12 @@
 body {
     background-color: #222020;
     color: whitesmoke;
-    text-align: center;
 
 }
 p{
     text-align: justify;
 }
-/*Estilização do padrão para a posição do header*/
-header {
-    display: flex;
-    padding: 0%;
-}
+
 
 /*Estilização do box shadow dos banners*/
 article {
@@ -28,49 +23,6 @@ article {
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
 
-/*Ajuste nos tamanhos e posições dos itens no header*/
-#header0 {
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-    margin-bottom: 0%;
-}
-
-/*Ajustes de posição da section do botão do menu no header*/
-#header01 {
-    width: 20%;
-    margin-top: auto;
-}
-
-/*Estilização da logo escrita no centro do header*
-/#escritalogo {
-=======
-/*Estilização da logo escrita no centro do header*/
-#escritalogo {
-    margin: 0%;
-    margin-left: 5%;
-    margin-bottom: -5%;
-}
-
-/*Estlização da logo com  desenho no canto esquerdo do header*/
-#desenho {
-
-    margin-left: 78%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-
-
-}
-
-/*Posicionamento do botão para abrir o menu no no header*/
-#bltmenu {
-    border: none;
-    float: left;
-
-}
 
 /*Definição do posicionamento dos itens no banner das noticias*/
 .banner1 {
@@ -157,10 +109,6 @@ p {
 #pub{
     margin-left: 15%;
 }
-/* ajuste icon */
-label{
-    margin-top: -1%;
-}
 /*Ajuste da estilizçã das noticias principais*/
 #mainnews {
     margin: 5%;
@@ -226,33 +174,12 @@ img {
     border: whitesmoke outset;
 }
 
-/*Ajustes na estilização do header.*/
-header {
-    background-color: black;
-    margin-bottom: 0%;
-    padding: -5%;
-}
-
 
 /*Posicionamento do footer*/
 #footer1 {
     margin-bottom: -5px;
 }
 
-/*Ajuste no posicionamneto da logo com a escrita da equipe.*/
-/* #img1 {
-    margin: 5%;
-    margin-left: 5%;
-}
- */
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/
-#link1 {
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    margin-bottom: 0%;
-
-}
 
 
 

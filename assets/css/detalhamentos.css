@@ -87,13 +87,6 @@ img {
     margin: 0%;
 }
 
-/*  arrumando header */
-header {
-    display: flex;
-    height: 10vh;
-    background-color: black;
-}
-
 #iconr {
     float: right;
 }
@@ -391,12 +384,6 @@ h1 {
 
     .comments123 {
         width: 90%;
-    }
-    /* imagem da header */
-    #escritalogo{
-        margin-left: 20%;
-       
-        margin-top: -3%;
     }
 
     #div1 {

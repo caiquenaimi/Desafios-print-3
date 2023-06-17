@@ -148,11 +148,6 @@ h4 {
     border: outset whitesmoke;
 }
 
-#linkimg:hover {
-    background-color: #141212;
-    ;
-}
-
 /*ajuste da posição e borda da música*/
 #img06 {
     text-align: center;
@@ -175,23 +170,12 @@ h4 {
     margin-right: 30%;
 }
 
-#link1:hover {
-    background-color: black;
-}
-
 a:hover {
     background-color: rgb(33, 33, 33);
 }
 
 #cent {
     text-align: center;
-}
-
-/* coisinhas da header */
-header {
-    display: flex;
-    height: 10vh;
-    background-color: black;
 }
 
 #iconr {
@@ -408,11 +392,6 @@ h1 {
 
     .comments123 {
         width: 90%;
-    }
-
-
-    #escritalogo {
-        margin-left: 20%;
     }
 
     #img01 {

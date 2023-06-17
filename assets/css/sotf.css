@@ -21,12 +21,6 @@ body {
 p{
     text-align: justify;
 }
-header {
-    /*fixando a header*/
-    display: flex;
-    padding: 0%;
-    background-color: black;
-}
 
 a {
     /*decorando os links*/
@@ -39,71 +33,6 @@ a {
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-}
-
-#header0 {
-    /*alinhando tudo*/
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-}
-
-#header01 {
-    /*alinhando tudo*/
-    width: 20%;
-    margin-top: auto;
-}
-
-#imgheader0 {
-    /*alinhndo tudo*/
-    margin: auto;
-    margin-bottom: 0%;
-}
-
-#imgheader {
-    /*alinhando tudo*/
-    width: 50%;
-    margin: auto;
-    margin-bottom: 0%;
-}
-
-#imgheader2 {
-    /*alinhando tudo*/
-    width: 50%;
-    float: right;
-    margin-bottom: 0%;
-}
-
-#imgheader2 {
-    width: 50%;
-    float: right;
-    margin-bottom: 0%;
-}
-
-/*margem baixa anulada e flutuação na direita com widht 100%*/
-#escritalogo {
-    margin-left: 17%;
-    border: none;
-
-}
-
-label{
-    margin-top: -1%;  
-    
-}
-/*borda anulada e margem na esquerda aumentada*/
-#desenho {
-    float: right;
-    border: none;
-}
-
-/*encaixe da img na direita*/
-#bltmenu {
-    border: none;
-    float: left;
 }
 
 /*encaixe do menu na esquerda*/
@@ -256,16 +185,6 @@ img {
     margin-top: 25%;
 }
 
-/*distanciamento altitudinal*/
-
-/*Ajustes na estilização do header.*/
-header {
-    background-color: black;
-    margin-bottom: 0%;
-    padding: -5%;
-}
-
-
 /*Posicionamento do footer*/
 #footer1 {
     margin-bottom: -5px;
@@ -274,20 +193,6 @@ header {
 /*Ajuste no posicionamneto da logo com a escrita da equipe.*/
 #img1 {
     margin-left: 5%;
-}
-
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/
-#link1 {
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    margin-bottom: 0%;
-
-}
-
-/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/
-#link1:hover {
-    background-color: black;
 }
 
 /*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/

@@ -121,12 +121,7 @@ h3 {
     font-size: 22px;
 }
 
-/*aumento de distancia e mudança na fonte*/
 
-header {
-    display: flex;
-    background-color: black;
-}
 
 #iconr {
     float: right;
@@ -146,15 +141,6 @@ header {
 #mamamiaa {
     align-items: center;
     text-align: center;
-}
-
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/
-#link1 {
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    margin-bottom: 0%;
-
 }
 
 #sobrenostit {
@@ -229,18 +215,6 @@ header {
 
     #logoc {
         margin-left: 30%;
-    }
-
-    header {
-        background-color: #000;
-        padding: 10px;
-        text-align: center;
-    }
-
-    #escritalogo {
-        position: relative;
-        left: 30%;
-        transform: translateX(-50%);
     }
 
 

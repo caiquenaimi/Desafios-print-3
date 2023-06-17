@@ -6,12 +6,6 @@ body {
 
 }
 
-/*concerto do header*/
-header {
-    display: flex;
-    padding: 0%;
-}
-
 /*cores paragrafo*/
 a {
     text-decoration: whitesmoke;
@@ -23,63 +17,6 @@ article {
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-}
-
-/*header principal*/
-#header0 {
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-}
-
-/*tamanho header*/
-#header01 {
-    width: 20%;
-    margin-top: auto;
-}
-
-/*imagem header*/
-#imgheader0 {
-    margin: auto;
-    margin-bottom: 0%;
-}
-
-/*imagem header*/
-#imgheader {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 0%;
-}
-
-/*imagem header*/
-#imgheader2 {
-    width: 50%;
-    float: right;
-    margin-bottom: 0%;
-}
-
-/*escrita do logo*/
-#escritalogo {
-    margin-left: 10%;
-    margin-left: 30%;
-    border: none;
-
-}
-
-/*desenho header*/
-#desenho {
-    float: right;
-    border: none;
-}
-
-/*menu*/
-#bltmenu {
-    border: none;
-    float: left;
-
 }
 
 /*banner1*/

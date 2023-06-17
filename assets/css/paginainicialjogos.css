@@ -2,24 +2,6 @@ body {/*alterando cor do body*/
     background-color: #222020;
     color: whitesmoke;
 }
-header {/*fixando a header*/
-    display: flex;
-    padding: 0%;
-    background-color: black;
-}
-/* arrumando header */
-#escritalogo {
-
-    border: none;
-
-}
-#title1{
-    text-align: center;
-}
-label{
-    margin-top: -1%;  
-    
-}
 
 /* arrumando textos */
 p{
@@ -34,46 +16,7 @@ a {/*decorando os links*/
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
-#header0 {/*alinhando tudo*/
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-}
-#header01{/*alinhando tudo*/
-    width: 20%;
-    margin-top: auto;
-}
-#imgheader0 {/*alinhndo tudo*/
-    margin: auto;
-    margin-bottom: 0%;
-}
-#imgheader {/*alinhando tudo*/
-    width: 50%;
-    margin: auto;
-    margin-bottom: 0%;
-}
-#imgheader2{/*alinhando tudo*/
-    width: 50%;
-    float: right;
-    margin-bottom: 0%;
-}
-#escritalogo {/*tirando borda e alinhando*/
-    margin-left: 20%;
-    border: none;
-    
-}
-#desenho {/*tirando a borda e alinhando*/
-   float: right;
-   border: none;
-}
-#bltmenu {/*tirando borda*/
-    border: none;
-    float: left;
 
-}
 
 .banner1, #banner {/*arrumando primeira noticia*/
     display: flex;
@@ -198,11 +141,6 @@ border: none;
 #noticiainicial{/*arrumando a noticia inicial*/
     margin-top: 20%;
 }
-/*Ajustes na estilização do header.*/header {
-    background-color: black;
-    margin-bottom: 0%;
-   padding: -5%;
-}
 
 
 /*Posicionamento do footer*/#footer1 {
@@ -211,16 +149,6 @@ border: none;
 
 /*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
     margin-left:5%;
-}
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    margin-bottom: 0%;
-
-}
-/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/#link1:hover {
-    background-color: black;
 }
 /*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments {
     width: 100%;

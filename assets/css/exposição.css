@@ -62,11 +62,6 @@ p{
 .sec123 {
     cursor: pointer;
 }
-/* arrumando header */
-#escritalogo{
-    margin-top: -1%;
-}
-
 /*cursor ao pasar em cima*/
 
 #estrela1 {
@@ -81,17 +76,10 @@ p{
 
 /*colagem do footer*/
 
-header {
-    height: 50px;
-}
-
 img {
     object-fit: contain;
 }
 
-#imgheader {
-    margin-top:-1.5%;
-}
 
 @media (max-width:768px) {
     #comments {
