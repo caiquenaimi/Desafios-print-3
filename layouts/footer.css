@@ -100,6 +100,7 @@ p {
 
 input#email {
     background-color: #a0a0a0;
+    border-radius: 3%;
 }
 
 #input_group button:hover {
@@ -144,4 +145,6 @@ input#email {
         background-color: black;
         margin: 1%;
     }
+
+
 }

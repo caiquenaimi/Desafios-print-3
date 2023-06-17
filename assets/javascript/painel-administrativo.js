@@ -6,13 +6,16 @@ let autor = [];
 let contador;
 
 function add() {
+
+  document.getElementById('buttonadd').innerHTML = 'Adicionar';
   let inputTitle = document.getElementById('input1').value;
   let inputResum = document.getElementById('input2').value;
-  let inputData = new Date(document.getElementById('input3').value).getFullYear(document.getElementById('input3').value) + '-' + Number(new Date(document.getElementById('input3').value).getMonth() + 1) + '-' + Number(new Date(document.getElementById('input3').value).getDate() + 1);
+    //variaveis da data
+  let inputData = document.getElementById('input3').value.split('-').join('/');
   let dataHj = new Date(inputData);
-  console.log(dataHj);
-  console.log(new Date());
+
   let inputCate = document.getElementById('input4').value;
+
   let inputAutor = document.getElementById('input5').value;
 
   if (inputTitle === '' || inputResum === '' || inputData === '' || inputCate === '' || inputAutor === '') {
@@ -20,7 +23,7 @@ function add() {
     msg.innerHTML = 'Preencha o formulário antes de adicionar um artigo';
     return;
   }
-
+//if da data
   if (dataHj.setHours(20) < new Date()) {
     let msg = document.getElementById('p1');
     msg.innerHTML = 'Preencha com a data a partir do dia de hoje';
@@ -31,13 +34,16 @@ function add() {
   msg.innerHTML = '';
 
   if (contador !== undefined) {
-    title[contador] = inputTitle + ' - Editado';
+    title[contador] = inputTitle + ' - Editado0]';
     resum[contador] = inputResum;
     data[contador] = inputData;
     cate[contador] = inputCate;
     autor[contador] = inputAutor;
     contador = undefined;
-  } else {
+  }
+
+
+  else {
     title.push(inputTitle);
     resum.push(inputResum);
     data.push(inputData);
@@ -53,7 +59,7 @@ function add() {
     conteudo += '<p class="resumos">' + resum[i] + '</p>';
     conteudo += '<p class="autores">' + 'Por: ' + '<strong>' + autor[i] + '</strong>' + '</p>';
     conteudo += '<p class="categorias">' + 'Categoria: ' + cate[i] + '</p>';
-    conteudo += '<p class="datas" id="date">' + data[i].split('-').reverse().join('-') + '</p>';
+    conteudo += '<p class="datas" id="date">' + data[i].split('/').reverse().join('-') + '</p>';
     conteudo += '<button id="btn1" onclick="edt(' + i + ')"><a href="#filho">Editar🖊</a></button>';
     conteudo += '<button id="btn2" onclick="rmv(' + i + ')">Remover🗑</button>';
     conteudo += '</section>';
@@ -70,13 +76,28 @@ function add() {
 
 function rmv(hidden) {
   document.getElementById('result' + hidden).style.display = 'none';
+  title.splice(hidden, 1);
+  resum.splice(hidden, 1);
+  data.splice(hidden, 1);
+  cate.splice(hidden, 1);
+  autor.splice(hidden, 1);
 }
 
 function edt(edit) {
   document.getElementById('input1').value = title[edit];
   document.getElementById('input2').value = resum[edit];
+  data[edit] = data[edit].split('/').join('-');
   document.getElementById('input3').value = data[edit];
   document.getElementById('input4').value = cate[edit];
   document.getElementById('input5').value = autor[edit];
+
   contador = edit;
+
+
+  if (contador !== undefined) {
+    let buttonadd = document.getElementById("buttonadd");
+
+    buttonadd.innerHTML = `Atualizar`
+  }
+
 }

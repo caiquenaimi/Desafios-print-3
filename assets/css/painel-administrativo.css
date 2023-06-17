@@ -386,7 +386,12 @@ main section #date {
     height: 120vh;
     border: solid 3px rgb(17, 61, 105);
 }
-
+/*  arrumando header */
+header {
+    display: flex;
+    height: 12vh;
+    background-color: black;
+}
 h1 {
     font-size: 50px;
 }

@@ -5,6 +5,7 @@ form div {
     flex-direction: column;
     width: 50%;
     font-family: sans-serif;
+  
 }
 /* estilização das caixas de texto em geral*/
 input {
@@ -71,6 +72,7 @@ article {
     margin: auto;
     height: 100vh;
     background-color: black;
+    margin-bottom: 10%;
 }
 /* estilização geral*/
 * {

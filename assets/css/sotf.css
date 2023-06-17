@@ -11,7 +11,16 @@ body {
     text-align: center;
 
 }
-
+/* arrumando imagem */
+#imgsoft{
+    width: 95%;
+    height: 40vh;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+p{
+    text-align: justify;
+}
 header {
     /*fixando a header*/
     display: flex;
@@ -25,7 +34,7 @@ a {
     color: whitesmoke;
 }
 
-article {
+#bannerprincipal, #news {
     /*sombra nos articles*/
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
@@ -76,10 +85,15 @@ article {
 
 /*margem baixa anulada e flutuação na direita com widht 100%*/
 #escritalogo {
-    margin-left: -70%;
+    margin-left: 17%;
     border: none;
+
 }
 
+label{
+    margin-top: -1%;  
+    
+}
 /*borda anulada e margem na esquerda aumentada*/
 #desenho {
     float: right;
@@ -121,7 +135,7 @@ article {
 
 /*disposição em linha e margem automatica*/
 main {
-    text-align: center;
+  
     margin: 0%;
 }
 
@@ -135,7 +149,7 @@ main {
 #news {
     width: 100%;
     align-items: center;
-    text-align: justify;
+  
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
@@ -149,7 +163,7 @@ main {
 /*nenhum padding e distanciamento geral ao redor*/
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
+ 
 }
 
 /*justificação do texto*/
@@ -180,7 +194,9 @@ h5 {
     color: #5cd3e6;
     margin-top: 3%;
 }
-
+.desce{
+    margin-bottom: 3%;
+}
 /*distanciamento no topo e cor do texto*/
 #mainnews0 {
     margin-left: 3%;
@@ -296,9 +312,6 @@ header {
 .comments123 {
     width: 30%;
     margin: auto;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     background-color: black;
     padding: 1%;
     border-radius: 5%;
@@ -356,6 +369,7 @@ header {
 }
 
 p {
+    text-align: justify;
     color: whitesmoke;
 }
 
@@ -439,5 +453,6 @@ button:hover {
     #imgsoft {
         margin-left: -10%;
         padding: 5%;
+        width: 120%;
     }
 }

@@ -2,98 +2,126 @@
     text-align: center;
     width: 40%;
     color: whitesmoke;
-    margin:auto;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     margin-top: 2%;
-    border-radius:5%;
+    border-radius: 5%;
     background-color: #141212;
-    height:90%;
-} /*luminosidade de fundo, arredondamento da borda, distanciamento ao topo, autocentralização definir cor para branca w tamanho para 40%*/
+    height: 90%;
+}
+
+/*luminosidade de fundo, arredondamento da borda, distanciamento ao topo, autocentralização definir cor para branca w tamanho para 40%*/
 
 #foto1-text {
     text-align: justify;
-    margin-top:2%;
-    margin-bottom:2%;
-    padding-bottom:2% ;
-} /*deixar o texto alinhado e com distanciamento das laterais*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+/*deixar o texto alinhado e com distanciamento das laterais*/
 
 #foto1 {
     border: outset whitesmoke 3px;
     border-radius: 3%;
-} /*borda na foto principal*/
+}
+
+/*borda na foto principal*/
 
 body {
     background-color: #222020;
-} /*cor de fundo*/
+}
+
+/*cor de fundo*/
 
 #hob-title {
     color: whitesmoke;
     text-align: center;
-    margin:4%;
-    font-family:Bernard MT Condensed;
-} /*deixar o texto centralizado, definir distancia das bordas e fonte*/
+    margin: 4%;
+    font-family: Bernard MT Condensed;
+}
+
+/*deixar o texto centralizado, definir distancia das bordas e fonte*/
 
 #skate1 {
     float: left;
     border: outset whitesmoke 3px;
     margin: 2%;
     border-radius: 3%;
-} /*colocar a foto a esquerda, definir borda e distanciar das bordas*/
+}
+
+/*colocar a foto a esquerda, definir borda e distanciar das bordas*/
 
 #volei1 {
     float: left;
     border: outset whitesmoke 3px;
     margin: 2%;
     border-radius: 3%;
-} /*colocar a foto a esquerda, definir borda e distanciar das bordas*/
+}
+
+/*colocar a foto a esquerda, definir borda e distanciar das bordas*/
 
 #hob12 {
     color: whitesmoke;
     display: flex;
-} /*deixar os elementos lado a lado*/
+}
+
+/*deixar os elementos lado a lado*/
 
 .hobbies {
-    width:45%;
+    width: 45%;
     margin: auto;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    border-radius:5%;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    border-radius: 5%;
     background-color: #141212;
     margin-top: 5%;
     height: 50%;
-} /*deixar os elementos centralizados, com luz de fundo, background diferente e tamanho especifico*/
+}
+
+/*deixar os elementos centralizados, com luz de fundo, background diferente e tamanho especifico*/
 
 * {
-    margin:0;
-    padding:0;
-} /*remoção do espaço adicional e margin dos elementos gerais*/
+    margin: 0;
+    padding: 0;
+}
+
+/*remoção do espaço adicional e margin dos elementos gerais*/
 
 #footer-1 {
-    margin-bottom:-5px;
-} /*colamento do footer ao chão da pagina*/
+    margin-bottom: -5px;
+}
+
+/*colamento do footer ao chão da pagina*/
 
 p {
     text-align: justify;
-    margin:2%;
-    font-family:Franklin Gothic;
+    margin: 2%;
+    font-family: Franklin Gothic;
     font-size: 15px;
-} /*fonte das letras, justificação de texto e distanciamento*/
+}
+
+/*fonte das letras, justificação de texto e distanciamento*/
 
 #foto1-title {
     margin-bottom: 2%;
-    margin-top:2%;
-    padding-top:1%;
+    margin-top: 2%;
+    padding-top: 1%;
     font-family: Bernard MT Condensed;
-} /*fonte da letra, aumento de espaço no topo e margin tanto no topo quanto em baixo adicional*/
+}
+
+/*fonte da letra, aumento de espaço no topo e margin tanto no topo quanto em baixo adicional*/
 
 h3 {
-    margin:3%;
-    font-family:Trebuchet MS;
-    font-size:22px;
-} /*aumento de distancia e mudança na fonte*/
+    margin: 3%;
+    font-family: Trebuchet MS;
+    font-size: 22px;
+}
+
+/*aumento de distancia e mudança na fonte*/
 
 header {
     display: flex;
@@ -112,26 +140,49 @@ header {
     margin-left: 43%;
     margin-top: 1%;
 }
+
 /*ajuste imagem instagram pessoal*/
-#imagemmm {
-   margin-left: 48.8%;
-}
+
 #mamamiaa {
     align-items: center;
     text-align: center;
 }
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
+
+/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/
+#link1 {
     padding: 0%;
     margin: 0%;
     background-color: black;
     margin-bottom: 0%;
 
 }
+
 #sobrenostit {
     text-align: center;
-    margin:4%;
-    font-family:Bernard MT Condensed;
+    margin: 4%;
+    font-family: Bernard MT Condensed;
     color: #257683;
+}
+
+/* arrumando */
+.container {
+    margin-right: 10%;
+}
+
+#gif {
+    margin-right: 13%;
+}
+
+/* arrumando a sobre mim */
+#volei1,
+#skate1 {
+    width: 60%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.hobbies {
+    display: inline;
 }
 
 @media screen and (max-width: 900px) and (min-device-height: 400px) {
@@ -165,10 +216,12 @@ header {
         margin: 2% auto;
         margin-left: 10%;
     }
-    .container{
+
+    .container {
         margin-left: 5%;
         margin-right: 10%;
     }
+
     #logoc {
         margin-left: 30%;
     }
@@ -176,16 +229,16 @@ header {
     header {
         background-color: #000;
         padding: 10px;
-        text-align: center; 
-      }
-    
-      #escritalogo {
+        text-align: center;
+    }
+
+    #escritalogo {
         position: relative;
         left: 30%;
         transform: translateX(-50%);
-      }
+    }
 
-    
+
 
     #imagemmm {
         width: 15%;
@@ -203,13 +256,14 @@ header {
     #canva {
         width: 80%;
     }
-#hobbies{
-    margin-right: 15%;
-}
 
-#imagemmm {
-    margin-left: 10%;
-}
+    #hobbies {
+        margin-right: 15%;
+    }
+
+    #imagemmm {
+        margin-left: 10%;
+    }
 
 
 }

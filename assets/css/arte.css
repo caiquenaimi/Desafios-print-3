@@ -49,12 +49,7 @@ article{
     display: flex;
     margin: auto; 
 } /*posicionamento geral em alinhamento e margens dispostas automaticamente*/
-.banner1:hover{
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all 1s;
-    cursor: pointer;
-} /*modificação na borda na alteração das bordas e no cursor ao passar em cima*/
+
 #bannerprincipal {
     display: flex;
     background-color: #141212;
@@ -105,6 +100,17 @@ p {
     margin-left: 5%;
     margin-right: 5%;
 } /*distanciamento lateral*/
+/* arrumando os cards */
+.containerNoticiaArtes{
+    margin-bottom: 5%;
+}
+/* arrumando a header */
+label{
+    margin-top: -1%;
+}
+#escritalogo{
+   margin-top: 10%;
+}
 #mainnews {
     margin: auto;
     text-align: justify;
@@ -113,13 +119,13 @@ p {
 } /*distanciamento na altura*/
 h2 {
     margin-top: 5%;
-    color: #257683;
+    color: #5cd3e6;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 } /*deixar centralizado e cor da letra*/
 h5 {
-    color: #257683;
+    color: #5cd3e6;
     margin-top: 3%;
     margin-bottom: 0%;
 } /*distanciamento nas laterais e cor de letra*/
@@ -192,4 +198,8 @@ border: none;
     #Centralizar {
         text-align: center;
     }
+    label{
+        margin-top: -3%;
+    }
+
 }

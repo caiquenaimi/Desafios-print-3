@@ -1,19 +1,35 @@
 body {/*alterando cor do body*/
     background-color: #222020;
     color: whitesmoke;
-    text-align: center;
-    
 }
 header {/*fixando a header*/
     display: flex;
     padding: 0%;
     background-color: black;
 }
+/* arrumando header */
+#escritalogo {
+
+    border: none;
+
+}
+#title1{
+    text-align: center;
+}
+label{
+    margin-top: -1%;  
+    
+}
+
+/* arrumando textos */
+p{
+    text-align: justify;
+}
 a {/*decorando os links*/
     text-decoration: whitesmoke;
     color: whitesmoke;
 }
-article{/*sombra nos articles*/
+#principal, #banner{/*sombra nos articles*/
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -45,7 +61,7 @@ article{/*sombra nos articles*/
     margin-bottom: 0%;
 }
 #escritalogo {/*tirando borda e alinhando*/
-    margin-left: -70%;
+    margin-left: 20%;
     border: none;
     
 }
@@ -58,11 +74,12 @@ article{/*sombra nos articles*/
     float: left;
 
 }
-.banner1 {/*arrumando primeira noticia*/
+
+.banner1, #banner {/*arrumando primeira noticia*/
     display: flex;
     margin: auto;
     padding: 2%;
-   
+    border-radius: 20px;
 }
 
 #bannerprincipal {/*arrumando a noticia*/
@@ -119,7 +136,7 @@ main{/*arrumando a main*/
 p {/*alterando dont family dos paragrafos*/
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
+    
 }
 #ppp {/*arrumando os paragrafos*/
     margin-left: 5%;
@@ -222,9 +239,7 @@ border: none;
 .comments123 {
     width: 30%;
     margin: auto;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+   
     background-color: black;
     padding:1%;
     border-radius: 5%;
@@ -294,9 +309,10 @@ a{
 }
 
 @media screen and (max-width:600px) and (min-device-height:400px) {
+    /* banner principal da noticia principal, n da pagina inicial */
     #principal{
         width: 80%;
-        margin-left: 5%;
+        margin-left: 7%;
         padding: 3%;
     }
     #comments1{
@@ -304,11 +320,12 @@ display: inline;
 
     }
     #escritalogo{
-        margin-left: 30%;
+        margin-left: 10%;
     }
+    /* padronizando comentários */
    .comments123{
-    width: 90%;
-    margin-left: 4%;
+    width: 96%;
+  
    }
    footer{
     width: 100%;
@@ -334,12 +351,15 @@ display: inline;
   }
    #news{
     width: 80%;
-    margin-left: 10%;
+    margin-left: 8%;
     padding: 2%;
    }
    #title1{
     margin-left: 4%;
     margin-right: 3%;
    }
-
+   /* arrumando img principal */
+#imgprinc{
+   margin-left: -3%;
+}
 }
