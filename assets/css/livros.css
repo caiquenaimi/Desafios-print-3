@@ -68,12 +68,12 @@ section {
 
 @media screen and (max-width:600px) and (min-device-height:400px) {
 
-    main {
+/*     main {
         width: 100%;
         padding: 20px;
         display: flex;
         justify-content: center;
-    }
+    } */
 
     #main01 {
         display: flex;
@@ -101,14 +101,6 @@ section {
 
     }
 
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-
-    }
 
 }
 

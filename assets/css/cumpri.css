@@ -11,6 +11,10 @@
     background-color: #141212;
     height: 90%;
 }
+
+main {
+    text-align: center;
+}
 #sobre2{
     text-align: center;
     width: 40%;
