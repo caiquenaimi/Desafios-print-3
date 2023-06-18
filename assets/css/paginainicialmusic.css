@@ -305,7 +305,7 @@ hr {
 @media screen and (max-width:600px) and (min-device-height:400px) {
 
 
-   
+
 
     p {
         font-size: 22px;
@@ -322,11 +322,15 @@ hr {
     h2 {
         font-size: 12px;
     }
-  
 
-    #escritalogo {
-        left: 2%;
+    #news {
+        width:  30%;
+        align-items: center;
+        text-align: justify;
+        background-color: #141212;
+        border-radius: 10px;
     }
+    
 
 
     h5 {
@@ -334,17 +338,15 @@ hr {
     }
 
     hr {
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #news {
+        width: 80%;
+        margin: 4% auto;
     }
 
-    #news{
-        width: 550px;
-        /* top left bottom right */
-        margin: 4% auto 4% auto;
-    }
-    
 
     #veigh {
         height: 60%;
@@ -358,7 +360,8 @@ hr {
         height: 60%;
         width: 60%;
     }
-    #bannerprincipal{
+
+    #bannerprincipal {
         margin-left: auto;
         margin-right: auto;
     }
