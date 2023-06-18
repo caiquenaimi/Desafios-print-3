@@ -59,3 +59,63 @@ h1{/*arrumando texto*/
 
 
 
+@media screen and (max-width: 900px) and (min-device-height: 400px) {
+    body {
+      background-color: #222020;
+      color: whitesmoke;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+  
+    #imgheader {
+      width: 100%;
+      margin: auto;
+      margin-bottom: 0;
+    }
+  
+    #imgheader2 {
+      width: 100%;
+      float: none;
+      margin-bottom: 0;
+    }
+  
+    #footer1 {
+      margin-bottom: -5px;
+    }
+  
+    header {
+      background-color: black;
+      display: block;
+      padding: 0;
+    }
+  
+    #botao {
+      width: 30%;
+      text-align: center;
+      padding: 2%;
+      margin-top: 3%;
+    }
+  
+    #botao:hover {
+      background: #d6d5d5;
+      color: black;
+      border: solid #333333;
+    }
+  
+    #rodape {
+      bottom: 0;
+      position: static;
+      left: 0;
+    }
+  
+    h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    #img {
+      margin-top: -20px;
+    }
+  }
+  
