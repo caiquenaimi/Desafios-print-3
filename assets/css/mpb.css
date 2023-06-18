@@ -20,10 +20,15 @@ p {
 /*Ajustes de posição da section*/
 section {
     align-items: center;
-    text-align: center;
+   
     margin: 1%;
 }
-
+.p1, #p1{
+    text-align: justify;
+}
+#imgrap1{
+    margin-left: 25%;
+}
 /*estilização título*/
 h1 {
     color: azure;
@@ -367,7 +372,7 @@ p {
         max-width: 100%;
       }
       
-    
+
     * {
         flex-direction: column;
     }
