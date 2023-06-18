@@ -60,12 +60,10 @@ nav {
     left: -250px;
     z-index: 9999;
     transition: all 1.0s;
-<<<<<<< HEAD
-=======
     top: 130px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
->>>>>>> 779330404983de7ccb93c061d6ef865b85816025
+
 }
 
 /*tirar a borda da imagem*/
@@ -94,14 +92,13 @@ header label {
     width: 100%;
 }
 
-<<<<<<< HEAD
-=======
+
 #iconmenu {
     z-index: 9999;
     
 }
 
->>>>>>> 779330404983de7ccb93c061d6ef865b85816025
+
 /*estilização para tirar o ponto da lista e transição para aparecer quando clicar */
 ul {
     list-style: none;

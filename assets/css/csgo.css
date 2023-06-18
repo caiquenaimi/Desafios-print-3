@@ -48,14 +48,11 @@ h2{/*arrumando h3*/
     background-color: #141212;
     padding:1%;
     border-radius: 5%;
-<<<<<<< HEAD
-    margin:10%;
-  
-=======
+
     margin: 10%;
     height: 40vh;
 
->>>>>>> 779330404983de7ccb93c061d6ef865b85816025
+
 }
 
 h4{
@@ -72,9 +69,7 @@ h4{
    gap: 10vh;
    padding: 10vh;
 }
-<<<<<<< HEAD
-#banner1{
-=======
+
 #main2{
     display: flex;
     margin-bottom: 10vh;
@@ -87,7 +82,7 @@ h4{
 }
 
 #banner1 {
->>>>>>> 779330404983de7ccb93c061d6ef865b85816025
+
     border-radius: 8px;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -204,10 +199,10 @@ button:hover {
         display: inline;
       
     }
-<<<<<<< HEAD
- 
-    #news{
-=======
+#detalhe{
+    width: 70%;
+    margin-left: 5%;
+}
   #main2{
     display: inline;
   }
@@ -227,7 +222,7 @@ p{
     margin-top: 15%;
 }
     #news {
->>>>>>> 779330404983de7ccb93c061d6ef865b85816025
+
         width: 70%;
         margin-left: 13%;
        margin-top: 5%;
@@ -245,10 +240,11 @@ p{
       padding: 3%;
       display: inline;
     }
-
+ 
    #bannerprincipal{
-        width: 90%; 
-     margin-left: 5%;   
+        width: 80%; 
+     margin-left: 3%; 
+     height: 80%;  
     }
  #mainnews{
     margin-left: 7%;
@@ -281,9 +277,7 @@ p{
     button{
         width: 60%;
     }
-<<<<<<< HEAD
-}
-=======
+
 
     h5 {
         margin-top: 3vh;
@@ -299,4 +293,4 @@ p{
     }
 
 }   
->>>>>>> 779330404983de7ccb93c061d6ef865b85816025
+
