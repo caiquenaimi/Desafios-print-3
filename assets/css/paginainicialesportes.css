@@ -304,10 +304,11 @@ h5{
 .containerNoticiaArtes{
     margin-bottom: 5%;
 }
-#title2{
-    margin-left: 25%;
+#tt2{
     font-family: Bernard MT Condensed;
-    font-size: 38px;
+ text-align: center;
+ margin-left: 1%;
+ margin-right: 1%;
 }
 #pubpor1{
     margin-top: 5%;
@@ -328,6 +329,9 @@ h5{
     #art05{
         display: inline;
         padding: 3%;
+    }
+    #tt2{
+        text-align: center;
     }
     #img02, #img03, #img04, #img05, #img06, #img07{
         width: 70%;
