@@ -218,9 +218,7 @@ h1 {
 @media screen and (max-width: 900px) and (min-device-height: 400px) {
     /* Estilos para dispositivos com largura máxima de 900px */
 
-    * {
-        flex-direction: column;
-    }
+  
 
  
     section.comments123 {
@@ -355,9 +353,6 @@ h1 {
 @media screen and (max-width: 900px) and (min-device-height: 400px) {
     /* Estilos para dispositivos com largura máxima de 900px */
 
-    * {
-        flex-direction: column;
-    }
 
     #imagemmm {
         width: 15%;
