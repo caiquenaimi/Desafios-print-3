@@ -376,9 +376,7 @@ p {
       }
       
 
-    * {
-        flex-direction: column;
-    }
+   
     #art01 {
         align-items: center;
         border-radius: 10px;
@@ -409,7 +407,7 @@ p {
     #imgrap1 {
         width: 60%;
         height: 60%;
-
+        
 
     }
 
