@@ -16,6 +16,9 @@ h3 {
     color: burlywood;
     font-size: 22px;
 }
+.p1{
+    text-align: justify;
+}
 
 /*Ajuste na borda do batão linkado ao site da obb*/
 #siteobb {

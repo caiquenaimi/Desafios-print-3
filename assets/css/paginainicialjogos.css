@@ -9,6 +9,9 @@ a {/*decorando os links*/
     text-decoration: whitesmoke;
     color: whitesmoke;
 }
+.p1{
+    text-align: justify;
+}
 article{/*sombra nos articles*/
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);

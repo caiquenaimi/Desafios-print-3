@@ -263,7 +263,9 @@ p{
 #pnt2 {
     text-align: center;
 }
-
+#pa02{
+    text-align: justify;
+}
 #main02 {
     display: flex;
     flex-direction: column;
@@ -345,7 +347,7 @@ h5{
     }
 
     #ba6, #ba10, #ba07 {
-        font-weight:lighter;
+     
         font-size: 17px;
     }
 }
