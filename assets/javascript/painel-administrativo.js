@@ -34,8 +34,8 @@ function add() {
   msg.innerHTML = '';
 
   if (contador !== undefined) {
-    if (!title[contador].endsWith('-Editado')) {
-      title[contador] = title[contador] + '-Editado';
+    if (!title[contador].endsWith(' -Editado')) {
+      title[contador] = title[contador] + ' -Editado';
     }
     resum[contador] = inputResum;
     data[contador] = inputData;

@@ -361,7 +361,7 @@ h1 {
     font-size: 50px;
 }
 
-input {
+input, select {
     background-color: #000000;
     width: 80%;
     border: none;
