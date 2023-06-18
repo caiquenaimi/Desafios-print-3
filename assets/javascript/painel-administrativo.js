@@ -10,7 +10,7 @@ function add() {
   document.getElementById('buttonadd').innerHTML = 'Adicionar';
   let inputTitle = document.getElementById('input1').value;
   let inputResum = document.getElementById('input2').value;
-    //variaveis da data
+  //variaveis da data
   let inputData = document.getElementById('input3').value.split('-').join('/');
   let dataHj = new Date(inputData);
 
@@ -23,7 +23,7 @@ function add() {
     msg.innerHTML = 'Preencha o formulário antes de adicionar um artigo';
     return;
   }
-//if da data
+  //if da data
   if (dataHj.setHours(20) < new Date()) {
     let msg = document.getElementById('p1');
     msg.innerHTML = 'Preencha com a data a partir do dia de hoje';
@@ -34,13 +34,17 @@ function add() {
   msg.innerHTML = '';
 
   if (contador !== undefined) {
-    title[contador] = inputTitle + ' - Editado0]';
+    if (!title[contador].endsWith('-Editado')) {
+      title[contador] = title[contador] + '-Editado';
+    }
     resum[contador] = inputResum;
     data[contador] = inputData;
     cate[contador] = inputCate;
     autor[contador] = inputAutor;
     contador = undefined;
-  }
+   }
+
+ 
 
 
   else {
