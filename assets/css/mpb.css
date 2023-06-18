@@ -20,18 +20,23 @@ p {
 /*Ajustes de posição da section*/
 section {
     align-items: center;
-   
+
     margin: 1%;
 }
-.p1, #p1{
+
+.p1,
+#p1 {
     text-align: justify;
 }
-#imgrap1{
+
+#imgrap1 {
     margin-left: 25%;
 }
-#imgrap2{
+
+#imgrap2 {
     margin-left: 2%;
 }
+
 /*estilização título*/
 h1 {
     color: azure;
@@ -83,11 +88,13 @@ h4 {
 }
 
 /*ajuste da posição da imagem primeiro banner mpb */
-#img01 {
-    margin-left: 34%;
-    margin-right: 34%;
+#centimg{
+    text-align: center;
+   
 }
-
+#img01{
+    margin-top: 2%;
+}
 /*Estilização do box shadow dos banners e ajuste na posição*/
 #art02 {
     background-color: #141212;
@@ -132,7 +139,7 @@ h4 {
 #div1 {
     display: flex;
     margin: auto;
-    justify-content: center;  
+    justify-content: center;
 
 }
 
@@ -144,10 +151,10 @@ h4 {
 #img05,
 #img06,
 #img07 {
-  text-align: center;
-  margin: 2% auto;
-  display: block;
-  border: outset whitesmoke;
+    text-align: center;
+    margin: 2% auto;
+    display: block;
+    border: outset whitesmoke;
 }
 
 
@@ -167,6 +174,7 @@ a:hover {
 #logos {
     margin: auto;
 }
+
 body {
     background-color: #222020;
     color: whitesmoke;
@@ -371,18 +379,19 @@ p {
         justify-content: center;
         margin-top: 5%;
     }
+
     .container {
         max-width: 100%;
-      }
-      
+    }
 
-   
+
+
     #art01 {
         align-items: center;
         border-radius: 10px;
-        margin: 4%;
+        margin: 2%;
         width: 70%;
-       
+
     }
 
 
@@ -396,7 +405,7 @@ p {
         align-items: center;
 
     }
-  
+
     .comments123 {
         width: 90%;
         display: flex;
@@ -407,9 +416,20 @@ p {
     #imgrap1 {
         width: 60%;
         height: 60%;
-        
+
 
     }
+
+    #centimg {
+       text-align: center;
+    }
+
+
+
+h2 {
+    text-align: center;
+}
+
 
 
 }
