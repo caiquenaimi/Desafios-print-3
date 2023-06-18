@@ -68,7 +68,7 @@ section {
 
 @media screen and (max-width:600px) and (min-device-height:400px) {
 
-/*     main {
+    /*     main {
         width: 100%;
         padding: 20px;
         display: flex;
@@ -88,18 +88,7 @@ section {
         height: 60%;
     }
 
-    #img01 {
-        border: outset whitesmoke;
-        text-align: center;
-    }
 
-    #img01 {
-        text-align: center;
-        margin: 2%;
-        align-items: center;
-        border: outset whitesmoke;
-
-    }
 
 
 }
@@ -178,9 +167,11 @@ section {
     margin: 5%;
     width: 33%;
 }
-.p1{
+
+.p1 {
     text-align: justify;
 }
+
 /*texto estilização*/
 #ba03 {
     text-align: left;
@@ -387,9 +378,7 @@ section {
     margin-left: 1%;
 }
 
-h5 {
-    margin-bottom: 1%;
-}
+
 
 /*artigo estilização*/
 #art09 {
@@ -402,7 +391,9 @@ h5 {
     margin: 5%;
     width: 33%;
 }
-
+#inv{
+    color:#141212;
+}
 /*imagem estilização*/
 #img09 {
     text-align: center;
@@ -919,16 +910,42 @@ a {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-#art04, #art03, #art02, #art01, #art05, #art06, #art07, #art08, #art09, #art10{
-   border-radius: 7%;
+
+#art04,
+#art03,
+#art02,
+#art01,
+#art05,
+#art06,
+#art07,
+#art08,
+#art09,
+#art10 {
+    border-radius: 7%;
 }
-#art05, #art06, #art07, #art08, #art09, #art10{
-   border-radius: 7%;
+
+#art05,
+#art06,
+#art07,
+#art08,
+#art09,
+#art10 {
+    border-radius: 7%;
 }
-#papa10, #papa09, #papa08, #papa07, #papa06, #ba11, #ba03, #sa03, #pa05{
+
+#papa10,
+#papa09,
+#papa08,
+#papa07,
+#papa06,
+#ba11,
+#ba03,
+#sa03,
+#pa05 {
     font-size: 14px;
     color: #5cd3e6;
 }
+
 #sccr {
     position: relative;
     margin-bottom: -5%;
@@ -938,9 +955,11 @@ a {
     margin: auto;
     margin-top: 12%;
 }
-p{
+
+p {
     font-size: 17px;
 }
+
 h1 {
     margin-bottom: 5%;
     font-family: Bernard MT Condensed;
@@ -950,7 +969,8 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-#pa02{
+
+#pa02 {
     font-size: 20px;
 }
 
@@ -989,33 +1009,56 @@ h1 {
         margin-right: 0;
         margin-left: 0;
     }
+
     /* responsividade autores */
-    #art04, #art03, #art02, #art01, #art05, #art06, #art07, #art08, #art09, #art10{
+    #art04,
+    #art03,
+    #art02,
+    #art01,
+    #art05,
+    #art06,
+    #art07,
+    #art08,
+    #art09,
+    #art10 {
         width: 80%;
         margin-left: 10%;
         padding: 1%;
     }
-    #art05, #art06, #art07, #art08, #art09, #art10{
+
+    #art05,
+    #art06,
+    #art07,
+    #art08,
+    #art09,
+    #art10 {
         width: 80%;
-        margin-left: 10%; 
+        margin-left: 10%;
         padding: 1%;
     }
-    #para01{
+
+    #para01 {
         margin-left: 5%;
     }
-    #art01{
+
+    #art01 {
         display: inline;
     }
-    #img01{
+
+    #img01 {
         width: 70%;
-        margin-left: 12%;
+        margin-left: 5%;
+
     }
-    #pa02{
+
+    #pa02 {
         font-size: 20px;
     }
-   #main03, #main04{
-    display: inline;
-   }
+
+    #main03,
+    #main04 {
+        display: inline;
+    }
 
     #mainn02 {
         display: flex;
@@ -1023,9 +1066,10 @@ h1 {
         align-items: center;
         justify-content: center;
     }
-     #txtprincipal{
+
+    #txtprincipal {
         font-size: 14px;
-     }
+    }
 
     #comments {
         display: flex;
@@ -1034,7 +1078,7 @@ h1 {
         justify-content: center;
         margin-top: 5%;
     }
-    
+
     .comments123 {
         width: 90%;
         margin: 2%;
