@@ -172,26 +172,9 @@ h5{
     margin-left: 3%;
     color: #5cd3e6;
 }
-/* detalhes do botão */
-button {
-    background-color: #212121;
-    color: #f5f5f5;
-  margin-left: 40%;
-  margin-bottom: 10%;
-    font-size: 30px;
-    height: 7vh;
-    width: 20%;
-    border: solid 3px rgb(17, 61, 105);
-    border-radius: 13px;
-}
-/* hover do botão */
-button:hover {
-    background-color: rgb(17, 61, 105);
-    box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
-    cursor: pointer;
+/* arrumando o publicado por */
+#publiminha{
+    margin-top: 11%;
 }
 @media screen and (max-width:600px) and (min-device-height:400px)  {
   
@@ -199,10 +182,7 @@ button:hover {
         display: inline;
       
     }
-#detalhe{
-    width: 70%;
-    margin-left: 5%;
-}
+
   #main2{
     display: inline;
   }
@@ -215,6 +195,7 @@ button:hover {
 p{
     text-align: justify;
 }
+/* arrumando os publicados por */
 .pubpor{
     margin-top: 10%;
 }
@@ -222,32 +203,34 @@ p{
     margin-top: 15%;
 }
     #news {
-
         width: 70%;
         margin-left: 13%;
        margin-top: 5%;
        font-size: 16px;
         height: 60vh;
         padding: 3%;
+        height: 80%;
     }
     .banner1{
-        margin-right: 4%;
+      
         padding: 3%;
         display: inline;
     }
     .banner2{
-        margin-right: 4%;
+       
       padding: 3%;
       display: inline;
     }
  
    #bannerprincipal{
-        width: 80%; 
-     margin-left: 3%; 
+    padding: 3%;
+        width: 85%; 
+     margin-left: 5%; 
      height: 80%;  
     }
+    /* arrumando imagens */
  #mainnews{
-    margin-left: 7%;
+    margin-left: 4%;
  }
  #section01{
     margin-top: 10%;
@@ -285,7 +268,7 @@ p{
         text-align: center;
     }
 /* arrumando o liminha (unico que estava dando errado) */
-    #liminha {
+    #publiminha {
     margin-top: 3%;
     }
     #pubporaimple{

@@ -1,8 +1,6 @@
 body {/*alterando cor do body*/
     background-color: #222020;
-    color: whitesmoke;
-    text-align: center;
-    
+    color: whitesmoke; 
 }
 a {/*decorando os links*/
     text-decoration: whitesmoke;
@@ -13,9 +11,14 @@ article{/*sombra nos articles*/
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
+/* arrumando justify */
+p{
+    text-align: justify;
+}
 .banner1 {
     display: flex;
     margin: auto;
+   
 } /*display em linha e margem automatica*/
 
 #bannerprincipal {
@@ -52,6 +55,7 @@ main{
 #section01{
     margin: 5%;
     padding: none;
+    text-align: justify;
 } /*nenhum padding e distanciamento geral ao redor*/
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -122,6 +126,7 @@ img {
 } /*distanciamento altitudinal*/
 .banner1{
     padding-bottom: 2%;
+
 }
 #pubpor{
     margin-top: 40%;
@@ -132,8 +137,20 @@ img {
 #pubpor2{
     margin-top: 15% ;
 }
-
-
+.p1{
+    text-align: justify;
+}
+#h01{
+    margin-left: 45%;
+}
+#tt2{
+    margin-left: 32%;
+    font-size: 30px;
+}
+h4{
+    margin-left: 27%;
+    font-size: 20px;
+}
 /*Posicionamento do footer*/#footer1 {
     margin-bottom:-5px;
 }
@@ -239,9 +256,22 @@ p {
         width: 90%;
         margin-left: 4%;
     }
-    #escritalogo{
-        margin-left: 30%;
+    #bannerprincial{
+        width: 80%;
     }
+    h4{
+        margin-left: 2%;
+    }
+    #tt2{
+        text-align: center;
+    }
+    #h01{
+     margin-left: 0%;
+     text-align: center;
+    }
+     #pubpor{
+        margin-top: 10%;
+     }
     #tt2{
         width: 80%;
         margin-left: 10%;

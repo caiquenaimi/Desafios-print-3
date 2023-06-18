@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../layouts/footer.css">
+    <link rel="stylesheet" href="../../assets/css/btnscroll.css">
+    <script src="../../assets/javascript/scroll.js"></script>
     <link rel="stylesheet" href="../../assets/css/menu2.css" type="text/css">
     <script src="https://kit.fontawesome.com/362ce73ddb.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../../assets/images/logo2.png" type="image/x-icon">
@@ -161,6 +163,11 @@
 <script src="../../assets/java/script.js"></script>
 <!--começo do site-->
 <main class="tagpai">
+    <div class="scroll-top"  onclick="btnscroll()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+        </svg>
+    </div>
     <h2 id="title1">Counter Strike</h2>
     <article id="bannerprincipal">
         <div class="banner1">
@@ -180,7 +187,7 @@
         </div>
     </article>
 </main>
-<img id="detalhe" src="../../assets/images/botton.jpg" width="93%" height="7">
+<hr>
 <h2>Noticias In-Game</h2>
 <main class="bb">
     <article id="bannerprincipal">
@@ -247,8 +254,8 @@
         </div>
     </article>
 </main>
-<img id="detalhe" src="../../assets/images/botton.jpg" width="93%" height="7">
 
+<hr>
 <h2>Caso queira acompanhar o jogo, aqui estão recomendações de criador de conteudo</h2>
 <main id="main1">
     <article id="news">
@@ -298,7 +305,7 @@
         <section id="section01">
             <p>Liminha ficou conhecido por ser o "filho" de Gaules por conta do carinho que o Gaules tem por ele. Ele
                 faz lives diariamente e as vezes faz lives de 24hrs.</p>
-            <h5>Publicado por Caurin em 13/03/2023</h5>
+            <h5 id="publiminha">Publicado por Caurin em 13/03/2023</h5>
         </section>
     </article>
     <article id="news"></a>
@@ -314,17 +321,7 @@
             <h5 id="pubporaimple">Publicado por Caurin em 13/03/2023</h5>
         </section>
     </article>
-    <article id="news">
-        <section id="section01">
-            <!--imagem da awp-->
-            <h2></h2>
-            <img src="../../assets/images/awp.png" alt="imagem do incluencer" height="100%" width="100%" id="imgm">
-        </section>
-        <section id="section01">
-            <p></p>
-            <h5></h5>
-        </section>
-    </article>
+
 </main>
 
 <main id="comments">

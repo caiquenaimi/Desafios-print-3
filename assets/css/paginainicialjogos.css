@@ -38,9 +38,7 @@ article{/*sombra nos articles*/
     padding: 2%;
     border-radius: 20px;
 }
-#imgseparacao{
-    margin-left: 3%;
-}
+
 #bannerprincipal {/*arrumando a noticia*/
     display: flex;
     background-color: #141212;
@@ -248,6 +246,14 @@ p {
     text-align: center;
     display: flex;
 }
+/* arrumando justify na pag de noticia de jogos */
+.secnot{
+    text-align: justify;
+}
+/* arrumando titulo noticia jogos */
+#title3{
+    margin-left: 5%;
+}
 a{
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -255,18 +261,18 @@ a{
 }
 
 @media screen and (max-width:600px) and (min-device-height:400px) {
+    /* banner principal pag noticia de jogos */
     #principal{
         width: 80%;
-        margin-left: 5%;
+        margin-left: 7%;
         padding: 3%;
     }
     #comments1{
 display: inline;
-
     }
-    #escritalogo{
-        margin-left: 30%;
-    }
+   #title3{
+    margin-left: 1%;
+   }
    .comments123{
     width: 90%;
     margin-left: 4%;
@@ -287,8 +293,9 @@ display: inline;
     padding: 1%;
     border-radius: 15px;
  }
+ /* imagens */
 #mainnews{
-    margin-left: 5%;
+    margin-left: 1%;
 }
   #imgprincipal{
     width: 80%;
