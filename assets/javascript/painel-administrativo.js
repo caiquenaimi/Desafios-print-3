@@ -101,7 +101,7 @@ function edt(edit) {
   if (contador !== undefined) {
     let buttonadd = document.getElementById("buttonadd");
 
-    buttonadd.innerHTML = `Atualizar`
+    buttonadd.innerHTML = `Atualizar`;
   }
 
 }
