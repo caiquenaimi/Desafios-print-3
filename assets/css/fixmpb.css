@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containerCantores {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(20, 18, 18);
+    padding: 10px;
+    box-shadow: rgb(217 214 217 / 28%)10px 14px 23px 5px;
+    border-radius: 10px;
+    margin: 30px 30px;
+    max-width: 500px;
+}
+
+.card img {
+    border: outset whitesmoke;
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pub {
+    font-weight: bold;
+
+}
+
+@media (max-width:768px) {
+    .containerCantores {
+        flex-direction: column;
+        align-items: center;
+    }
+}
