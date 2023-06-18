@@ -1,16 +1,19 @@
 const imgs = document.getElementById("img");
-const img =document.querySelectorAll("#img img");
-// adição de uma const aos elementos de imagem
+const img = document.querySelectorAll("#img img");
 let idx = 0;
- // definindo o let com valor 0
-function carrossel (){
-    idx++;
 
-    if(idx > img.length - 1){
-        idx = 0
-    }
+function carrossel() {
+  idx++;
 
+  if (idx > img.length - 1) {
+    idx = 0;
+  }
+
+  if (window.innerWidth <= 900) {
+    imgs.style.transform = `translateX(${-idx * 300}px)`;
+  } else {
     imgs.style.transform = `translateX(${-idx * 500}px)`;
-}//funcionalidade de pssarem do carrossel o fazendo passar de tempo em tempo
+  }
+}
 
-setInterval(carrossel, 4000)
+setInterval(carrossel, 4000);
