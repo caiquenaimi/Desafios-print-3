@@ -178,7 +178,9 @@ section {
     margin: 5%;
     width: 33%;
 }
-
+.p1{
+    text-align: justify;
+}
 /*texto estilização*/
 #ba03 {
     text-align: left;
@@ -936,7 +938,9 @@ a {
     margin: auto;
     margin-top: 12%;
 }
-
+p{
+    font-size: 17px;
+}
 h1 {
     margin-bottom: 5%;
     font-family: Bernard MT Condensed;
@@ -993,7 +997,7 @@ h1 {
     }
     #art05, #art06, #art07, #art08, #art09, #art10{
         width: 80%;
-        margin-left: 13%; 
+        margin-left: 10%; 
         padding: 1%;
     }
     #para01{
@@ -1007,7 +1011,7 @@ h1 {
         margin-left: 12%;
     }
     #pa02{
-        font-size: 16px;
+        font-size: 20px;
     }
    #main03, #main04{
     display: inline;
@@ -1030,7 +1034,7 @@ h1 {
         justify-content: center;
         margin-top: 5%;
     }
-
+    
     .comments123 {
         width: 90%;
         margin: 2%;
