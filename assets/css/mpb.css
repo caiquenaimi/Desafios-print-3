@@ -83,18 +83,20 @@ h4 {
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
     border-radius: 10px;
-    margin: 5%;
+    margin: 2%;
 
 }
 
 /*ajuste da posição da imagem primeiro banner mpb */
-#centimg{
+#centimg {
     text-align: center;
-   
+
 }
-#img01{
+
+#img01 {
     margin-top: 2%;
 }
+
 /*Estilização do box shadow dos banners e ajuste na posição*/
 #art02 {
     background-color: #141212;
@@ -342,6 +344,7 @@ h1 {
 
 
 h2 {
+    text-align: center;
     margin-top: 5%;
     color: azure;
     margin-bottom: 3%;
@@ -372,6 +375,20 @@ p {
 
 @media screen and (max-width:600px) and (min-device-height:400px) {
 
+    #img01 {
+        width: 60%;
+        height: 60%;
+    }
+
+    #imgrap2 {
+        width: 70%;
+        height: 70%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
     #comments {
         display: flex;
         flex-direction: column;
@@ -380,11 +397,13 @@ p {
         margin-top: 5%;
     }
 
-    .container {
-        max-width: 100%;
+    .comments123 {
+        width: 90%;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
-
 
     #art01 {
         align-items: center;
@@ -406,13 +425,6 @@ p {
 
     }
 
-    .comments123 {
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     #imgrap1 {
         width: 60%;
         height: 60%;
@@ -421,14 +433,14 @@ p {
     }
 
     #centimg {
-       text-align: center;
+        text-align: center;
     }
 
 
 
-h2 {
-    text-align: center;
-}
+    h2 {
+        text-align: center;
+    }
 
 
 
