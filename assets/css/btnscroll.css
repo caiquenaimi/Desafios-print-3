@@ -21,7 +21,7 @@
     pointer-events: none;
   }
   
-  .scroll-top:hover {
+  .scroll-top:active {
     transform: scale(1);
   }
 
