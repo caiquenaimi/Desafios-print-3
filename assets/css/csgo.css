@@ -22,7 +22,23 @@ h2{/*arrumando h3*/
 
     text-align: center;
 }
-
+/* arrumando publicado por */
+.pubpor{
+    margin-top: 10%;
+}
+.pubpor1{
+    margin-top: 10%;
+}
+#pubporaimple{
+    margin-top: 20%;
+}
+/* arrumando texto */
+.p1{
+    margin-top: 10%;
+}
+.p2{
+    margin-top: 20%;
+}
 #bannerprincipal {
     width: 80%;
     margin: auto;
@@ -32,8 +48,14 @@ h2{/*arrumando h3*/
     background-color: #141212;
     padding:1%;
     border-radius: 5%;
+<<<<<<< HEAD
     margin:10%;
   
+=======
+    margin: 10%;
+    height: 40vh;
+
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 }
 
 h4{
@@ -50,7 +72,22 @@ h4{
    gap: 10vh;
    padding: 10vh;
 }
+<<<<<<< HEAD
 #banner1{
+=======
+#main2{
+    display: flex;
+    margin-bottom: 10vh;
+    gap: 10vh;
+    margin-left: 10%;
+    padding: 10vh;  
+}
+#liminha{
+    margin-top: 12%;
+}
+
+#banner1 {
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
     border-radius: 8px;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -138,6 +175,7 @@ p{
 h5{
     margin-top: 40%;
     margin-left: 3%;
+    color: #5cd3e6;
 }
 /* detalhes do botão */
 button {
@@ -166,8 +204,30 @@ button:hover {
         display: inline;
       
     }
+<<<<<<< HEAD
  
     #news{
+=======
+  #main2{
+    display: inline;
+  }
+  .p1{
+    margin-top: 0%;
+}
+.p2{
+    margin-top: 0%;
+}
+p{
+    text-align: justify;
+}
+.pubpor{
+    margin-top: 10%;
+}
+.pubpor1{
+    margin-top: 15%;
+}
+    #news {
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
         width: 70%;
         margin-left: 13%;
        margin-top: 5%;
@@ -205,6 +265,7 @@ button:hover {
     #tt2{
         width: 90%;
         margin-left: 5%;
+        height: 80vh;
     }
     .comments123{
         width: 90%;
@@ -220,4 +281,22 @@ button:hover {
     button{
         width: 60%;
     }
+<<<<<<< HEAD
 }
+=======
+
+    h5 {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        text-align: center;
+    }
+/* arrumando o liminha (unico que estava dando errado) */
+    #liminha {
+    margin-top: 3%;
+    }
+    #pubporaimple{
+        margin-top: 10%;
+    }
+
+}   
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025

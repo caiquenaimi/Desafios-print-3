@@ -2,20 +2,18 @@
 body {
     background-color: #222020;
     color: whitesmoke;
-    text-align: center;
 
 }
-
-/*Estilização do padrão para a posição do header*/
-header {
-    display: flex;
-    padding: 0%;
+p{
+    text-align: justify;
 }
+
+
 /*Estilização do box shadow dos banners*/
-article{
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+article {
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
 
 /*Estilização do box shadow dos banners*/
@@ -25,48 +23,6 @@ article {
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
 
-/*Ajuste nos tamanhos e posições dos itens no header*/
-#header0 {
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-    margin-bottom: 0%;
-}
-/*Ajustes de posição da section do botão do menu no header*/
-#header01 {
-    width: 20%;
-    margin-top: auto;
-}
-
-/*Estilização da logo escrita no centro do header*
-/#escritalogo {
-=======
-/*Estilização da logo escrita no centro do header*/
-#escritalogo {
-    margin: 0%;
-    margin-left: 5%;
-    margin-bottom: -5%;
-}
-
-/*Estlização da logo com  desenho no canto esquerdo do header*/
-#desenho {
-
-    margin-left: 78%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-
-
-}
-
-/*Posicionamento do botão para abrir o menu no no header*/
-#bltmenu {
-    border: none;
-    float: left;
-
-}
 
 /*Definição do posicionamento dos itens no banner das noticias*/
 .banner1 {
@@ -117,7 +73,14 @@ main {
     margin: 5%;
     border-radius: 5%;
 }
-
+/* pag para ler */
+#news1 {
+    width: 33%;
+    text-align: center;
+    background-color: #141212;
+    margin: 5%;
+    border-radius: 5%;
+}
 /*Ajustes do posicionamento da section das noticias*/
 #section01 {
     margin: 5%;
@@ -134,10 +97,25 @@ p {
 
 /*Ajustes do posicionamento dos parágrafos com a descrição dos artigos*/
 #ppp {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
+    width: 60%;
 }
-
+#ppp1{
+    margin-left: 30%;
+    width: 50%;
+}
+#tt2{
+    margin-left: 40%;
+   
+}
+#tt3{
+    margin-left: 10%;
+}
+/* publicado por */
+#pub{
+    margin-left: 15%;
+}
 /*Ajuste da estilizçã das noticias principais*/
 #mainnews {
     margin: 5%;
@@ -158,8 +136,12 @@ h2 {
 
 /*Estilização das escritas com as datas de publicação.*/
 h5 {
-    color: #304c89;
-    margin-top: 3%;
+    color: #5cd3e6;
+    margin-top: 20%;
+}
+#h02{
+   
+    color: #5cd3e6;
 }
 
 #mainnews0 {
@@ -203,33 +185,12 @@ img {
     border: whitesmoke outset;
 }
 
-/*Ajustes na estilização do header.*/
-header {
-    background-color: black;
-    margin-bottom: 0%;
-    padding: -5%;
-}
-
 
 /*Posicionamento do footer*/
 #footer1 {
     margin-bottom: -5px;
 }
 
-/*Ajuste no posicionamneto da logo com a escrita da equipe.*/
-/* #img1 {
-    margin: 5%;
-    margin-left: 5%;
-}
- */
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/
-#link1 {
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    margin-bottom: 0%;
-
-}
 
 
 
@@ -257,47 +218,98 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
 }
-
+/* imagem pag para ler */
+#imgm{
+    height: 15vh;
+}
 ul {
     background-color: black;
 }
+/* arrumando imagens */
+#imgm1{
+    margin-top: 25%;
+}
 
-
-
-@media screen and (max-width:600px) and (min-device-height:400px)  {
+#lastimg{
+    margin-left: 20%;
+}
+#lastimg1{
+    width: 50%;  
+  
+}
+#lastimg2{
+    width: 60%;
+    margin-left: 12%;
+}
+@media screen and (max-width:600px) and (min-device-height:400px) {
     main h2 {
         margin: 10px 10px 0 10px;
     }
-    #comments1{
+    label{
+        margin-top: -3%;
+    }
+    #comments1 {
         display: inline;
-            }
-   .comments123{
-    width: 95%;
-   }
+    }
+
+    .comments123 {
+        width: 95%;
+    }
+
     article {
         box-shadow: none;
     }
-     #main1{
+
+    #main1 {
         display: inline;
-     }
-     #news{
+    }
+
+    #news {
         width: 80%;
         margin-left: 10%;
-     }
-     .lastnews{
+    }
+    /* responsividade pag para ler */
+    #news1{
+        width: 80%;
+        margin-left: 13%;
+    }
+   #imgm{
+    margin-top: 10%;
+   }
+   /* acabou a para ler */
+    .lastnews {
         width: 80%;
         margin-left: 10%;
         display: inline;
         margin-bottom: 10%;
-     }
-     #imgm{
+    }
+    
+    #imgm {
         width: 110%;
+<<<<<<< HEAD
         margin-right: 20%;
      }
+=======
+        margin-left: -2%;
+    }
+
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
     .banner1 {
         width: 80%;
         padding: 10px;
         flex-direction: column;
     }
+<<<<<<< HEAD
   
 }
+=======
+
+    #lastimg {
+        width: 97%;
+        margin-left: 1%;
+    }
+
+
+}
+
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025

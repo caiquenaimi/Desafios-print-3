@@ -100,6 +100,7 @@ p {
 
 input#email {
     background-color: #a0a0a0;
+    border-radius: 3%;
 }
 
 #input_group button:hover {
@@ -120,6 +121,11 @@ input#email {
 }
 
 @media screen and (max-width: 900px) and (min-device-height: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
     #footer_content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -131,10 +137,14 @@ input#email {
     .footer-list,
     #footer_feedback {
         text-align: center;
+        margin-bottom: 20%;
     }
+
+   
 
     #footer_social_media {
         justify-content: center;
+        flex-direction: column;
     }
 
     #footer_content {
@@ -144,4 +154,11 @@ input#email {
         background-color: black;
         margin: 1%;
     }
+
+    h1 {
+        text-align: center;
+        margin-right: -1%;
+    }
+
+
 }

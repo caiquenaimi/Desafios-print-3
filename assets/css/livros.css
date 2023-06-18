@@ -2,7 +2,8 @@
 body {
     background-color: #222020;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
@@ -22,7 +23,8 @@ body {
 }
 
 /*artigo estilização*/
-#art01,#art02 {
+#art01,
+#art02 {
     background-color: #141212;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
@@ -40,7 +42,6 @@ body {
     margin: 2%;
     align-items: center;
     border: outset whitesmoke;
-    margin-left: 42%;
 
 }
 
@@ -65,20 +66,42 @@ section {
     background-color: #222020;
 }
 
-@media screen and (max-width:600px) and (min-device-height:400px)  {
-    #mainn02 {
-        display: inline;
+@media screen and (max-width:600px) and (min-device-height:400px) {
+
+/*     main {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    } */
+
+    #main01 {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-left: 50%;
+        margin-left: 2%;
     }
-   #img01{ 
 
-    border: outset whitesmoke;
-    margin-left: 30%;
+    #art01 {
+        width: 60%;
+        height: 60%;
+    }
 
-   }
-   
+    #img01 {
+        border: outset whitesmoke;
+        text-align: center;
+    }
+
+    #img01 {
+        text-align: center;
+        margin: 2%;
+        align-items: center;
+        border: outset whitesmoke;
+
+    }
+
+
 }
 
 /*artigo estilização*/
@@ -128,6 +151,7 @@ section {
     color: azure;
     margin-left: 1%;
 }
+
 /*imagem estilização*/
 #img03 {
     text-align: center;
@@ -360,7 +384,8 @@ section {
     color: azure;
     margin-left: 1%;
 }
-h5{
+
+h5 {
     margin-bottom: 1%;
 }
 
@@ -375,6 +400,7 @@ h5{
     margin: 5%;
     width: 33%;
 }
+
 /*imagem estilização*/
 #img09 {
     text-align: center;
@@ -436,27 +462,16 @@ h5{
     font-family: Bernard MT Condensed;
 }
 
-#txtprincipal{
+#txtprincipal {
     padding-bottom: 4%;
 }
+
 /*Estilização do plano de fundo e da cor dos textos com conteudo*/
 body {
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
 
-}
-
-/*Estilização do padrão para a posição do header*/
-header {
-    display: flex;
-    padding: 0%;
-}
-/*Estilização do box shadow dos banners*/
-article{
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
 
 /*Estilização do box shadow dos banners*/
@@ -466,47 +481,11 @@ article {
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
 
-/*Ajuste nos tamanhos e posições dos itens no header*/
-#header0 {
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-    margin-bottom: 0%;
-}
-/*Ajustes de posição da section do botão do menu no header*/
-#header01 {
-    width: 20%;
-    margin-top: auto;
-}
-
-/*Estilização da logo escrita no centro do header*
-/#escritalogo {
-=======
-/*Estilização da logo escrita no centro do header*/
-#escritalogo {
-    margin: 0%;
-    margin-left: 5%;
-    margin-bottom: -5%;
-}
-
-/*Estlização da logo com  desenho no canto esquerdo do header*/
-#desenho {
-
-    margin-left: 78%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-
-
-}
-
-/*Posicionamento do botão para abrir o menu no no header*/
-#bltmenu {
-    border: none;
-    float: left;
-
+/*Estilização do box shadow dos banners*/
+article {
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
 
 /*Definição do posicionamento dos itens no banner das noticias*/
@@ -626,14 +605,6 @@ h5 {
 
 
 
-/*Definição do plano de fundo da seção com os artigos.*/
-#main02 {
-    background-color: #141212;
-    margin: auto;
-
-
-}
-
 #imgnews2 {
     margin: 2%;
 }
@@ -644,12 +615,6 @@ img {
     border: whitesmoke outset;
 }
 
-/*Ajustes na estilização do header.*/
-header {
-    background-color: black;
-    margin-bottom: 0%;
-    padding: -5%;
-}
 
 
 /*Posicionamento do footer*/
@@ -663,14 +628,6 @@ header {
     margin-left: 5%;
 }
  */
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/
-#link1 {
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    margin-bottom: 0%;
-
-}
 
 
 
@@ -705,42 +662,50 @@ ul {
 
 
 
-@media screen and (max-width:600px) and (min-device-height:400px)  {
+@media screen and (max-width:600px) and (min-device-height:400px) {
     main h2 {
         margin: 10px 10px 0 10px;
     }
-    #comments1{
+
+    #comments1 {
         display: inline;
-            }
-   .comments123{
-    width: 95%;
-   }
+    }
+
+    .comments123 {
+        width: 95%;
+    }
+
     article {
         box-shadow: none;
     }
-     #main1{
+
+    #main1 {
         display: inline;
-     }
-     #news{
+    }
+
+    #news {
         width: 80%;
         margin-left: 10%;
-     }
-     .lastnews{
+    }
+
+    .lastnews {
         width: 80%;
         margin-left: 10%;
         display: inline;
         margin-bottom: 10%;
-     }
-     #imgm{
+    }
+
+    #imgm {
         width: 110%;
         margin-right: 20%;
-     }
+    }
+
     .banner1 {
         width: 80%;
         padding: 10px;
         flex-direction: column;
     }
-  
+
 }
 
 /*Ajustes do posicionamento da seção com os conteudos da noticia*/
@@ -749,16 +714,14 @@ article {
     border-radius: 10px;
     text-align: center;
 }
+
 /*Estilização dos padrões de posicionamento e tamanho dos parágrafos com os coteudos da noticia*/
 p {
     margin-left: 3%;
-     margin-right: 3%;
+    margin-right: 3%;
     margin-bottom: 3%;
 }
-/*Definição da margem das imagens contidas no inicio e no fim da matéria*/
-img {
-    margin: 3%;
-}
+
 /*Estlização do subtítulo da noticia*/
 h3 {
     margin-top: 3%;
@@ -784,10 +747,6 @@ h3 {
         border-radius: 0;
     }
 }
-header {
-    display: flex;
-    background-color: black;
-}
 
 img {
     object-fit: contain;
@@ -812,19 +771,19 @@ body {
 }
 
 #enemimg {
-    float:left;
+    float: left;
     border-radius: 5%;
 }
 
 #title-E {
-    margin:3%;
-    color:azure;
+    margin: 3%;
+    color: azure;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #text-E {
-    margin:3%;
+    margin: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
 }
@@ -832,13 +791,13 @@ body {
 #bannerprincipal {
     width: 80%;
     margin: auto;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     background-color: #141212;
-    padding:1%;
+    padding: 1%;
     border-radius: 5%;
-    margin:10%;
+    margin: 10%;
 }
 
 #sepimg {
@@ -846,63 +805,63 @@ body {
 }
 
 #title-P {
-    margin:5%;
+    margin: 5%;
     text-align: center;
-    color:azure;
+    color: azure;
     font-family: Bernard MT Condensed;
     font-size: 38px;
 }
 
 h5 {
     text-align: center;
-    color:azure;
+    color: azure;
 }
 
 #not123 {
-    display:flex;
-    margin-bottom:5%;
-    margin-left:10%;
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 10%;
 }
 
 .sec123 {
     width: 40%;
     margin: auto;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     background-color: #141212;
-    padding:1%;
+    padding: 1%;
     border-radius: 5%;
-    margin:2%;
+    margin: 2%;
     text-align: center;
 }
 
 #just-p {
     text-align: justify;
-    margin:2%;
+    margin: 2%;
 }
 
 .comments123 {
     width: 30%;
     margin: auto;
-    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     background-color: black;
-    padding:1%;
+    padding: 1%;
     border-radius: 5%;
-    margin:2%;
-    display:flex;
+    margin: 2%;
+    display: flex;
 }
 
 #comments {
-    display:flex;
-    margin-top:5%;
+    display: flex;
+    margin-top: 5%;
 }
 
 #perfil {
-    border:3px white ridge;
-    border-radius:1000px;
+    border: 3px white ridge;
+    border-radius: 1000px;
 }
 
 #estrela {
@@ -910,22 +869,22 @@ h5 {
 }
 
 #nome {
-    margin:2%;
+    margin: 2%;
 }
 
 #comentario {
-    margin:2%;
+    margin: 2%;
     text-align: justify;
 }
 
 #borderestrela {
     text-align: center;
-    border:3px gray ridge;
-    margin-top:1%;
+    border: 3px gray ridge;
+    margin-top: 1%;
 }
 
 .sec123 {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 #estrela1 {
@@ -933,45 +892,63 @@ h5 {
 }
 
 #footer-1 {
-    margin-bottom:-5px ;
+    margin-bottom: -5px;
 }
 
 p {
-    color:whitesmoke;
+    color: whitesmoke;
 }
-.comments1{
+
+.comments1 {
     text-align: center;
 }
-a{
+
+a {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color: whitesmoke;
+    color: whitesmoke;
 }
 
-#artt{
+#artt {
     box-shadow: none;
 }
+
 #mmm {
     margin-top: 10%;
     margin-bottom: 10%;
+}
+#art04, #art03, #art02, #art01, #art05, #art06, #art07, #art08, #art09, #art10{
+   border-radius: 7%;
+}
+#art05, #art06, #art07, #art08, #art09, #art10{
+   border-radius: 7%;
+}
+#papa10, #papa09, #papa08, #papa07, #papa06, #ba11, #ba03, #sa03, #pa05{
+    font-size: 14px;
+    color: #5cd3e6;
 }
 #sccr {
     position: relative;
     margin-bottom: -5%;
 }
-.gallery{
+
+.gallery {
     margin: auto;
     margin-top: 12%;
 }
+
 h1 {
     margin-bottom: 5%;
     font-family: Bernard MT Condensed;
 }
+
 #pcar {
     display: flex;
     flex-direction: column;
 }
-
+#pa02{
+    font-size: 20px;
+}
 
 @media (max-width:768px) {
 
@@ -1007,5 +984,58 @@ h1 {
     .comments123 {
         margin-right: 0;
         margin-left: 0;
+    }
+    /* responsividade autores */
+    #art04, #art03, #art02, #art01, #art05, #art06, #art07, #art08, #art09, #art10{
+        width: 80%;
+        margin-left: 10%;
+        padding: 1%;
+    }
+    #art05, #art06, #art07, #art08, #art09, #art10{
+        width: 80%;
+        margin-left: 13%; 
+        padding: 1%;
+    }
+    #para01{
+        margin-left: 5%;
+    }
+    #art01{
+        display: inline;
+    }
+    #img01{
+        width: 70%;
+        margin-left: 12%;
+    }
+    #pa02{
+        font-size: 16px;
+    }
+   #main03, #main04{
+    display: inline;
+   }
+
+    #mainn02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     #txtprincipal{
+        font-size: 14px;
+     }
+
+    #comments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .comments123 {
+        width: 90%;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

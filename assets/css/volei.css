@@ -9,7 +9,9 @@
     border-radius: 3%;
     border: whitesmoke outset;
 }/*volei quase pronto trocar width,border*/
-
+#materiaprincipal{
+    padding: 2%;
+}
 #title-h2 {
     text-align: center;
 }/*title h2 estilizado*/
@@ -82,7 +84,10 @@ article{
     margin-bottom: 3%;
     box-shadow: none;
 }/*articles feitos*/
-
+/* imagem principal */
+#volei1{
+    width: 80%;
+}
 /* responsividade */
 @media screen and (max-width:600px) and (min-device-height:400px){
     #hist{

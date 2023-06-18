@@ -9,10 +9,22 @@ body {/*alterando cor do body*/
     text-align: center;
     
 }
+<<<<<<< HEAD
 header {/*fixando a header*/
     display: flex;
     padding: 0%;
     background-color: black;
+=======
+/* arrumando imagem */
+#imgsoft{
+    width: 95%;
+    height: 40vh;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+p{
+    text-align: justify;
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 }
 a {/*decorando os links*/
     text-decoration: whitesmoke;
@@ -23,6 +35,7 @@ article{/*sombra nos articles*/
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
+<<<<<<< HEAD
 #header0 {/*alinhando tudo*/
     width: 50%;
     height: 100%;
@@ -66,6 +79,10 @@ article{/*sombra nos articles*/
     border: none;
     float: left;
 } /*encaixe do menu na esquerda*/
+=======
+
+/*encaixe do menu na esquerda*/
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 .banner1 {
     display: flex;
     margin: auto;
@@ -83,10 +100,19 @@ article{/*sombra nos articles*/
 
 #main1 {
     display: flex;
+<<<<<<< HEAD
     margin:auto;
 } /*disposição em linha e margem automatica*/
 main{
     text-align: center;
+=======
+    margin: auto;
+}
+
+/*disposição em linha e margem automatica*/
+main {
+  
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
     margin: 0%;
 } /*distanciamento cancelado*/
 #title1 {
@@ -96,7 +122,7 @@ main{
 #news{
     width: 100%;
     align-items: center;
-    text-align: justify;
+  
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
@@ -107,8 +133,15 @@ main{
 } /*nenhum padding e distanciamento geral ao redor*/
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+<<<<<<< HEAD
     text-align: justify;
 } /*justificação do texto*/
+=======
+ 
+}
+
+/*justificação do texto*/
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 #ppp {
     margin-left: 5%;
     margin-right: 5%;
@@ -129,7 +162,15 @@ h2 {
 h5 {
     color: #5cd3e6;
     margin-top: 3%;
+<<<<<<< HEAD
 } /*distanciamento no topo e cor do texto*/
+=======
+}
+.desce{
+    margin-bottom: 3%;
+}
+/*distanciamento no topo e cor do texto*/
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 #mainnews0 {
     margin-left: 3%;
     margin-right: 3%;
@@ -170,6 +211,7 @@ img {
     margin-top: 25%;
 } /*distanciamento altitudinal*/
 
+<<<<<<< HEAD
 /*Ajustes na estilização do header.*/header {
     background-color: black;
     margin-bottom: 0%;
@@ -179,11 +221,17 @@ img {
 
 /*Posicionamento do footer*/#footer1 {
     margin-bottom:-5px;
+=======
+/*Posicionamento do footer*/
+#footer1 {
+    margin-bottom: -5px;
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 }
 
 /*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
     margin-left:5%;
 }
+<<<<<<< HEAD
 /*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
     padding: 0%;
     margin: 0%;
@@ -195,6 +243,11 @@ img {
     background-color: black;
 }
 /*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments1 {
+=======
+
+/*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/
+#comments1 {
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
     width: 100%;
     height: 100%;
     box-shadow: none;
@@ -269,7 +322,12 @@ img {
 }
 
 p {
+<<<<<<< HEAD
     color:whitesmoke;
+=======
+    text-align: justify;
+    color: whitesmoke;
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 }
 
 a{
@@ -323,6 +381,7 @@ button:hover {
     margin-left: 2%;
 }
 
+<<<<<<< HEAD
 button{
     width: 50%;
 }
@@ -338,4 +397,47 @@ button{
 #escritalogo{
     margin-left: 10%;
 }
+=======
+    #news {
+        margin-left: 10%;
+        width: 80%;
+        padding: 1%;
+    }
+
+    .banner1 {
+        display: inline;
+        width: 70%;
+
+    }
+
+    .principal {
+        margin-left: 2%;
+    }
+
+    button {
+        width: 50%;
+    }
+
+    #detalhe {
+        margin-left: 2%;
+    }
+
+    #tt2 {
+        margin-left: 5%;
+    }
+
+    #tt3 {
+        margin-left: 4%;
+    }
+
+    #escritalogo {
+        margin-left: 10%;
+    }
+
+    #imgsoft {
+        margin-left: -10%;
+        padding: 5%;
+        width: 120%;
+    }
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 }

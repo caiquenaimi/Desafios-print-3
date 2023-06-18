@@ -10,7 +10,12 @@
     margin: 2%;
     display: flex;
 }
-
+#materiaprincipal{
+    padding: 1%;
+}
+p{
+    text-align: justify;
+}
 /*shadow box de fundo, borda redonda e distanciamento geral ao redor junto ocm conteudo adicional ao redor co cor preta de fundo*/
 
 #comments {
@@ -57,7 +62,6 @@
 .sec123 {
     cursor: pointer;
 }
-
 /*cursor ao pasar em cima*/
 
 #estrela1 {
@@ -72,17 +76,10 @@
 
 /*colagem do footer*/
 
-header {
-    height: 75px;
-}
-
 img {
     object-fit: contain;
 }
 
-#imgheader {
-    margin-top:-1.5%;
-}
 
 @media (max-width:768px) {
     #comments {

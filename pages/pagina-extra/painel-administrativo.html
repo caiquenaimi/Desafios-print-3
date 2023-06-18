@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/menu2.css">
     <link rel="stylesheet" href="../../layouts/footer.css">
+    <script src="https://kit.fontawesome.com/362ce73ddb.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <!-- link css da página -->
     <link rel="stylesheet" href="../../assets/css/painel-administrativo.css">
@@ -138,7 +139,6 @@
     <div class="container">
         <h1>Crie sua notícia:</h1>
         <div id="filho">
-            
             <label for="input1">Título:</label>
             <br>
             <input placeholder="Digite o titulo do artigo" required id="input1" type="text">
@@ -153,13 +153,21 @@
             <br>
             <label for="input4">Categoria:</label>
             <br>
-            <input placeholder="Digite a categoria do seu artigo" required id="input4" type="text">
+            <select required id="input4">
+                <option value="">Selecione uma categoria</option>
+                <option value="Vestibulares">Vestibulares</option>
+                <option value="Esportes">Esportes</option>
+                <option value="Literatura">Literatura</option>
+                <option value="Música">Música</option>
+                <option value="Arte">Arte</option>
+                <option value="Jogos">Jogos</option>
+            </select>
             <br>
             <label for="input5">Autor:</label>
             <br>
             <input placeholder="Digite o nome do autor do artigo" required id="input5" type="text">
             <br>
-            <button type="submit" onclick="add()"><a href="#painelNoticias">Adicionar</a></button>
+            <button type="submit" id="buttonadd" onclick="add()"><a href="#painelNoticias">Adicionar</a></button>
             <p id="p1"></p>
         </div>
     </div>
@@ -192,13 +200,13 @@
                     <h3>Links</h3>
                 </li>
                 <li>
-                    <a href="../index.html" class="footer-link">Home</a>
+                    <a href="../../index.html" class="footer-link">Home</a>
                 </li>
                 <li>
-                    <a href=".././pages/sobre-nos/sobrenos.html" class="footer-link">Sobre nós</a>
+                    <a href="../../../pages/sobre-nos/sobrenos.html" class="footer-link">Sobre nós</a>
                 </li>
                 <li>
-                    <a href=".././pages/pagina-extra/painel-administrativo.html" class="footer-link">Painel
+                    <a href="../../../pages/pagina-extra/painel-administrativo.html" class="footer-link">Painel
                         administrativo</a>
                 </li>
             </ul>
@@ -208,13 +216,13 @@
                     <h3>Veja Mais</h3>
                 </li>
                 <li>
-                    <a href=".././pages/arte/arte.html" class="footer-link">Arte</a>
+                    <a href="../../../pages/arte/arte.html" class="footer-link">Arte</a>
                 </li>
                 <li>
-                    <a href=".././pages/musica/paginainicialmusic.html" class="footer-link">Música</a>
+                    <a href="../../../pages/musica/paginainicialmusic.html" class="footer-link">Música</a>
                 </li>
                 <li>
-                    <a href=".././pages/jogos/paginainicialjogos.html" class="footer-link">Jogos</a>
+                    <a href="../../../pages/jogos/paginainicialjogos.html" class="footer-link">Jogos</a>
                 </li>
             </ul>
 
@@ -229,7 +237,7 @@
                     <input type="email" id="email">
                     <button>
                         <img width="32px" height="32px" style="color:  #ccc;"
-                            src="../../assets/images/envelope-regular.svg" alt="">
+                            src="../../../assets/images/envelope-regular.svg" alt="">
                     </button>
                 </div>
             </div>

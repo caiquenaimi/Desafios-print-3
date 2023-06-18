@@ -1,13 +1,11 @@
 body {/*alterando cor do body*/
     background-color: #222020;
     color: whitesmoke;
-    text-align: center;
-    
 }
-header {/*fixando a header*/
-    display: flex;
-    padding: 0%;
-    background-color: black;
+
+/* arrumando textos */
+p{
+    text-align: justify;
 }
 a {/*decorando os links*/
     text-decoration: whitesmoke;
@@ -18,53 +16,31 @@ article{/*sombra nos articles*/
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
-#header0 {/*alinhando tudo*/
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-}
-#header01{/*alinhando tudo*/
-    width: 20%;
-    margin-top: auto;
-}
-#imgheader0 {/*alinhndo tudo*/
-    margin: auto;
-    margin-bottom: 0%;
-}
-#imgheader {/*alinhando tudo*/
-    width: 50%;
-    margin: auto;
-    margin-bottom: 0%;
-}
-#imgheader2{/*alinhando tudo*/
-    width: 50%;
-    float: right;
-    margin-bottom: 0%;
-}
-#escritalogo {/*tirando borda e alinhando*/
-    margin-left: -70%;
-    border: none;
-    
-}
-#desenho {/*tirando a borda e alinhando*/
-   float: right;
-   border: none;
-}
-#bltmenu {/*tirando borda*/
-    border: none;
-    float: left;
 
+#title1{
+    margin-left: 30%;
 }
-.banner1 {/*arrumando primeira noticia*/
+#title2{
+    margin-left: 35%;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+    color: #5cd3e6;
+}
+#title3{
+    margin-left: 5%;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+    color: #5cd3e6;
+}
+.banner1, #banner {/*arrumando primeira noticia*/
     display: flex;
     margin: auto;
     padding: 2%;
-   
+    border-radius: 20px;
 }
-
+#imgseparacao{
+    margin-left: 3%;
+}
 #bannerprincipal {/*arrumando a noticia*/
     display: flex;
     background-color: #141212;
@@ -119,7 +95,7 @@ main{/*arrumando a main*/
 p {/*alterando dont family dos paragrafos*/
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
+    
 }
 #ppp {/*arrumando os paragrafos*/
     margin-left: 5%;
@@ -181,11 +157,6 @@ border: none;
 #noticiainicial{/*arrumando a noticia inicial*/
     margin-top: 20%;
 }
-/*Ajustes na estilização do header.*/header {
-    background-color: black;
-    margin-bottom: 0%;
-   padding: -5%;
-}
 
 
 /*Posicionamento do footer*/#footer1 {
@@ -194,16 +165,6 @@ border: none;
 
 /*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
     margin-left:5%;
-}
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    margin-bottom: 0%;
-
-}
-/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/#link1:hover {
-    background-color: black;
 }
 /*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments {
     width: 100%;
@@ -334,12 +295,22 @@ display: inline;
   }
    #news{
     width: 80%;
-    margin-left: 10%;
+    margin-left: 8%;
     padding: 2%;
    }
    #title1{
     margin-left: 4%;
     margin-right: 3%;
    }
-
+   /* arrumando img principal */
+#imgprinc{
+   width: 100%;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+#title2{
+   margin-left: 0%;
+}
 }

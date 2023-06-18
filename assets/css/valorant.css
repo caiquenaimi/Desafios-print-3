@@ -4,11 +4,6 @@ body {/*alterando cor do body*/
     text-align: center;
     
 }
-header {/*fixando a header*/
-    display: flex;
-    padding: 0%;
-    background-color: black;
-}
 a {/*decorando os links*/
     text-decoration: whitesmoke;
     color: whitesmoke;
@@ -18,49 +13,6 @@ article{/*sombra nos articles*/
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
-#header0 {/*alinhando tudo*/
-    width: 50%;
-    height: 100%;
-    align-items: center;
-    margin-left: 40%;
-    margin-top: auto;
-    display: flex;
-}
-#header01{/*alinhando tudo*/
-    width: 20%;
-    margin-top: auto;
-}
-#imgheader0 {/*alinhndo tudo*/
-    margin: auto;
-    margin-bottom: 0%;
-}
-#imgheader {/*alinhando tudo*/
-    width: 50%;
-    margin: auto;
-    margin-bottom: 0%;
-}
-#imgheader2{/*alinhando tudo*/
-    width: 50%;
-    float: right;
-    margin-bottom: 0%;
-}
-#imgheader2{
-    width: 50%;
-    float: right;
-    margin-bottom: 0%;
-} /*margem baixa anulada e flutuação na direita com widht 100%*/
-#escritalogo {
-    margin-left: -70%;
-    border: none;
-} /*borda anulada e margem na esquerda aumentada*/
-#desenho {
-   float: right;
-   border: none;
-}  /*encaixe da img na direita*/
-#bltmenu {
-    border: none;
-    float: left;
-} /*encaixe do menu na esquerda*/
 .banner1 {
     display: flex;
     margin: auto;
@@ -163,14 +115,22 @@ img {
 #noticiainicial{
     margin-top: 20%;
 } /*distanciamento na altitude*/
-.desce{
-    margin-top: 25%;
-} /*distanciamento altitudinal*/
 
-/*Ajustes na estilização do header.*/header {
-    background-color: black;
-    margin-bottom: 0%;
-   padding: -5%;
+.desce{
+    margin-top: 20%;
+   
+} /*distanciamento altitudinal*/
+.banner1{
+    padding-bottom: 2%;
+}
+#pubpor{
+    margin-top: 40%;
+}
+#pubpor1{
+    margin-top: 10%;
+}
+#pubpor2{
+    margin-top: 15% ;
 }
 
 
@@ -180,13 +140,6 @@ img {
 
 /*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
     margin-left:5%;
-}
-/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    margin-bottom: 0%;
-
 }
 /*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/
 /*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments {
@@ -216,7 +169,7 @@ img {
 }
 
 #comments {
-    display:flex;
+   
     margin-top:5%;
 }
 
@@ -259,8 +212,9 @@ img {
 p {
     color:whitesmoke;
 }
-.comments1{
+#comments1{
     text-align: center;
+    display: flex;
 }
 @media screen and (max-width:600px) and (min-device-height:400px)  {
     .banner1{

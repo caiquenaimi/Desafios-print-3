@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../../assets/css/paginainicialliteratura.css" />
     <link href="../../assets/css/paginainicialvestibular.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="../../layouts/footer.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <script src="https://kit.fontawesome.com/362ce73ddb.js" crossorigin="anonymous"></script>
     <link href="../../assets/css/noticiaobb.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../../assets/css/menu2.css" type="text/css">
@@ -181,7 +182,7 @@
         <article id="bannerprincipal"><!--organização das sections-->
             <div class="banner1">
                 <section id="mainnews"><!--sessão da imagem segunda noticia-->
-                    <img src="../../assets/images/netflix.jpg" alt="imagem netflix séries" height="80%" width="70%" id="img1">
+                    <img id="img1" src="../../assets/images/netflix.jpg" alt="imagem netflix séries" height="90%" width="90%">
                 </section>
 
                 <section id="mainnews0"><!--sessão dos textos principais-->
@@ -203,7 +204,7 @@
 
         <a href="../literatura/artigo1lit.html">
             <section id="section01"><!--sessão 1-->
-                <h2>Aqui vão algumas dicas para você que quer conservar melhor seus livros:</h2><!--titulo artigo 1-->
+                <h2 id="h02">Aqui vão algumas dicas para você que quer conservar melhor seus livros:</h2><!--titulo artigo 1-->
                 <img src="../../assets/images/como-conservar-seus-livros.jpg" alt="imagem da capa da manchete estante de livros"
                     height="90%" width="100%" id="imgm">
             </section>
@@ -218,7 +219,7 @@
     <article id="news"><!--organização das sections-->
         <a href="../../pages/literatura/artigo2lit.html">
             <section id="section01"><!--organização textos segunda sessão-->
-                <h2>Dicas de como fazer uma boa interpretação de texto:</h2>
+                <h2 id="h02">Dicas de como fazer uma boa interpretação de texto:</h2>
                 <img src="../../assets/images/interpretaçaõa.webp" alt="imagem da capa da manchete redação" height="90%"
                     width="100%" id="imgm">
             </section>
@@ -235,7 +236,7 @@
     <article id="news"><!--organização das sections-->
         <a href="../../pages/literatura/artigo3lit.html">
             <section id="section01"><!--organização textos ultimo artigo-->
-                <h2>Saiba as categorias de livros existentes:</h2>
+                <h2 id="h02">Saiba as categorias de livros existentes:</h2>
                 <img src="../../assets/images/mascara.jpg" alt="imagem da capa da manchete máscaras teatro" height="90%" width="100%"
                     id="imgm">
             </section> 
@@ -247,7 +248,12 @@
             </section>
         </a>
     </article>
+    
+    
 </main>
+<a href="#h02">
+    <button id="topo" type="button">Volte ao topo</button>
+</a>
 <footer id="footer1">
     <div id="footer_content">
         <div id="footer_contacts">
@@ -271,13 +277,13 @@
                 <h3>Links</h3>
             </li>
             <li>
-                <a href="../index.html" class="footer-link">Home</a>
+                <a href="../../index.html" class="footer-link">Home</a>
             </li>
             <li>
-                <a href=".././pages/sobre-nos/sobrenos.html" class="footer-link">Sobre nós</a>
+                <a href="../../pages/sobre-nos/sobrenos.html" class="footer-link">Sobre nós</a>
             </li>
             <li>
-                <a href=".././pages/pagina-extra/painel-administrativo.html" class="footer-link">Painel
+                <a href="../../pages/pagina-extra/painel-administrativo.html" class="footer-link">Painel
                     administrativo</a>
             </li>
         </ul>
@@ -287,13 +293,13 @@
                 <h3>Veja Mais</h3>
             </li>
             <li>
-                <a href=".././pages/arte/arte.html" class="footer-link">Arte</a>
+                <a href="../arte/arte.html" class="footer-link">Arte</a>
             </li>
             <li>
-                <a href=".././pages/musica/paginainicialmusic.html" class="footer-link">Música</a>
+                <a href="../musica/paginainicialmusic.html" class="footer-link">Música</a>
             </li>
             <li>
-                <a href=".././pages/jogos/paginainicialjogos.html" class="footer-link">Jogos</a>
+                <a href="../jogos/paginainicialjogos.html" class="footer-link">Jogos</a>
             </li>
         </ul>
 
@@ -308,7 +314,7 @@
                 <input type="email" id="email">
                 <button>
                     <img width="32px" height="32px" style="color:  #ccc;"
-                        src="../../assets/images/envelope-regular.svg" alt="">
+                        src="../../../assets/images/envelope-regular.svg" alt="">
                 </button>
             </div>
         </div>
