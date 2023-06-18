@@ -3,26 +3,31 @@ body {
     background-color: #222020;
     color: whitesmoke;
 }
-p{
+
+p {
     text-align: justify;
 }
+
 /*Estilização do box shadow dos banners*/
 article {
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
+
 /*Estilização do box shadow dos banners*/
 article {
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
 }
+
 /*Definição do posicionamento dos itens no banner das noticias*/
 .banner1 {
     display: flex;
     margin: auto;
 }
+
 /*Estilização do banner da manchete principal*/
 #bannerprincipal {
     display: flex;
@@ -30,6 +35,7 @@ article {
     margin: 5%;
     border-radius: 5%;
 }
+
 #imgm {
     margin-left: 6%;
 }
@@ -39,14 +45,17 @@ article {
     display: flex;
     margin: auto;
 }
+
 main {
     text-align: center;
 }
+
 /*Estilização dos títulos das seções*/
 #title1 {
     font-family: Bernard MT Condensed;
     font-size: 38px;
 }
+
 /*Estilização dos banner com as ultimas notícias*/
 #news {
     width: 33%;
@@ -55,6 +64,7 @@ main {
     margin: 5%;
     border-radius: 5%;
 }
+
 /* pag para ler */
 #news1 {
     width: 33%;
@@ -63,11 +73,13 @@ main {
     margin: 5%;
     border-radius: 5%;
 }
+
 /*Ajustes do posicionamento da section das noticias*/
 #section01 {
     margin: 5%;
     padding: 10%;
 }
+
 /*Estilização dos paragrafos com as descriçãoes*/
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -80,18 +92,21 @@ p {
     margin-right: 5%;
     width: 60%;
 }
-#ppp1{
+
+#ppp1 {
     margin-left: 30%;
     width: 50%;
 }
 
-#tt3{
+#tt3 {
     margin-left: 10%;
 }
+
 /* publicado por */
-#pub{
+#pub {
     margin-left: 15%;
 }
+
 /*Ajuste da estilizçã das noticias principais*/
 #mainnews {
     margin: 5%;
@@ -115,8 +130,9 @@ h5 {
     color: #5cd3e6;
     margin-top: 20%;
 }
-#h02{
-   
+
+#h02 {
+
     color: #5cd3e6;
 }
 
@@ -166,7 +182,8 @@ img {
 #footer1 {
     margin-bottom: -5px;
 }
-#title2{
+
+#title2 {
     font-family: Bernard MT Condensed;
     font-size: 38px;
     margin-left: 40%;
@@ -198,44 +215,58 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
 }
+
 /* imagem pag para ler */
-#imgm{
+#imgm {
     height: 15vh;
 }
+
 ul {
     background-color: black;
 }
+
 /* arrumando imagens */
-#imgm1{
+#imgm1 {
     margin-top: 25%;
 }
 
-#lastimg{
+#lastimg {
     margin-left: 30%;
 }
-#lastimg1{
-    width: 50%;  
-  
+
+#lastimg1 {
+    width: 50%;
+
 }
-#imgnews2{
+
+#imgnews2 {
     width: 90%;
 }
 
-#ppp1{
+#ppp1 {
     margin-top: 5%;
     margin-left: 5%;
 }
-#lastimg2{
+
+#lastimg2 {
     width: 60%;
     margin-left: 12%;
 }
+
 @media screen and (max-width:600px) and (min-device-height:400px) {
     main h2 {
         margin: 10px 10px 0 10px;
     }
-    label{
+    
+
+    Img {
+        margin: 3%;
+    }
+
+    label {
         margin-top: -3%;
     }
+
     #comments1 {
         display: inline;
     }
@@ -256,32 +287,36 @@ ul {
         width: 80%;
         margin-left: 10%;
     }
+
     /* responsividade pag para ler */
-    #news1{
+    #news1 {
         width: 80%;
         margin-left: 13%;
     }
-   #imgm{
-    margin-top: 10%;
-   }
-   /* acabou a para ler */
+
+    #imgm {
+        margin-top: 10%;
+    }
+
+    /* acabou a para ler */
     .lastnews {
         width: 80%;
-    
+
         display: inline;
         margin-bottom: 10%;
     }
-    
+
     #imgm {
-        width: 110%;
-
-
+        width: 100%;
         margin-left: -2%;
     }
 
-#title2{
-    margin-left: 10%;
-}
+    #title2 {
+        margin-left: 12%;
+        text-align: justify;
+        font-size: 1.8em;
+    }
+
     .banner1 {
         width: 80%;
         padding: 10px;
@@ -295,9 +330,15 @@ ul {
         margin-left: 1%;
     }
 
-#ppp, #ppp1{
-    width: 90%;
-    margin-left: 3%;
-}
-}
+    #ppp,
+    #ppp1 {
+        width: 90%;
+        margin-left: 3%;
+    }
 
+    #main02 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
