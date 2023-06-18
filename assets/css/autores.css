@@ -86,7 +86,13 @@ section {
 }
 
 
+#centimg{
+    text-align: center;
 
+    align-items: center;
+ 
+
+}
 #art03 {
     background-color: #141212;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
