@@ -6,12 +6,6 @@ body {
 
 }
 
-@media (max-width:600px) {
-    body {
-        font-size: 16px;
-    }
-
-}
 
 /* coisinhas da header */
 header {
@@ -114,6 +108,7 @@ h5 {
     margin: auto;
 }
 
+/* 
 @media (max-width:600px) {
     #main1 {
         display: inline;
@@ -135,7 +130,7 @@ h5 {
 
     }
 
-}
+} */
 
 
 #news {
@@ -184,7 +179,7 @@ hr {
 }
 
 
-@media screen and (max-width:600px) and (min-device-height:400px) {
+/* @media screen and (max-width:600px) and (min-device-height:400px) {
 
     body {
         display: flex;
@@ -228,12 +223,12 @@ hr {
 
     }
 
-    /* arrumando icon do menu lateral */
+      arrumando icon do menu lateral 
     label {
         margin-left: 10%;
     }
 
-    /* a logo  */
+     a logo  
     #escritalogo {
         margin-left: 25%;
 
@@ -304,51 +299,109 @@ hr {
         margin: 0 ;
         box-sizing: border-box;
     }
+}
+} */
 
-    button {
-        background-color: #212121;
-        color: #f5f5f5;
+@media screen and (max-width:600px) and (min-device-height:400px) {
+
+
+   
+
+    p {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    #h02 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+  
+
+    #escritalogo {
+        left: 2%;
+    }
+
+
+    h5 {
+        font-size: 16px;
+    }
+
+    hr {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #news{
+        width: 550px;
+        /* top left bottom right */
+        margin: 4% auto 4% auto;
+    }
+    
+
+    #veigh {
+        height: 60%;
+        width: 60%;
+        margin-top: 4%;
+    }
+
+    /*ajuste da posição imagem coldplay*/
+    #coldplay {
+        margin-top: 4%;
+        height: 60%;
+        width: 60%;
+    }
+    #bannerprincipal{
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10%;
+    }
+
+    #imgm {
+        margin-top: 4%;
+        height: 60%;
+        width: 60%;
+    }
+
+    #shakira {
+        margin-top: 4%;
+
+    }
+
+
+    #main1 {
+        display: inline;
+    }
+
+    #title1 {
+        margin-left: auto;
+
+    }
+
+    .banner1 {
+        display: inline;
+        width: 100%;
+        border-radius: 10px;
+
+    }
+
+    /* arrumando img principal */
+    #imgprinc {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
         font-size: 30px;
-        height: 7vh;
-        width: 40%;
-        border: solid 3px rgb(17, 61, 105);
-        border-radius: 13px;
     }
 
-    /* hover do botão */
-    button:hover {
-        background-color: rgb(17, 61, 105);
-        box-shadow: 0 0 5px #03e9f4,
-            0 0 25px #03e9f4,
-            0 0 50px #03e9f4,
-            0 0 100px #03e9f4;
-        cursor: pointer;
+    #title2 {
+        margin-left: 0%;
     }
-
-}
-button {
-    background-color: #212121;
-    color: #f5f5f5;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
-    font-size: 30px;
-    height: 7vh;
-    width: 40%;
-    border: solid 3px rgb(17, 61, 105);
-    border-radius: 13px;
-}
-
-/* hover do botão */
-button:hover {
-    background-color: rgb(17, 61, 105);
-    box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
-    cursor: pointer;
-}
 }
