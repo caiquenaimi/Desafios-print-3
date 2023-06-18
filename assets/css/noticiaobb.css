@@ -5,7 +5,10 @@ article {
     border-radius: 10px;
     text-align: center;
 }
-
+/* edição noticia de esportes */
+#materiaprincipal{
+    padding: 2%;
+}
 /*Estlização do subtítulo da noticia*/
 h3 {
     margin-top: 3%;

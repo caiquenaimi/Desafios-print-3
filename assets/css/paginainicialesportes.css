@@ -290,7 +290,10 @@ p{
     text-align: justify;
     margin-top: 10%;
 }
-
+/* publicado por */
+h5{
+    color: #5cd3e6;
+}
 /* arrumando imagens  */
 #img5{
     margin-top: 0%;
@@ -304,9 +307,13 @@ p{
     font-family: Bernard MT Condensed;
     font-size: 38px;
 }
-#pubpor{
-    margin-top: 17%;
+#pubpor1{
+    margin-top: 5%;
 }
+#pubpor{
+    margin-top: 30%;
+}
+
 /* responsividade */
 @media screen and (max-width:600px) and (min-device-height:400px){
     #art02, #art03, #art04{

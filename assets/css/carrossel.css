@@ -7,6 +7,21 @@
   height: 500px;
   width: 500px;
 }
+
+    h2 {/*alterando os h2*/
+        margin-top: 5%;
+        color: #5cd3e6;
+        margin-bottom: 3%;
+        font-family: Bernard MT Condensed;
+        font-size: 38px;
+    }
+
+#mm{
+    margin-bottom: 10%;
+}
+section{
+    padding: 4%;
+}
 /*Definição do posicionamneto e comportamneto dos itens dentro do banner animado.*/.container {
     display: flex;
     transition: transform 0.7s ease-in-out;

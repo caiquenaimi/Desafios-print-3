@@ -917,7 +917,16 @@ a {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-
+#art04, #art03, #art02, #art01, #art05, #art06, #art07, #art08, #art09, #art10{
+   border-radius: 7%;
+}
+#art05, #art06, #art07, #art08, #art09, #art10{
+   border-radius: 7%;
+}
+#papa10, #papa09, #papa08, #papa07, #papa06, #ba11, #ba03, #sa03, #pa05{
+    font-size: 14px;
+    color: #5cd3e6;
+}
 #sccr {
     position: relative;
     margin-bottom: -5%;
