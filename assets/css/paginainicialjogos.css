@@ -4,9 +4,7 @@ body {/*alterando cor do body*/
 }
 
 /* arrumando textos */
-p{
-    text-align: justify;
-}
+
 a {/*decorando os links*/
     text-decoration: whitesmoke;
     color: whitesmoke;
@@ -149,9 +147,7 @@ img {/*arrumando foto*/
     border-radius: 3%;
     border: whitesmoke outset;
 }
-#iconmenu{/*tirando borda*/
-border: none;
-}
+
 #noticiainicial{/*arrumando a noticia inicial*/
     margin-top: 20%;
 }
@@ -296,6 +292,9 @@ display: inline;
  /* imagens */
 #mainnews{
     margin-left: 1%;
+}
+#img1{
+    margin-left: 0%;
 }
   #imgprincipal{
     width: 80%;
