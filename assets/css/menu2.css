@@ -55,13 +55,17 @@ input[type="checkbox"]:checked~nav {
 nav {
     background-color: rgba(00, 00, 00, 1);
     width: 250px;
+    height: 100%;
     position: absolute;
     left: -250px;
-    z-index: 10;
+    z-index: 9999;
     transition: all 1.0s;
+<<<<<<< HEAD
+=======
     top: 130px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 }
 
 /*tirar a borda da imagem*/
@@ -85,15 +89,19 @@ header label {
 /*estilização  da listagem principal*/
 #ulprinc {
     list-style: none;
+    top: 70px;
     position: absolute;
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
 #iconmenu {
     z-index: 9999;
     
 }
 
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
 /*estilização para tirar o ponto da lista e transição para aparecer quando clicar */
 ul {
     list-style: none;

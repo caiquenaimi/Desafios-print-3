@@ -266,14 +266,23 @@ ul {
     
     #imgm {
         width: 110%;
+<<<<<<< HEAD
+        margin-right: 20%;
+     }
+=======
         margin-left: -2%;
     }
 
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025
     .banner1 {
         width: 80%;
         padding: 10px;
         flex-direction: column;
     }
+<<<<<<< HEAD
+  
+}
+=======
 
     #lastimg {
         width: 97%;
@@ -283,3 +292,4 @@ ul {
 
 }
 
+>>>>>>> 779330404983de7ccb93c061d6ef865b85816025

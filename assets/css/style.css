@@ -184,8 +184,7 @@ h1 {
 }
 
 
-@media screen and (max-width:600px) and (min-device-height:400px){
-
+@media (max-width:768px) {
 
 
     #comments {
@@ -212,15 +211,6 @@ h1 {
         box-shadow: none;
     }
 
-
-    #bola1 {
-        margin-right: -10%;
-    }
-
-    
-    #bola2 {
-        margin-left: -10%;
-    }
 
 }
 

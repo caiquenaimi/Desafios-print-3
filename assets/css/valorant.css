@@ -8,7 +8,7 @@ a {/*decorando os links*/
     text-decoration: whitesmoke;
     color: whitesmoke;
 }
-#news, #bannerprincipal{/*sombra nos articles*/
+article{/*sombra nos articles*/
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -158,6 +158,9 @@ img {
 .comments123 {
     width: 30%;
     margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     background-color: black;
     padding:1%;
     border-radius: 5%;
@@ -243,14 +246,4 @@ p {
         width: 80%;
         margin-left: 10%;
     }
-
-    #escritalogo {
-        margin-left: -3%;
-    }
-
-    h5 {
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        text-align: center;
-      }
 }

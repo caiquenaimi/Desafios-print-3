@@ -11,7 +11,7 @@ a {/*decorando os links*/
     text-decoration: whitesmoke;
     color: whitesmoke;
 }
-#principal, #banner{/*sombra nos articles*/
+article{/*sombra nos articles*/
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -183,7 +183,9 @@ border: none;
 .comments123 {
     width: 30%;
     margin: auto;
-   
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     background-color: black;
     padding:1%;
     border-radius: 5%;
@@ -253,10 +255,9 @@ a{
 }
 
 @media screen and (max-width:600px) and (min-device-height:400px) {
-    /* banner principal da noticia principal, n da pagina inicial */
     #principal{
         width: 80%;
-        margin-left: 7%;
+        margin-left: 5%;
         padding: 3%;
     }
     #comments1{
@@ -264,12 +265,11 @@ display: inline;
 
     }
     #escritalogo{
-        margin-left: 10%;
+        margin-left: 30%;
     }
-    /* padronizando comentários */
    .comments123{
-    width: 96%;
-  
+    width: 90%;
+    margin-left: 4%;
    }
    footer{
     width: 100%;
