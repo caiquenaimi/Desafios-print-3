@@ -48,7 +48,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+
 }
 
 #pa03 {
@@ -93,7 +93,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 1%;
     margin: 5%;
     width: 33%;
 }
@@ -132,7 +132,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 5%;
     margin: 5%;
     width: 33%;
 }
@@ -176,7 +176,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 5%;
     margin: 5%;
     width: 33%;
 }
@@ -219,7 +219,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 5%;
     margin: 5%;
     width: 33%;
 }
@@ -269,7 +269,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 5%;
     margin: 5%;
     width: 33%;
 }
@@ -322,7 +322,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 5%;
     margin: 5%;
     width: 33%;
 }
@@ -365,7 +365,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 5%;
     margin: 5%;
     width: 33%;
 }
@@ -408,7 +408,7 @@ section {
     -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
     align-items: center;
-    border-radius: 7%;
+    border-radius: 5%;
     margin: 5%;
     width: 33%;
 }

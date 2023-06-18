@@ -115,10 +115,23 @@ img {
 #noticiainicial{
     margin-top: 20%;
 } /*distanciamento na altitude*/
-.desce{
-    margin-top: 25%;
-} /*distanciamento altitudinal*/
 
+.desce{
+    margin-top: 20%;
+   
+} /*distanciamento altitudinal*/
+.banner1{
+    padding-bottom: 2%;
+}
+#pubpor{
+    margin-top: 40%;
+}
+#pubpor1{
+    margin-top: 10%;
+}
+#pubpor2{
+    margin-top: 15% ;
+}
 
 
 /*Posicionamento do footer*/#footer1 {

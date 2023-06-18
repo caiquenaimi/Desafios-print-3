@@ -136,8 +136,12 @@ h2 {
 
 /*Estilização das escritas com as datas de publicação.*/
 h5 {
-    color: #304c89;
-    margin-top: 3%;
+    color: #5cd3e6;
+    margin-top: 20%;
+}
+#h02{
+   
+    color: #5cd3e6;
 }
 
 #mainnews0 {
@@ -225,6 +229,7 @@ ul {
 #imgm1{
     margin-top: 25%;
 }
+
 #lastimg{
     margin-left: 20%;
 }

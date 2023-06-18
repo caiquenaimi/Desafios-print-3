@@ -9,7 +9,9 @@
     border-radius: 3%;
     border: whitesmoke outset;
 }/*volei quase pronto trocar width,border*/
-
+#materiaprincipal{
+    padding: 2%;
+}
 #title-h2 {
     text-align: center;
 }/*title h2 estilizado*/
