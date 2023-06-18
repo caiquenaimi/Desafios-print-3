@@ -258,9 +258,14 @@ ul {
         margin: 10px 10px 0 10px;
     }
     
+    
 
     Img {
         margin: 3%;
+    }
+
+    #imgfuvest {
+        width: 100%;
     }
 
     label {
