@@ -39,7 +39,7 @@ h4 {
 
 /*Ajuste da posição dos títulos*/
 #h1princ {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 /*Ajuste da posição e estilização das datas da publicação*/
@@ -123,52 +123,28 @@ h4 {
 
 #div1 {
     display: flex;
+    margin: auto;
+    justify-content: center;  
+
 }
 
-/*ajuste da posição da imagem cantor*/
-#img03 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-}
-
-/*ajuste da posição da imagem cantor*/
-#img04 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
-}
 
 /*ajuste da posição e borda da música*/
-#img05 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
-}
 
-/*ajuste da posição e borda da música*/
-#img06 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
-}
-
-/*ajuste da posição e borda da música*/
+#img03,
+#img04,
+#img05,
+#img06,
 #img07 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
+  text-align: center;
+  margin: 2% auto;
+  display: block;
+  border: outset whitesmoke;
 }
+
 
 /*ajuste da posição da imagem primeiro banner rap e pop */
-#imgrap1 {
-    margin-left: 27%;
-    margin-right: 30%;
-}
+
 
 a:hover {
     background-color: rgb(33, 33, 33);
@@ -178,28 +154,17 @@ a:hover {
     text-align: center;
 }
 
-#iconr {
-    float: right;
-}
+
 
 #logos {
     margin: auto;
 }
-
-#logoc {
-    margin-left: 43%;
-    margin-top: 1%;
-}
-
 body {
     background-color: #222020;
     color: whitesmoke;
 }
 
-#enemimg {
-    float: left;
-    border-radius: 5%;
-}
+
 
 #title-E {
     margin: 3%;
@@ -283,7 +248,7 @@ h5 {
 
 #perfil {
     border: 3px white ridge;
-    border-radius: 1000px;
+    border-radius: 100%;
 }
 
 #estrela {
@@ -314,9 +279,7 @@ h5 {
     background-color: white;
 }
 
-#footer-1 {
-    margin-bottom: -5px;
-}
+
 
 p {
     color: whitesmoke;
@@ -378,82 +341,8 @@ h1 {
     text-align: center;
 }
 
-/* responsividade */
+/* iidade */
 
-@media screen and (max-width:600px) and (min-device-height:400px) {
-
-    #comments {
-        display: inline;
-
-    }
-
-    body {
-        font-size: 15px;
-        align-items: center;
-    }
-
-    .comments123 {
-        width: 90%;
-    }
-
-    #div1 {
-        display: inline;
-        width: 500%;
-    }
-
-    .responsivoimg {
-        width: 40%;
-        height: 40%;
-    }
-
-    #img01 {
-        width: 70%;
-        height: 40%;
-        margin-left: 15%;
-    }
-
-    .responsivoimg {
-        width: 70%;
-        height: 40%;
-    }
-
-    #artprinc {
-        padding: 2%;
-    }
-
-
-    #imgrap1 {
-        margin-left: 27%;
-        margin-right: 30%;
-        height: 50%;
-        width: 50%;
-    }
-
-    section {
-        text-align: center;
-        align-items: center;
-    }
-
-    #art01 {
-        align-items: center;
-        border-radius: 10px;
-        margin: 15%;
-        width: 70%;
-        padding: 3%;
-    }
-
-
-    #art02 {
-        align-items: center;
-        border-radius: 10px;
-        margin: 15%;
-        width: 70%;
-    }
-
-    #h51 {
-        font-size: 14px;
-    }
-}
 
 p {
     text-align: justify;
@@ -462,21 +351,10 @@ p {
 
 #inv {
     color: #141212;
+
 }
 
-@media screen and (max-width: 900px) and (min-device-height: 400px) {
-    /* Estilos para dispositivos com largura máxima de 900px */
-
-    * {
-        flex-direction: column;
-    }
-
-    #escritalogo {
-        margin-left: 35%;
-
-    }
-
-
+@media screen and (max-width:600px) and (min-device-height:400px) {
 
     #comments {
         display: flex;
@@ -485,44 +363,47 @@ p {
         justify-content: center;
         margin-top: 5%;
     }
+    .container {
+        max-width: 100%;
+      }
+      
+    
+    * {
+        flex-direction: column;
+    }
+    #art01 {
+        align-items: center;
+        border-radius: 10px;
+        margin: 4%;
+        width: 70%;
+       
+    }
 
 
+    body {
+
+        font-size: 18px;
+    }
+
+    #div1 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+  
     .comments123 {
         width: 90%;
-        margin: 2%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #topo {
-        width: 22%;
-        margin-left: 42%;
-        font-size: 14px;
-        align-items: center;
-        padding-top: 3%;
+    #imgrap1 {
+        width: 60%;
+        height: 60%;
+
+
     }
-}
 
-button {
-    background-color: #212121;
-    color: #f5f5f5;
-    margin-left: 40%;
-    margin-right: auto;
-    margin-bottom: 10%;
-    font-size: 30px;
-    height: 7vh;
-    width: 20%;
-    border: solid 3px rgb(17, 61, 105);
-    border-radius: 13px;
-}
 
-/* hover do botão */
-button:hover {
-    background-color: rgb(17, 61, 105);
-    box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
-    cursor: pointer;
 }
