@@ -1,7 +1,22 @@
-@media screen and (max-width: 900px) and (min-device-height: 400px) {
-    footer {
-        bottom: 0;
-        width: 100%;
-        position: absolute;
-    }
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #222020;
+    color: whitesmoke;
+}
+
+#centro ,#title1 {
+    text-align: center;
+}
+
+#title1 {
+    margin: 10px 0;
+}
+
+#cont {
+    margin: 20px 0;
 }
