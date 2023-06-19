@@ -7,12 +7,7 @@ body {
 }
 
 
-/* coisinhas da header */
-header {
-    display: flex;
-    height: 10vh;
-    background-color: black;
-}
+
 
 
 
@@ -26,23 +21,7 @@ article {
 
 
 
-/*centralizar logo e tirar a borda*/
-#escritalogo {
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
 
-}
-
-/*ajuste na logo com o link*/
-#desenho {
-    float: right;
-    border: none;
-}
-
-#centralizarimg {
-    text-align: center;
-}
 
 #title1 {
     margin-top: 5%;
