@@ -141,6 +141,7 @@ h5 {
     height: 70%;
     width: 70%;
     margin-top: 4%;
+    margin-left: 15%;
 }
 
 /*ajuste da posição imagem coldplay*/
@@ -148,8 +149,11 @@ h5 {
     margin-top: 4%;
     height: 70%;
     width: 70%;
+    margin-left: 15%;
 }
-
+#imgm{
+    margin-left: 2%;
+}
 hr {
     height: 10px;
     background: linear-gradient(to right, white, black);
@@ -158,7 +162,7 @@ hr {
 }
 
  header{
-    height: 20vh;
+    height: 15vh;
 } 
 /* @media screen and (max-width:600px) and (min-device-height:400px) {
 
@@ -333,6 +337,7 @@ hr {
         height: 60%;
         width: 60%;
         margin-top: 4%;
+        margin-left: 20%;
     }
 
     /*ajuste da posição imagem coldplay*/
@@ -340,7 +345,9 @@ hr {
         margin-top: 4%;
         height: 60%;
         width: 60%;
+       margin-left: 20%;
     }
+   
 
     #bannerprincipal {
         margin-left: auto;
@@ -351,11 +358,12 @@ hr {
         margin-top: 4%;
         height: 60%;
         width: 60%;
+        margin-left: 20%;
     }
 
     #shakira {
         margin-top: 4%;
-
+margin-left: 5%;
     }
 
 
